@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_39c6e6a80f6445e0884f8c23979a3bac {
+                #map_572542b0e10d4a20a6e43ca3d39db1af {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,17 +35,17 @@
 </head>
 <body>
 
-            <div class="folium-map" id="map_39c6e6a80f6445e0884f8c23979a3bac" ></div>
+            <div class="folium-map" id="map_572542b0e10d4a20a6e43ca3d39db1af" ></div>
 
 </body>
 <script>
 
-            var map_39c6e6a80f6445e0884f8c23979a3bac = L.map(
-                "map_39c6e6a80f6445e0884f8c23979a3bac",
+            var map_572542b0e10d4a20a6e43ca3d39db1af = L.map(
+                "map_572542b0e10d4a20a6e43ca3d39db1af",
                 {
-                    center: [45.3031861, 8.8628969],
+                    center: [45.3169681, 8.857812],
                     crs: L.CRS.EPSG3857,
-                    zoom: 13,
+                    zoom: 14,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -55,28 +55,28 @@
 
 
 
-            var tile_layer_38c4a048d45048cd902066329f9f7671 = L.tileLayer(
+            var tile_layer_358291c899394369a298f7616bc881df = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_39c6e6a80f6445e0884f8c23979a3bac);
+            ).addTo(map_572542b0e10d4a20a6e43ca3d39db1af);
 
 
-            var marker_193a239990164818af7a7d9f38db3baa = L.marker(
+            var marker_1d0b9a165a5e4b63960ecdfccf098e40 = L.marker(
                 [45.3031861, 8.8628969],
                 {}
-            ).addTo(map_39c6e6a80f6445e0884f8c23979a3bac);
+            ).addTo(map_572542b0e10d4a20a6e43ca3d39db1af);
 
 
-        var popup_a0f3271c76e14cef836d8f7a561f1b97 = L.popup({"maxWidth": "500"});
+        var popup_b3b003c2bb0949a4a5e9b631edc49777 = L.popup({"maxWidth": "500"});
 
 
-            var html_9e70aa53e4d24e3cbb6f390a8fb92f94 = $(`<div id="html_9e70aa53e4d24e3cbb6f390a8fb92f94" style="width: 100.0%; height: 100.0%;">          <h1><b>Via Bercleda</b></h1>           <br>                    Fa un gran freddo!          Si sente?                              <br><br> <i>Guido          <iframe src="audio/via_bercleda.mp3" allow="autoplay" id="audio" style="display:none" >          </iframe>          </div>`)[0];
-            popup_a0f3271c76e14cef836d8f7a561f1b97.setContent(html_9e70aa53e4d24e3cbb6f390a8fb92f94);
+            var html_987dfa3086f54216975ae1cbaf92eef4 = $(`<div id="html_987dfa3086f54216975ae1cbaf92eef4" style="width: 100.0%; height: 100.0%;">          <h1><b>Via Bercleda</b></h1>           <br>                   Fa un gran freddo!          Si sente?          <br><br>           <i>Guido                    <audio id="audio_via_bercleda" loop>          <source src="audio/via_bercleda.mp3" type="audio/mpeg">          </audio>          </div>`)[0];
+            popup_b3b003c2bb0949a4a5e9b631edc49777.setContent(html_987dfa3086f54216975ae1cbaf92eef4);
 
 
-        marker_193a239990164818af7a7d9f38db3baa.bindPopup(popup_a0f3271c76e14cef836d8f7a561f1b97)
-marker_193a239990164818af7a7d9f38db3baa.on('mouseover', function (e) {this.openPopup();});
-marker_193a239990164818af7a7d9f38db3baa.on('mouseout', function (e) {this.closePopup();});
+        marker_1d0b9a165a5e4b63960ecdfccf098e40.bindPopup(popup_b3b003c2bb0949a4a5e9b631edc49777)
+marker_1d0b9a165a5e4b63960ecdfccf098e40.on('mouseover', function (e) {this.openPopup(); document.getElementById('audio_via_bercleda').play();});
+marker_1d0b9a165a5e4b63960ecdfccf098e40.on('mouseout', function (e) {this.closePopup(); document.getElementById('audio_via_bercleda').load();});
         ;
 
 
