@@ -77,11 +77,11 @@
 
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
         // Take the user to a different screen here.
-        marker_1d0b9a165a5e4b63960ecdfccf098e40.on('click touchstart', function (e) {this.openPopup(); document.getElementById('audio_via_bercleda').play();});
+        marker_1d0b9a165a5e4b63960ecdfccf098e40.addEventListener('touchend', function (e) {this.openPopup(); document.getElementById('audio_via_bercleda').play();}, false);
     }
     else
     {
-    marker_1d0b9a165a5e4b63960ecdfccf098e40.on('click touchstart', function (e) {this.openPopup(); document.getElementById('audio_via_bercleda').play();});
+    marker_1d0b9a165a5e4b63960ecdfccf098e40.on('click', function (e) {this.openPopup(); document.getElementById('audio_via_bercleda').play();});
     
     //marker_1d0b9a165a5e4b63960ecdfccf098e40.on('click', function (e) {this.openPopup(); document.getElementById('audio_via_bercleda').play();});
     }
