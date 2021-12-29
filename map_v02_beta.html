@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dbc1cba9391c47f7a09115ec0235c06a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+
+</head>
+<body>
+
+            <div class="folium-map" id="map_dbc1cba9391c47f7a09115ec0235c06a" ></div>
+
+</body>
+<script>
+
+            var map_dbc1cba9391c47f7a09115ec0235c06a = L.map(
+                "map_dbc1cba9391c47f7a09115ec0235c06a",
+                {
+                    center: [45.3169681, 8.857812],
+                    crs: L.CRS.EPSG3857,
+                    maxBounds: [[45.279, 8.81], [45.358, 8.92]],
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+
+
+
+
+            var tile_layer_867355497c634c53b26a527ec4358e67 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 14, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_dbc1cba9391c47f7a09115ec0235c06a);
+
+
+            var marker_4ddfe2ebe4ad4666af95291e8f39d538 = L.marker(
+                [45.3044422, 8.8630172],
+                {}
+            ).addTo(map_dbc1cba9391c47f7a09115ec0235c06a);
+
+
+        var popup_7b1d4a1edde94f42afa6e207a0f176d6 = L.popup({"maxWidth": "500"});
+
+
+            var html_b7770ef7342c4bbbb9e9f58d7b3059b9 = $(`<div id="html_b7770ef7342c4bbbb9e9f58d7b3059b9" style="width: 100.0%; height: 100.0%;">                   <h1><b>Via Bercleda</b></h1>                    <br>                            Sono uscito e ho registrato questo audio in qualitÃ  pessima. Mi serve solo per capire se Ã¨ un tipo di formato supportato da leaflet, la libreria che sto utilizzando per questo "webgis".<br /><br />Mi sono reso conto di due cose (e solo dopo!):<br /> - mi serve un paravento per il microfono se no sembra una bufera;<br /> - mi hanno fatto notare che l'audio Ã¨ basso...probabilmente mi conviene masterizzare tutti gli audio cosÃ¬ da avere lo stesso livello.<br /> <br />A parte questo c'Ã¨ un fastidioso clip (forse risolvibile oppure forse no tramite jquery).<br /><br />Ciao betatester.                   <br><br>                    <i>Guido del presente                                      <audio id="audio_1_VIA_BERCLEDA" loop>                   <source src="dati/1_VIA_BERCLEDA/via_bercleda.mp3" type="audio/mpeg">                   </audio>                   </div>`)[0];
+            popup_7b1d4a1edde94f42afa6e207a0f176d6.setContent(html_b7770ef7342c4bbbb9e9f58d7b3059b9);
+
+
+        marker_4ddfe2ebe4ad4666af95291e8f39d538.bindPopup(popup_7b1d4a1edde94f42afa6e207a0f176d6)
+marker_4ddfe2ebe4ad4666af95291e8f39d538.on('click', function (e) {this.openPopup(); document.getElementById('audio_1_VIA_BERCLEDA').play();});
+        ;
+
+
+
+
+            var marker_49cc27735ff245a697c32e93519256be = L.marker(
+                [45.3266291, 8.8502932],
+                {}
+            ).addTo(map_dbc1cba9391c47f7a09115ec0235c06a);
+
+
+        var popup_255d30ea99aa44dda18f545ae3ec6e1e = L.popup({"maxWidth": "500"});
+
+
+            var html_acb7c51efca9478caec4c3e3308e74d3 = $(`<div id="html_acb7c51efca9478caec4c3e3308e74d3" style="width: 100.0%; height: 100.0%;">                   <h1><b>Via Colombo</b></h1>                    <br>                            Sto correndo in giro e finisco in un giardino. Forse Ã¨ in corso una festa.<br />Ci sono Pietro e Paola insieme ad altri loro amici.<br />In qualche modo faccio incazzare Davide, il quale indossa un maglione rosso.<br />Come ho fatto? Semplice! Basta fare una battuta a tema maglione rosso.<br /><br />Mi rendo conto a quel punto che Ã¨ intenzionato a farmi fuori.                   <br><br>                    <i>Guido onirico                                      <audio id="audio_2_VIA_COLOMBO" loop>                   <source src="dati/2_VIA_COLOMBO/via_colombo.mp3" type="audio/mpeg">                   </audio>                   </div>`)[0];
+            popup_255d30ea99aa44dda18f545ae3ec6e1e.setContent(html_acb7c51efca9478caec4c3e3308e74d3);
+
+
+        marker_49cc27735ff245a697c32e93519256be.bindPopup(popup_255d30ea99aa44dda18f545ae3ec6e1e)
+marker_49cc27735ff245a697c32e93519256be.on('click', function (e) {this.openPopup(); document.getElementById('audio_2_VIA_COLOMBO').play();});
+        ;
+
+
+
+
+            var marker_d7077d6b7dc341b5883e4d59ce6d9d1e = L.marker(
+                [45.3159697, 8.8500123],
+                {}
+            ).addTo(map_dbc1cba9391c47f7a09115ec0235c06a);
+
+
+        var popup_c45387b67fdb449c8c350d5b8cb80234 = L.popup({"maxWidth": "500"});
+
+
+            var html_09f4c395275148a999afef3911df3cec = $(`<div id="html_09f4c395275148a999afef3911df3cec" style="width: 100.0%; height: 100.0%;">                   <h1><b>Piazza Calzolai d'Italia</b></h1>                    <br>                            Esattamente il tipo di musica che mi immagino se dovessi capitare da queste parti! Ho passato qui la mia post-adolescenza soprattutto a causa del fatto che Ã¨ un gigantesco parcheggio.                   <br><br>                    <i>Guido del passato                                      <audio id="audio_3_PIAZZA_CALZOLAI" loop>                   <source src="dati/3_PIAZZA_CALZOLAI/piazza_calzolai_ditalia.wav" type="audio/wav">                   </audio>                   </div>`)[0];
+            popup_c45387b67fdb449c8c350d5b8cb80234.setContent(html_09f4c395275148a999afef3911df3cec);
+
+
+        marker_d7077d6b7dc341b5883e4d59ce6d9d1e.bindPopup(popup_c45387b67fdb449c8c350d5b8cb80234)
+marker_d7077d6b7dc341b5883e4d59ce6d9d1e.on('click', function (e) {this.openPopup(); document.getElementById('audio_3_PIAZZA_CALZOLAI').play();});
+        ;
+
+
+
+</script>
