@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d491f0b2e68244aaa500352a6b23c0c1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+
+</head>
+<body>
+
+            <div class="folium-map" id="map_d491f0b2e68244aaa500352a6b23c0c1" ></div>
+
+</body>
+<script>
+
+            var map_d491f0b2e68244aaa500352a6b23c0c1 = L.map(
+                "map_d491f0b2e68244aaa500352a6b23c0c1",
+                {
+                    center: [45.3169681, 8.857812],
+                    crs: L.CRS.EPSG3857,
+                    maxBounds: [[45.279, 8.81], [45.358, 8.92]],
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+
+
+
+
+            var tile_layer_5c2ce0b4ba2544c7889793b552b625a2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 14, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+            var marker_85f970e184314b07ab2216d6de3cc985 = L.marker(
+                [45.3230625, 8.850245651],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_b6027859c4604ec2bf7a004a56a62e6c = L.popup({"maxWidth": "270"});
+
+
+            var html_92d45079777d47e3b55aef9ae8ab15ce = $(`<div id="html_92d45079777d47e3b55aef9ae8ab15ce" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Pizzeria</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_VIALE_MONTEGRAPPA_PIZZERIA" loop>                      <source src="dati/VIALE_MONTEGRAPPA_PIZZERIA/pizzeria.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_b6027859c4604ec2bf7a004a56a62e6c.setContent(html_92d45079777d47e3b55aef9ae8ab15ce);
+
+
+        marker_85f970e184314b07ab2216d6de3cc985.bindPopup(popup_b6027859c4604ec2bf7a004a56a62e6c)
+marker_85f970e184314b07ab2216d6de3cc985.on('click', function (e) {this.openPopup(); document.getElementById('audio_VIALE_MONTEGRAPPA_PIZZERIA').play();});
+        ;
+
+
+
+
+            var marker_b0211bb7e8ac4d0fbcf4d6531bc875d2 = L.marker(
+                [45.31211904, 8.860001045],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_33a6cdc39a6747b4b2093ada6ada3815 = L.popup({"maxWidth": "270"});
+
+
+            var html_891fae722af84de6885b5280edd0de56 = $(`<div id="html_891fae722af84de6885b5280edd0de56" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Giacchetta Canale</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GIACCHETTA_CANALE" loop>                      <source src="dati/GIACCHETTA_CANALE/ZOOM0027.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_33a6cdc39a6747b4b2093ada6ada3815.setContent(html_891fae722af84de6885b5280edd0de56);
+
+
+        marker_b0211bb7e8ac4d0fbcf4d6531bc875d2.bindPopup(popup_33a6cdc39a6747b4b2093ada6ada3815)
+marker_b0211bb7e8ac4d0fbcf4d6531bc875d2.on('click', function (e) {this.openPopup(); document.getElementById('audio_GIACCHETTA_CANALE').play();});
+        ;
+
+
+
+
+            var marker_2019d5b47aeb4704a190c4e84acfb751 = L.marker(
+                [45.3064081, 8.866924562],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_0bc671f6545f4f47b075af61e853cf55 = L.popup({"maxWidth": "270"});
+
+
+            var html_098d9ff07e864e089f8443aaa5929e80 = $(`<div id="html_098d9ff07e864e089f8443aaa5929e80" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Via de chirico Canale Pioggia</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_VIA_DE_CHIRICO_CANALE_v2" loop>                      <source src="dati/VIA_DE_CHIRICO_CANALE_v2/ZOOM0029.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_0bc671f6545f4f47b075af61e853cf55.setContent(html_098d9ff07e864e089f8443aaa5929e80);
+
+
+        marker_2019d5b47aeb4704a190c4e84acfb751.bindPopup(popup_0bc671f6545f4f47b075af61e853cf55)
+marker_2019d5b47aeb4704a190c4e84acfb751.on('click', function (e) {this.openPopup(); document.getElementById('audio_VIA_DE_CHIRICO_CANALE_v2').play();});
+        ;
+
+
+
+
+            var marker_69294a133cab4209966112960dbd4e2a = L.marker(
+                [45.30644102, 8.889899845],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_8959ec1c5fa541c6823dae8637e248e1 = L.popup({"maxWidth": "270"});
+
+
+            var html_57052a801642476b914a6cb0fd4842da = $(`<div id="html_57052a801642476b914a6cb0fd4842da" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Strada per laghi di santa marta</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_AGRITURISMO_COLDIRETTI" loop>                      <source src="dati/AGRITURISMO_COLDIRETTI/ZOOM0025.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_8959ec1c5fa541c6823dae8637e248e1.setContent(html_57052a801642476b914a6cb0fd4842da);
+
+
+        marker_69294a133cab4209966112960dbd4e2a.bindPopup(popup_8959ec1c5fa541c6823dae8637e248e1)
+marker_69294a133cab4209966112960dbd4e2a.on('click', function (e) {this.openPopup(); document.getElementById('audio_AGRITURISMO_COLDIRETTI').play();});
+        ;
+
+
+
+
+            var marker_2bfe6be592a04f7b9fb5d958695617ea = L.marker(
+                [45.29917137, 8.905742693],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_c6bfd4718af944c5a82af99918f6dcea = L.popup({"maxWidth": "270"});
+
+
+            var html_f0d00fec1adc47ccb0fc87e3bea7020a = $(`<div id="html_f0d00fec1adc47ccb0fc87e3bea7020a" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Laghetto dei piccoli</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_LAGHETTO_DEI_PICCOLI" loop>                      <source src="dati/LAGHETTO_DEI_PICCOLI/ZOOM0033.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_c6bfd4718af944c5a82af99918f6dcea.setContent(html_f0d00fec1adc47ccb0fc87e3bea7020a);
+
+
+        marker_2bfe6be592a04f7b9fb5d958695617ea.bindPopup(popup_c6bfd4718af944c5a82af99918f6dcea)
+marker_2bfe6be592a04f7b9fb5d958695617ea.on('click', function (e) {this.openPopup(); document.getElementById('audio_LAGHETTO_DEI_PICCOLI').play();});
+        ;
+
+
+
+
+            var marker_d486f78e6d2042bdb708a9d51679d9bb = L.marker(
+                [45.31246512, 8.883821165],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_2954b85fa8264e53bc8e564a36f520bb = L.popup({"maxWidth": "270"});
+
+
+            var html_f92cf974a9364162a90eccc89332a60b = $(`<div id="html_f92cf974a9364162a90eccc89332a60b" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Miciopolis</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_MICIOPOLIS" loop>                      <source src="dati/MICIOPOLIS/ZOOM0022.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_2954b85fa8264e53bc8e564a36f520bb.setContent(html_f92cf974a9364162a90eccc89332a60b);
+
+
+        marker_d486f78e6d2042bdb708a9d51679d9bb.bindPopup(popup_2954b85fa8264e53bc8e564a36f520bb)
+marker_d486f78e6d2042bdb708a9d51679d9bb.on('click', function (e) {this.openPopup(); document.getElementById('audio_MICIOPOLIS').play();});
+        ;
+
+
+
+
+            var marker_a38888413f394e6586efc6a963e38125 = L.marker(
+                [45.30433837, 8.883231356],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_a039ca2989e849deba7eb31650c11475 = L.popup({"maxWidth": "270"});
+
+
+            var html_14ec148324d0429ab69b3facd3d6564d = $(`<div id="html_14ec148324d0429ab69b3facd3d6564d" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Strada per la Sforzesca</b></h1>                      <img src="dati/STRADA_REBUFFI/canale.jpeg" width="270" height="270">                       <br><br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_STRADA_REBUFFI" loop>                      <source src="dati/STRADA_REBUFFI/ZOOM0024.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_a039ca2989e849deba7eb31650c11475.setContent(html_14ec148324d0429ab69b3facd3d6564d);
+
+
+        marker_a38888413f394e6586efc6a963e38125.bindPopup(popup_a039ca2989e849deba7eb31650c11475)
+marker_a38888413f394e6586efc6a963e38125.on('click', function (e) {this.openPopup(); document.getElementById('audio_STRADA_REBUFFI').play();});
+        ;
+
+
+
+
+            var marker_3e05e699dcc04adca49d39a3162e7d47 = L.marker(
+                [45.29236968, 8.884778005],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_eae210c33c094eeaa913b42b208fd6dc = L.popup({"maxWidth": "270"});
+
+
+            var html_537c3169e2fe432a894c82c6e925f42c = $(`<div id="html_537c3169e2fe432a894c82c6e925f42c" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Cimitero musicale</b></h1>                      <img src="dati/STRADA_REBUFFI_v3/cimitero.jpeg" width="270" height="270">                       <br><br>                               Mi ringrazia. Provo a suonare live sotto il suo suggerimento insieme ad altri amici.<br />Non sapendo suonare mi concentro timidamente sul Re. Rinuncio e chiudo il piano.<br />Il sottofondo è musica ambient e sono attorniato dal mio datore di lavoro.                      <br><br>                       <i>Guido                                         <audio id="audio_STRADA_REBUFFI_v3" loop>                      <source src="dati/STRADA_REBUFFI_v3/ZOOM0028.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_eae210c33c094eeaa913b42b208fd6dc.setContent(html_537c3169e2fe432a894c82c6e925f42c);
+
+
+        marker_3e05e699dcc04adca49d39a3162e7d47.bindPopup(popup_eae210c33c094eeaa913b42b208fd6dc)
+marker_3e05e699dcc04adca49d39a3162e7d47.on('click', function (e) {this.openPopup(); document.getElementById('audio_STRADA_REBUFFI_v3').play();});
+        ;
+
+
+
+
+            var marker_7e4e018a838f4899a1dbccf9451139fe = L.marker(
+                [45.34084406, 8.867725439],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_a681c93591bb463cbb218538eb681bf1 = L.popup({"maxWidth": "270"});
+
+
+            var html_51fbf4c20c2d4ffc8ad2efd2212af5c2 = $(`<div id="html_51fbf4c20c2d4ffc8ad2efd2212af5c2" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Rave a Ticino</b></h1>                      <img src="dati/RAVE_TISIN_v1/rave.jpeg" width="270" height="270">                       <br><br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_RAVE_TISIN_v1" loop>                      <source src="dati/RAVE_TISIN_v1/ZOOM0025.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_a681c93591bb463cbb218538eb681bf1.setContent(html_51fbf4c20c2d4ffc8ad2efd2212af5c2);
+
+
+        marker_7e4e018a838f4899a1dbccf9451139fe.bindPopup(popup_a681c93591bb463cbb218538eb681bf1)
+marker_7e4e018a838f4899a1dbccf9451139fe.on('click', function (e) {this.openPopup(); document.getElementById('audio_RAVE_TISIN_v1').play();});
+        ;
+
+
+
+
+            var marker_69eeaea575bf4e20b3ec2a5f3616f6b2 = L.marker(
+                [45.34220987, 8.865593442],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_bc83782091fb425d9754cbeea1c684d2 = L.popup({"maxWidth": "270"});
+
+
+            var html_c253d4a206e743f18f6693cf9f4eff9f = $(`<div id="html_c253d4a206e743f18f6693cf9f4eff9f" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Acqua dolce e cassa dritta</b></h1>                      <img src="dati/RAVE_TISIN_v3/albero.jpg" width="270" height="270">                       <br><br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_RAVE_TISIN_v3" loop>                      <source src="dati/RAVE_TISIN_v3/ZOOM0028.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_bc83782091fb425d9754cbeea1c684d2.setContent(html_c253d4a206e743f18f6693cf9f4eff9f);
+
+
+        marker_69eeaea575bf4e20b3ec2a5f3616f6b2.bindPopup(popup_bc83782091fb425d9754cbeea1c684d2)
+marker_69eeaea575bf4e20b3ec2a5f3616f6b2.on('click', function (e) {this.openPopup(); document.getElementById('audio_RAVE_TISIN_v3').play();});
+        ;
+
+
+
+
+            var marker_a4a3b153ae9848f086a14a4a7821b53c = L.marker(
+                [45.34300948, 8.862928168],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_69b4495aaf9a40bf9c7638e1cdc03394 = L.popup({"maxWidth": "270"});
+
+
+            var html_136cd93758d84c8a8f15ff165bb5bdec = $(`<div id="html_136cd93758d84c8a8f15ff165bb5bdec" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Birds of Rocca Petrella</b></h1>                      <img src="dati/ROCCA_PETRELLA/rocca_petrella.jpeg" width="270" height="270">                       <br><br>                               Qua si sente bene<br /><br />Avrei voluto scendere ma non era possibile a causa di una stramaledetta proprietà privata<br /><br />Tantè                      <br><br>                       <i>Guido                                         <audio id="audio_ROCCA_PETRELLA" loop>                      <source src="dati/ROCCA_PETRELLA/ZOOM0033.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_69b4495aaf9a40bf9c7638e1cdc03394.setContent(html_136cd93758d84c8a8f15ff165bb5bdec);
+
+
+        marker_a4a3b153ae9848f086a14a4a7821b53c.bindPopup(popup_69b4495aaf9a40bf9c7638e1cdc03394)
+marker_a4a3b153ae9848f086a14a4a7821b53c.on('click', function (e) {this.openPopup(); document.getElementById('audio_ROCCA_PETRELLA').play();});
+        ;
+
+
+
+
+            var marker_cfe98e20dbd04e2a85e4b6b5ca66d92e = L.marker(
+                [45.33842032, 8.87050925],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_0eb3f42afc124db5a4571dcbdaf716ae = L.popup({"maxWidth": "270"});
+
+
+            var html_8c663463a4524a3a891efa9a7a889337 = $(`<div id="html_8c663463a4524a3a891efa9a7a889337" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>UFO e ciclismo</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_CENTRALE_ENEL_v2" loop>                      <source src="dati/CENTRALE_ENEL_v2/ZOOM0037.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_0eb3f42afc124db5a4571dcbdaf716ae.setContent(html_8c663463a4524a3a891efa9a7a889337);
+
+
+        marker_cfe98e20dbd04e2a85e4b6b5ca66d92e.bindPopup(popup_0eb3f42afc124db5a4571dcbdaf716ae)
+marker_cfe98e20dbd04e2a85e4b6b5ca66d92e.on('click', function (e) {this.openPopup(); document.getElementById('audio_CENTRALE_ENEL_v2').play();});
+        ;
+
+
+
+
+            var marker_2791ed9e801940b291eb9350c4beccb1 = L.marker(
+                [45.34069404, 8.878451395],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_e118f4770a314a45b9a26a8a1ac8cd5a = L.popup({"maxWidth": "270"});
+
+
+            var html_2083d1ff87aa4e5b8d46119d41837d73 = $(`<div id="html_2083d1ff87aa4e5b8d46119d41837d73" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Fiume azzurro</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_TICINO_v3" loop>                      <source src="dati/TICINO_v3/ZOOM0026.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_e118f4770a314a45b9a26a8a1ac8cd5a.setContent(html_2083d1ff87aa4e5b8d46119d41837d73);
+
+
+        marker_2791ed9e801940b291eb9350c4beccb1.bindPopup(popup_e118f4770a314a45b9a26a8a1ac8cd5a)
+marker_2791ed9e801940b291eb9350c4beccb1.on('click', function (e) {this.openPopup(); document.getElementById('audio_TICINO_v3').play();});
+        ;
+
+
+
+
+            var marker_ba5759abd3634b66b840c178de593f74 = L.marker(
+                [45.33987551, 8.88500919],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_118ebe69a4154b579e68252ef9a7fc6f = L.popup({"maxWidth": "270"});
+
+
+            var html_366cb9ab7d1b49ffbfb59aaaaf66d272 = $(`<div id="html_366cb9ab7d1b49ffbfb59aaaaf66d272" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Cigni fx</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_TICINO_v4" loop>                      <source src="dati/TICINO_v4/ZOOM0027.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_118ebe69a4154b579e68252ef9a7fc6f.setContent(html_366cb9ab7d1b49ffbfb59aaaaf66d272);
+
+
+        marker_ba5759abd3634b66b840c178de593f74.bindPopup(popup_118ebe69a4154b579e68252ef9a7fc6f)
+marker_ba5759abd3634b66b840c178de593f74.on('click', function (e) {this.openPopup(); document.getElementById('audio_TICINO_v4').play();});
+        ;
+
+
+
+
+            var marker_62c26ecad0bd439396439bde92ca1961 = L.marker(
+                [45.33114616, 8.861188604],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_0e2328cae8a74a92a92f53109320224e = L.popup({"maxWidth": "270"});
+
+
+            var html_b4fa82f53c8e461ebf88743977f6b8a6 = $(`<div id="html_b4fa82f53c8e461ebf88743977f6b8a6" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>What are you doing here? Get the F out!!!</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_POLIGONO" loop>                      <source src="dati/POLIGONO/ZOOM0031.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_0e2328cae8a74a92a92f53109320224e.setContent(html_b4fa82f53c8e461ebf88743977f6b8a6);
+
+
+        marker_62c26ecad0bd439396439bde92ca1961.bindPopup(popup_0e2328cae8a74a92a92f53109320224e)
+marker_62c26ecad0bd439396439bde92ca1961.on('click', function (e) {this.openPopup(); document.getElementById('audio_POLIGONO').play();});
+        ;
+
+
+
+
+            var marker_db2df3ba2e704e48ac667aabe186afda = L.marker(
+                [45.33321272, 8.860613964],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_9a6605dc51194a37ac9a9a06a7415398 = L.popup({"maxWidth": "270"});
+
+
+            var html_38787646e1e14b3e9340c0ff30678f16 = $(`<div id="html_38787646e1e14b3e9340c0ff30678f16" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Campane</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_STRADA_MORABASSA" loop>                      <source src="dati/STRADA_MORABASSA/ZOOM0032.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_9a6605dc51194a37ac9a9a06a7415398.setContent(html_38787646e1e14b3e9340c0ff30678f16);
+
+
+        marker_db2df3ba2e704e48ac667aabe186afda.bindPopup(popup_9a6605dc51194a37ac9a9a06a7415398)
+marker_db2df3ba2e704e48ac667aabe186afda.on('click', function (e) {this.openPopup(); document.getElementById('audio_STRADA_MORABASSA').play();});
+        ;
+
+
+
+
+            var marker_46d97f2728ae40dd9725d1db30658c95 = L.marker(
+                [45.33092487, 8.861099374],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_754ca5c17c3d4ef98a7ca5e303a2f3f6 = L.popup({"maxWidth": "270"});
+
+
+            var html_7f66896807d940feb678c3ee67ece29c = $(`<div id="html_7f66896807d940feb678c3ee67ece29c" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Acqua a Morabassa</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_MOLINO_MORABASSA_v1" loop>                      <source src="dati/MOLINO_MORABASSA_v1/ZOOM0034.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_754ca5c17c3d4ef98a7ca5e303a2f3f6.setContent(html_7f66896807d940feb678c3ee67ece29c);
+
+
+        marker_46d97f2728ae40dd9725d1db30658c95.bindPopup(popup_754ca5c17c3d4ef98a7ca5e303a2f3f6)
+marker_46d97f2728ae40dd9725d1db30658c95.on('click', function (e) {this.openPopup(); document.getElementById('audio_MOLINO_MORABASSA_v1').play();});
+        ;
+
+
+
+
+            var marker_99229e944c97492ba1cc04fe6591fab2 = L.marker(
+                [45.3200354, 8.855686002],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_88ea1a0ba1c14005b6ae4185b88631aa = L.popup({"maxWidth": "270"});
+
+
+            var html_097543856c814fdf9179d683debc3790 = $(`<div id="html_097543856c814fdf9179d683debc3790" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Pavè</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_MADONNA_7_DOLORI" loop>                      <source src="dati/MADONNA_7_DOLORI/ZOOM0023.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_88ea1a0ba1c14005b6ae4185b88631aa.setContent(html_097543856c814fdf9179d683debc3790);
+
+
+        marker_99229e944c97492ba1cc04fe6591fab2.bindPopup(popup_88ea1a0ba1c14005b6ae4185b88631aa)
+marker_99229e944c97492ba1cc04fe6591fab2.on('click', function (e) {this.openPopup(); document.getElementById('audio_MADONNA_7_DOLORI').play();});
+        ;
+
+
+
+
+            var marker_0baa6b304ac54ec08c336b51e6f099d8 = L.marker(
+                [45.316389, 8.856819],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_1a1ca821757c48c699e8b18941a80bc5 = L.popup({"maxWidth": "270"});
+
+
+            var html_344fb7b7d93a4bd893a57ea13f5d2a9c = $(`<div id="html_344fb7b7d93a4bd893a57ea13f5d2a9c" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>CASTELLO</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Andrea                                         <audio id="audio_an_CASTELLO_ORE_18" loop>                      <source src="dati/an_CASTELLO_ORE_18/castello ore 18.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_1a1ca821757c48c699e8b18941a80bc5.setContent(html_344fb7b7d93a4bd893a57ea13f5d2a9c);
+
+
+        marker_0baa6b304ac54ec08c336b51e6f099d8.bindPopup(popup_1a1ca821757c48c699e8b18941a80bc5)
+marker_0baa6b304ac54ec08c336b51e6f099d8.on('click', function (e) {this.openPopup(); document.getElementById('audio_an_CASTELLO_ORE_18').play();});
+        ;
+
+
+
+
+            var marker_8598db63190a4cfabf5618494cf3753e = L.marker(
+                [45.315783, 8.856105],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_0d96b540725843b88030364f580d1db8 = L.popup({"maxWidth": "270"});
+
+
+            var html_1ba07778d92e4cf9a619ce4273aa2992 = $(`<div id="html_1ba07778d92e4cf9a619ce4273aa2992" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>PORTONE</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Andrea                                         <audio id="audio_an_PORTONE" loop>                      <source src="dati/an_PORTONE/portone.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_0d96b540725843b88030364f580d1db8.setContent(html_1ba07778d92e4cf9a619ce4273aa2992);
+
+
+        marker_8598db63190a4cfabf5618494cf3753e.bindPopup(popup_0d96b540725843b88030364f580d1db8)
+marker_8598db63190a4cfabf5618494cf3753e.on('click', function (e) {this.openPopup(); document.getElementById('audio_an_PORTONE').play();});
+        ;
+
+
+
+
+            var marker_f37e37d8d3c14090bc72913c7c2061f5 = L.marker(
+                [45.314307, 8.854067],
+                {}
+            ).addTo(map_d491f0b2e68244aaa500352a6b23c0c1);
+
+
+        var popup_74e4d291509a4973b94cc3f176bf8dd3 = L.popup({"maxWidth": "270"});
+
+
+            var html_69647a6040cc47e9883809bba1565dd6 = $(`<div id="html_69647a6040cc47e9883809bba1565dd6" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>VIA MULINI</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Andrea                                         <audio id="audio_an_VIA_MULINI" loop>                      <source src="dati/an_VIA_MULINI/via mulini acqua.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_74e4d291509a4973b94cc3f176bf8dd3.setContent(html_69647a6040cc47e9883809bba1565dd6);
+
+
+        marker_f37e37d8d3c14090bc72913c7c2061f5.bindPopup(popup_74e4d291509a4973b94cc3f176bf8dd3)
+marker_f37e37d8d3c14090bc72913c7c2061f5.on('click', function (e) {this.openPopup(); document.getElementById('audio_an_VIA_MULINI').play();});
+        ;
+
+
+
+</script>
