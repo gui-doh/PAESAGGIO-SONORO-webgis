@@ -1,0 +1,36 @@
+ID;COD;file_audio;data;orario;AUTORE;operatore;file_immagine;Titolo;directory;POINT_X;POINT_Y;classe_legenda;microfono;frequenza_di_campionamento;bitrate;gain;impostazioni_varie;note;TENERE;TESTO;IMMAGINE
+1;GU_1;pizzeria.mp3;16/01/2022;19:00;Guido;Guido;;Pizzeria;GU_VIALE_MONTEGRAPPA_PIZZERIA;8.850245651;45.3230625;prova;Zoom h1n;96 khz;24 bit;8;no limiter no lo cut no auto level;ha clippato con un motorino acceso;1;1;0
+2;GU_2;ZOOM0027.mp3;20/01/2022;23:40;Guido;Guido;;Giacchetta Canale;GU_GIACCHETTA_CANALE;8.860001045;45.31211904;prova;Zoom h1n;96 khz;24 bit;8;no limiter no lo cut no auto level;;1;1;0
+3;GU_3;ZOOM0028.mp3;20/01/2022;00:00;Guido;Guido;;Via de chirico Canale Bancale;GU_VIA_DE_CHIRICO_CANALE;8.867666954;45.30732181;prova;Zoom h1n;96 khz;24 bit;8;no limiter no lo cut no auto level;;0;1;0
+4;GU_4;ZOOM0029.mp3;20/01/2022;00:10;Guido;Guido;;Via de chirico Canale Pioggia;GU_VIA_DE_CHIRICO_CANALE_v2;8.866924562;45.3064081;prova;Zoom h1n;96 khz;24 bit;8;no limiter no lo cut no auto level;pioggia;1;1;0
+5;GU_5;ZOOM0025.mp3;22/01/2022;16:00;Guido;Guido;;Strada per laghi di santa marta;GU_AGRITURISMO_COLDIRETTI;8.889899845;45.30644102;;Zoom h1n;96 khz;24 bit;7.5;no limiter no lo cut no auto level;;1;1;0
+6;GU_6;ZOOM0026.mp3;22/01/2022;16:05;Guido;Guido;;Selva Alta;GU_SELVA_ALTA;8.900978219;45.29932881;;Zoom h1n;96 khz;24 bit;7.5;no limiter no lo cut no auto level;no palline da golf ma solo acqua;0;1;0
+7;GU_7;ZOOM0028.mp3;22/01/2022;16:20;Guido;Guido;;Anatroccoli laghi di santa marta;GU_LAGHI_DI_SANTA_MARTA;8.905108963;45.29913845;;Zoom h1n;96 khz;24 bit;7.5;no limiter no lo cut no auto level;anatroccoli;0;1;0
+8;GU_8;ZOOM0032.mp3;22/01/2022;16:30;Guido;Guido;roggia.jpeg;Roggia Via Cararola;GU_FINE_VIA_CARAROLA;8.908734865;45.29968295;;Zoom h1n;96 khz;24 bit;8.5;no limiter no lo cut no auto level;;0;1;1
+9;GU_9;ZOOM0033.mp3;22/01/2022;17:00;Guido;Guido;;Laghetto dei piccoli;GU_LAGHETTO_DEI_PICCOLI;8.905742693;45.29917137;;Zoom h1n;96 khz;24 bit;8.5;no limiter no lo cut no auto level;vari suoni, interessante;1;1;0
+10;GU_10;ZOOM0022.mp3;23/01/2022;16:00;Guido;Guido;;Miciopolis;GU_MICIOPOLIS;8.883821165;45.31246512;;Zoom h1n;96 khz;24 bit;8;no limiter no lo cut no auto level;gatti;1;1;0
+11;GU_11;ZOOM0024.mp3;23/01/2022;16:20;Guido;Guido;canale.jpeg;Strada per la Sforzesca;GU_STRADA_REBUFFI;8.883231356;45.30433837;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;acqua e un uomo fa una telefonata;1;1;1
+12;GU_12;ZOOM0025.mp3;23/01/2022;16:30;Guido;Guido;canale.jpeg;Strada per la Sforzesca;GU_STRADA_REBUFFI_v2;8.885291969;45.30015527;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;acqua;0;1;1
+13;GU_13;ZOOM0028.mp3;23/01/2022;16:50;Guido;Guido;cimitero.jpeg;Cimitero musicale;GU_STRADA_REBUFFI_v3;8.884778005;45.29236968;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;musiche lontane nei pressi del cimitero;1;1;1
+14;GU_14;ZOOM0024.mp3;29/01/2022;16:04;Guido;Guido;;Centrale ENEL;GU_CENTRALE_ENEL_v1;8.870533203;45.33845127;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;acqua forte e canottieri;0;1;0
+15;GU_15;ZOOM0025.mp3;29/01/2022;16:24;Guido;Guido;rave.jpeg;Rave a Ticino;GU_RAVE_TISIN_v1;8.867725439;45.34084406;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;musica in casotta a ticino;1;1;1
+16;GU_16;ZOOM0027.mp3;29/01/2022;16:32;Guido;Guido;;Cigni fx;GU_RAVE_TISIN_v2;8.867577913;45.34149603;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;cigni e rave;0;1;0
+17;GU_17;ZOOM0028.mp3;29/01/2022;16:41;Guido;Guido;albero.jpg;Acqua dolce e cassa dritta;GU_RAVE_TISIN_v3;8.865593442;45.34220987;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;ticino e rave;1;1;1
+18;GU_18;ZOOM0031.mp3;29/01/2022;16:50;Guido;Guido;ingresso.jpeg;Acquetta e cassetta;GU_RAVE_TISIN_v4;8.867097262;45.34096779;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;canale cattivo e rave;0;1;1
+19;GU_19;ZOOM0033.mp3;29/01/2022;17:26;Guido;Guido;rocca_petrella.jpeg;Birds of Rocca Petrella;GU_ROCCA_PETRELLA;8.862928168;45.34300948;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;molti uccelli;1;1;1
+20;GU_20;ZOOM0037.mp3;29/01/2022;17:54;Guido;Guido;;UFO e ciclismo;GU_CENTRALE_ENEL_v2;8.87050925;45.33842032;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;acqua, ufo, discorsi ciclisti;1;1;0
+21;GU_21;ZOOM0023.mp3;30/01/2022;14:53;Guido;Guido;underponte.jpg;Sotto il ponte;GU_PONTE_2;8.882420336;45.34022767;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;sotto al ponte numero 2;0;1;1
+22;GU_22;ZOOM0024.mp3;30/01/2022;15:03;Guido;Guido;ponte_1.jpg;Ruggito del Ticino;GU_TICINO_v1;8.879441251;45.34036092;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;dove il ticino è più forte;0;1;1
+23;GU_23;ZOOM0025.mp3;30/01/2022;15:08;Guido;Guido;sotto.jpg;Ruggito del Ticino;GU_TICINO_v2;8.878860663;45.34054176;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;ruggito e mezzi;0;1;1
+24;GU_24;ZOOM0026.mp3;30/01/2022;15:10;Guido;Guido;dettaglio.jpg;Fiume azzurro;GU_TICINO_v3;8.878451395;45.34069404;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;non male anche questo;1;1;0
+25;GU_25;ZOOM0027.mp3;30/01/2022;16:04;Guido;Guido;cigni.jpg;Cigni fx;GU_TICINO_v4;8.88500919;45.33987551;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;cigni figo;1;1;0
+26;GU_26;ZOOM0031.mp3;30/01/2022;18:00;Guido;Guido;;What are you doing here? Get the F out!!!;GU_POLIGONO;8.861188604;45.33114616;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;cani e bang bang;1;1;0
+27;GU_27;ZOOM0032.mp3;30/01/2022;18:30;Guido;Guido;;Campane;GU_STRADA_MORABASSA;8.860613964;45.33321272;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;campane, non male;1;1;0
+28;GU_28;ZOOM0034.mp3;30/01/2022;19:00;Guido;Guido;;Acqua a Morabassa;GU_MOLINO_MORABASSA_v1;8.861099374;45.33092487;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;acqua, cani…mah;1;1;0
+29;GU_29;ZOOM0035.mp3;30/01/2022;19:01;Guido;Guido;;Acquona;GU_MOLINO_MORABASSA_v2;8.861060113;45.33069287;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;acqua, cani;0;1;0
+30;GU_30;ZOOM0023.mp3;05/02/2022;14:50;Guido;Guido;;Pavè;GU_MADONNA_7_DOLORI;8.855686002;45.3200354;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;macchine, discorsi;1;1;0
+31;AN_1;castello ore 18.mp3;20/01/2022;18:00;Andrea;Andrea;;Castello alle 18;AN_CASTELLO_ORE_18;8.856819;45.316389;;;;;;;;1;1;0
+32;AN_2;portone.mp3;20/01/2022;;Andrea;Andrea;;Portone;AN_PORTONE;8.856105;45.315783;;;;;;;;1;1;0
+33;AN_3;via mulini acqua.mp3;20/01/2022;;Andrea;Andrea;;Via Mulini;AN_VIA_MULINI;8.854067;45.314307;;;;;;;;1;1;0
+34;AL_1;corso torino 9 traffico.mp3;;;Alice;Alice;;Traffico di Corso Torino;AL_CORSO_TORINO_TRAFFICO;8.850959;45.314712;;;;;;;;1;1;0
+35;AL_2;mulino via mulini.mp3;;;Alice;Alice;;Il mulino di Via Mulini;AL_VIA_MULINI_MULINO;8.854374;45.314191;;;;;;;;1;1;0

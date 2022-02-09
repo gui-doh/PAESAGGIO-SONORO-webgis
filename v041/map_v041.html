@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_abdcb3474c634ce1a7b4e961654e8690 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+
+</head>
+<body>
+
+            <div class="folium-map" id="map_abdcb3474c634ce1a7b4e961654e8690" ></div>
+
+</body>
+<script>
+
+            var map_abdcb3474c634ce1a7b4e961654e8690 = L.map(
+                "map_abdcb3474c634ce1a7b4e961654e8690",
+                {
+                    center: [45.3169681, 8.857812],
+                    crs: L.CRS.EPSG3857,
+                    maxBounds: [[45.279, 8.81], [45.4, 8.92]],
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+
+
+
+
+            var tile_layer_529023097b5349d789b387dd9dbd7112 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 14, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+            var marker_4e1fa8e9ecb248fdaa786bf6bf759df0 = L.marker(
+                [45.3230625, 8.850245651],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_2e31f55aced042d0af94dbea5ab141ad = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_4e1fa8e9ecb248fdaa786bf6bf759df0.setIcon(custom_icon_2e31f55aced042d0af94dbea5ab141ad);
+
+
+        var popup_993417d3e38c4adc8947a1beb2f25b2b = L.popup({"maxWidth": "270"});
+
+
+            var html_bdba401e3f754779a7be714c72296d02 = $(`<div id="html_bdba401e3f754779a7be714c72296d02" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Pizzeria</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_VIALE_MONTEGRAPPA_PIZZERIA" loop>                      <source src="dati/GU_VIALE_MONTEGRAPPA_PIZZERIA/pizzeria.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_993417d3e38c4adc8947a1beb2f25b2b.setContent(html_bdba401e3f754779a7be714c72296d02);
+
+
+        marker_4e1fa8e9ecb248fdaa786bf6bf759df0.bindPopup(popup_993417d3e38c4adc8947a1beb2f25b2b)
+marker_4e1fa8e9ecb248fdaa786bf6bf759df0.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_VIALE_MONTEGRAPPA_PIZZERIA').play();});
+        ;
+
+
+
+
+            var marker_7fbfd41bfc614c8a926f064fb70c83e1 = L.marker(
+                [45.31211904, 8.860001045],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_acb22b70758a4ad1852a9bf230c28b4e = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_7fbfd41bfc614c8a926f064fb70c83e1.setIcon(custom_icon_acb22b70758a4ad1852a9bf230c28b4e);
+
+
+        var popup_07fdd0b90b854d909fdcc914c12a2596 = L.popup({"maxWidth": "270"});
+
+
+            var html_fcacd4d9f0df4947a15d6e8b0529e3db = $(`<div id="html_fcacd4d9f0df4947a15d6e8b0529e3db" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Giacchetta Canale</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_GIACCHETTA_CANALE" loop>                      <source src="dati/GU_GIACCHETTA_CANALE/ZOOM0027.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_07fdd0b90b854d909fdcc914c12a2596.setContent(html_fcacd4d9f0df4947a15d6e8b0529e3db);
+
+
+        marker_7fbfd41bfc614c8a926f064fb70c83e1.bindPopup(popup_07fdd0b90b854d909fdcc914c12a2596)
+marker_7fbfd41bfc614c8a926f064fb70c83e1.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_GIACCHETTA_CANALE').play();});
+        ;
+
+
+
+
+            var marker_fa0b5bce5e6744c180c757ecdfdce0e0 = L.marker(
+                [45.3064081, 8.866924562],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_4fc6da4c96584003b244ae749cc2ed8f = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_fa0b5bce5e6744c180c757ecdfdce0e0.setIcon(custom_icon_4fc6da4c96584003b244ae749cc2ed8f);
+
+
+        var popup_75c63fd327ce4a5f8d8fc4df2ede0623 = L.popup({"maxWidth": "270"});
+
+
+            var html_949f692d6f6b49618d5a6c8921c8afd8 = $(`<div id="html_949f692d6f6b49618d5a6c8921c8afd8" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Via de chirico Canale Pioggia</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_VIA_DE_CHIRICO_CANALE_v2" loop>                      <source src="dati/GU_VIA_DE_CHIRICO_CANALE_v2/ZOOM0029.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_75c63fd327ce4a5f8d8fc4df2ede0623.setContent(html_949f692d6f6b49618d5a6c8921c8afd8);
+
+
+        marker_fa0b5bce5e6744c180c757ecdfdce0e0.bindPopup(popup_75c63fd327ce4a5f8d8fc4df2ede0623)
+marker_fa0b5bce5e6744c180c757ecdfdce0e0.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_VIA_DE_CHIRICO_CANALE_v2').play();});
+        ;
+
+
+
+
+            var marker_d3fadb41096a422580080ec046d6f08d = L.marker(
+                [45.30644102, 8.889899845],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_8d569d536a2b4df1a0e29904de617603 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_d3fadb41096a422580080ec046d6f08d.setIcon(custom_icon_8d569d536a2b4df1a0e29904de617603);
+
+
+        var popup_855b26b5b24b448e93a3ecc98f39e301 = L.popup({"maxWidth": "270"});
+
+
+            var html_65f605424cfc434581ee05fcafba87ab = $(`<div id="html_65f605424cfc434581ee05fcafba87ab" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Strada per laghi di santa marta</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_AGRITURISMO_COLDIRETTI" loop>                      <source src="dati/GU_AGRITURISMO_COLDIRETTI/ZOOM0025.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_855b26b5b24b448e93a3ecc98f39e301.setContent(html_65f605424cfc434581ee05fcafba87ab);
+
+
+        marker_d3fadb41096a422580080ec046d6f08d.bindPopup(popup_855b26b5b24b448e93a3ecc98f39e301)
+marker_d3fadb41096a422580080ec046d6f08d.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_AGRITURISMO_COLDIRETTI').play();});
+        ;
+
+
+
+
+            var marker_38bd5e6ac13f4966ac5762143893d2fa = L.marker(
+                [45.29917137, 8.905742693],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_72f5b7fa6580418e81b578957e1fc8ed = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_38bd5e6ac13f4966ac5762143893d2fa.setIcon(custom_icon_72f5b7fa6580418e81b578957e1fc8ed);
+
+
+        var popup_ee16d419dc2342c5badc8e8f9523caa3 = L.popup({"maxWidth": "270"});
+
+
+            var html_0b84177e2fd942c786f1a1c565bbf9d0 = $(`<div id="html_0b84177e2fd942c786f1a1c565bbf9d0" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Laghetto dei piccoli</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_LAGHETTO_DEI_PICCOLI" loop>                      <source src="dati/GU_LAGHETTO_DEI_PICCOLI/ZOOM0033.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_ee16d419dc2342c5badc8e8f9523caa3.setContent(html_0b84177e2fd942c786f1a1c565bbf9d0);
+
+
+        marker_38bd5e6ac13f4966ac5762143893d2fa.bindPopup(popup_ee16d419dc2342c5badc8e8f9523caa3)
+marker_38bd5e6ac13f4966ac5762143893d2fa.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_LAGHETTO_DEI_PICCOLI').play();});
+        ;
+
+
+
+
+            var marker_b294b6935a1348b8a0e3fd4507729060 = L.marker(
+                [45.31246512, 8.883821165],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_7d0a4d07a5fa47c0928c90fda997298e = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_b294b6935a1348b8a0e3fd4507729060.setIcon(custom_icon_7d0a4d07a5fa47c0928c90fda997298e);
+
+
+        var popup_98d8405b599c48d6ba39284eb07487f4 = L.popup({"maxWidth": "270"});
+
+
+            var html_f0bf09879c1a4025a8f7f354d82690b1 = $(`<div id="html_f0bf09879c1a4025a8f7f354d82690b1" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Miciopolis</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_MICIOPOLIS" loop>                      <source src="dati/GU_MICIOPOLIS/ZOOM0022.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_98d8405b599c48d6ba39284eb07487f4.setContent(html_f0bf09879c1a4025a8f7f354d82690b1);
+
+
+        marker_b294b6935a1348b8a0e3fd4507729060.bindPopup(popup_98d8405b599c48d6ba39284eb07487f4)
+marker_b294b6935a1348b8a0e3fd4507729060.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_MICIOPOLIS').play();});
+        ;
+
+
+
+
+            var marker_5c45b569cbfc4215a25e27a0cceb541c = L.marker(
+                [45.30433837, 8.883231356],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_c2c08a53c18b4c559258372a46a87183 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_5c45b569cbfc4215a25e27a0cceb541c.setIcon(custom_icon_c2c08a53c18b4c559258372a46a87183);
+
+
+        var popup_e23807ffe76545dcb499c23bb800ba7a = L.popup({"maxWidth": "270"});
+
+
+            var html_34c5059ce27b423f9a94b66a298f132b = $(`<div id="html_34c5059ce27b423f9a94b66a298f132b" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Strada per la Sforzesca</b></h1>                      <img src="dati/GU_STRADA_REBUFFI/canale.jpeg" width="270" height="270">                       <br><br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_STRADA_REBUFFI" loop>                      <source src="dati/GU_STRADA_REBUFFI/ZOOM0024.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_e23807ffe76545dcb499c23bb800ba7a.setContent(html_34c5059ce27b423f9a94b66a298f132b);
+
+
+        marker_5c45b569cbfc4215a25e27a0cceb541c.bindPopup(popup_e23807ffe76545dcb499c23bb800ba7a)
+marker_5c45b569cbfc4215a25e27a0cceb541c.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_STRADA_REBUFFI').play();});
+        ;
+
+
+
+
+            var marker_35dbb6186bb849b3aaa20c0232e805de = L.marker(
+                [45.29236968, 8.884778005],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_90aabc5a6a9b41a2820135cc59821f37 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_35dbb6186bb849b3aaa20c0232e805de.setIcon(custom_icon_90aabc5a6a9b41a2820135cc59821f37);
+
+
+        var popup_68213f3ef8a64cf0a16dbc699674ed2e = L.popup({"maxWidth": "270"});
+
+
+            var html_dd3630712e014ec1a3590ce27dcc700b = $(`<div id="html_dd3630712e014ec1a3590ce27dcc700b" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Cimitero musicale</b></h1>                      <img src="dati/GU_STRADA_REBUFFI_v3/cimitero.jpeg" width="270" height="270">                       <br><br>                               Mi ringrazia. Provo a suonare live sotto il suo suggerimento insieme ad altri amici.<br />Non sapendo suonare mi concentro timidamente sul Re. Rinuncio e chiudo il piano.<br />Il sottofondo è musica ambient e sono attorniato dal mio datore di lavoro.                      <br><br>                       <i>Guido                                         <audio id="audio_GU_STRADA_REBUFFI_v3" loop>                      <source src="dati/GU_STRADA_REBUFFI_v3/ZOOM0028.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_68213f3ef8a64cf0a16dbc699674ed2e.setContent(html_dd3630712e014ec1a3590ce27dcc700b);
+
+
+        marker_35dbb6186bb849b3aaa20c0232e805de.bindPopup(popup_68213f3ef8a64cf0a16dbc699674ed2e)
+marker_35dbb6186bb849b3aaa20c0232e805de.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_STRADA_REBUFFI_v3').play();});
+        ;
+
+
+
+
+            var marker_f5489b32aab94d968516436ae0a19454 = L.marker(
+                [45.34084406, 8.867725439],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_637768a0f18d43d4aa17a9d39444b62f = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_f5489b32aab94d968516436ae0a19454.setIcon(custom_icon_637768a0f18d43d4aa17a9d39444b62f);
+
+
+        var popup_6f06ff76414c4cee9dabb4fd136ad6a9 = L.popup({"maxWidth": "270"});
+
+
+            var html_61d2798b7f9f444bb887b43ea026c460 = $(`<div id="html_61d2798b7f9f444bb887b43ea026c460" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Rave a Ticino</b></h1>                      <img src="dati/GU_RAVE_TISIN_v1/rave.jpeg" width="270" height="270">                       <br><br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_RAVE_TISIN_v1" loop>                      <source src="dati/GU_RAVE_TISIN_v1/ZOOM0025.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_6f06ff76414c4cee9dabb4fd136ad6a9.setContent(html_61d2798b7f9f444bb887b43ea026c460);
+
+
+        marker_f5489b32aab94d968516436ae0a19454.bindPopup(popup_6f06ff76414c4cee9dabb4fd136ad6a9)
+marker_f5489b32aab94d968516436ae0a19454.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_RAVE_TISIN_v1').play();});
+        ;
+
+
+
+
+            var marker_029825c05f6943d48c436ec40b977c5b = L.marker(
+                [45.34220987, 8.865593442],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_798ea635f13f406787ae954f9b236ecf = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_029825c05f6943d48c436ec40b977c5b.setIcon(custom_icon_798ea635f13f406787ae954f9b236ecf);
+
+
+        var popup_2a1fd688a04148a8b8c00ec51c8baaa7 = L.popup({"maxWidth": "270"});
+
+
+            var html_f85857e13405404ca83086e34a4b362a = $(`<div id="html_f85857e13405404ca83086e34a4b362a" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Acqua dolce e cassa dritta</b></h1>                      <img src="dati/GU_RAVE_TISIN_v3/albero.jpg" width="270" height="270">                       <br><br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_RAVE_TISIN_v3" loop>                      <source src="dati/GU_RAVE_TISIN_v3/ZOOM0028.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_2a1fd688a04148a8b8c00ec51c8baaa7.setContent(html_f85857e13405404ca83086e34a4b362a);
+
+
+        marker_029825c05f6943d48c436ec40b977c5b.bindPopup(popup_2a1fd688a04148a8b8c00ec51c8baaa7)
+marker_029825c05f6943d48c436ec40b977c5b.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_RAVE_TISIN_v3').play();});
+        ;
+
+
+
+
+            var marker_74f22f8ddbf641769d1e83b3e37d941a = L.marker(
+                [45.34300948, 8.862928168],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_e88623076fd54bf58aebfa2f917ac76e = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_74f22f8ddbf641769d1e83b3e37d941a.setIcon(custom_icon_e88623076fd54bf58aebfa2f917ac76e);
+
+
+        var popup_b571796b93094f40a4420a7bd84cd0af = L.popup({"maxWidth": "270"});
+
+
+            var html_19cf4d8050a94091bbd3bc6c390521ff = $(`<div id="html_19cf4d8050a94091bbd3bc6c390521ff" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Birds of Rocca Petrella</b></h1>                      <img src="dati/GU_ROCCA_PETRELLA/rocca_petrella.jpeg" width="270" height="270">                       <br><br>                               Qua si sente bene<br /><br />Avrei voluto scendere ma non era possibile a causa di una stramaledetta proprietà privata<br /><br />Tantè                      <br><br>                       <i>Guido                                         <audio id="audio_GU_ROCCA_PETRELLA" loop>                      <source src="dati/GU_ROCCA_PETRELLA/ZOOM0033.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_b571796b93094f40a4420a7bd84cd0af.setContent(html_19cf4d8050a94091bbd3bc6c390521ff);
+
+
+        marker_74f22f8ddbf641769d1e83b3e37d941a.bindPopup(popup_b571796b93094f40a4420a7bd84cd0af)
+marker_74f22f8ddbf641769d1e83b3e37d941a.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_ROCCA_PETRELLA').play();});
+        ;
+
+
+
+
+            var marker_43caec574f96485692255d8c628f7f76 = L.marker(
+                [45.33842032, 8.87050925],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_e3e8b1af50834222aca225992938e26a = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_43caec574f96485692255d8c628f7f76.setIcon(custom_icon_e3e8b1af50834222aca225992938e26a);
+
+
+        var popup_e67c46ecfd54487e8419b80df1900494 = L.popup({"maxWidth": "270"});
+
+
+            var html_507a819ef22b4f7bb40e31c1769a83a5 = $(`<div id="html_507a819ef22b4f7bb40e31c1769a83a5" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>UFO e ciclismo</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_CENTRALE_ENEL_v2" loop>                      <source src="dati/GU_CENTRALE_ENEL_v2/ZOOM0037.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_e67c46ecfd54487e8419b80df1900494.setContent(html_507a819ef22b4f7bb40e31c1769a83a5);
+
+
+        marker_43caec574f96485692255d8c628f7f76.bindPopup(popup_e67c46ecfd54487e8419b80df1900494)
+marker_43caec574f96485692255d8c628f7f76.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_CENTRALE_ENEL_v2').play();});
+        ;
+
+
+
+
+            var marker_b0d77a50498846afa383d4b911704835 = L.marker(
+                [45.34069404, 8.878451395],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_1ca0821dc8644c9a8f272c458620271f = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_b0d77a50498846afa383d4b911704835.setIcon(custom_icon_1ca0821dc8644c9a8f272c458620271f);
+
+
+        var popup_97976e9c3cf24de099ffa5c44d1e7e69 = L.popup({"maxWidth": "270"});
+
+
+            var html_99a009feb6554e7ba166079d2fa9e80c = $(`<div id="html_99a009feb6554e7ba166079d2fa9e80c" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Fiume azzurro</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_TICINO_v3" loop>                      <source src="dati/GU_TICINO_v3/ZOOM0026.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_97976e9c3cf24de099ffa5c44d1e7e69.setContent(html_99a009feb6554e7ba166079d2fa9e80c);
+
+
+        marker_b0d77a50498846afa383d4b911704835.bindPopup(popup_97976e9c3cf24de099ffa5c44d1e7e69)
+marker_b0d77a50498846afa383d4b911704835.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_TICINO_v3').play();});
+        ;
+
+
+
+
+            var marker_6095956c52984106a744492c4036db10 = L.marker(
+                [45.33987551, 8.88500919],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_9bc9fb29c0b84d91bfc1d1838ed79a4c = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_6095956c52984106a744492c4036db10.setIcon(custom_icon_9bc9fb29c0b84d91bfc1d1838ed79a4c);
+
+
+        var popup_2e7f7cb27ab74f0fa3261d8b3629d7dd = L.popup({"maxWidth": "270"});
+
+
+            var html_b3400626d4da4c098c7285791bd45c5f = $(`<div id="html_b3400626d4da4c098c7285791bd45c5f" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Cigni fx</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_TICINO_v4" loop>                      <source src="dati/GU_TICINO_v4/ZOOM0027.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_2e7f7cb27ab74f0fa3261d8b3629d7dd.setContent(html_b3400626d4da4c098c7285791bd45c5f);
+
+
+        marker_6095956c52984106a744492c4036db10.bindPopup(popup_2e7f7cb27ab74f0fa3261d8b3629d7dd)
+marker_6095956c52984106a744492c4036db10.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_TICINO_v4').play();});
+        ;
+
+
+
+
+            var marker_ec2d643cb5004dc09afd7887a46e195b = L.marker(
+                [45.33114616, 8.861188604],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_fe7d7f57ed4a4726ab7a5e065ee4dda4 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_ec2d643cb5004dc09afd7887a46e195b.setIcon(custom_icon_fe7d7f57ed4a4726ab7a5e065ee4dda4);
+
+
+        var popup_5d9d2b3fcad44f09aad09b19a053f157 = L.popup({"maxWidth": "270"});
+
+
+            var html_99b59c0c6d914bf89834fc525a7dacda = $(`<div id="html_99b59c0c6d914bf89834fc525a7dacda" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>What are you doing here? Get the F out!!!</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_POLIGONO" loop>                      <source src="dati/GU_POLIGONO/ZOOM0031.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_5d9d2b3fcad44f09aad09b19a053f157.setContent(html_99b59c0c6d914bf89834fc525a7dacda);
+
+
+        marker_ec2d643cb5004dc09afd7887a46e195b.bindPopup(popup_5d9d2b3fcad44f09aad09b19a053f157)
+marker_ec2d643cb5004dc09afd7887a46e195b.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_POLIGONO').play();});
+        ;
+
+
+
+
+            var marker_e4067669e3bd4eb391d395366b4b495a = L.marker(
+                [45.33321272, 8.860613964],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_5fabd446aaa94129bfaa16872052c96a = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_e4067669e3bd4eb391d395366b4b495a.setIcon(custom_icon_5fabd446aaa94129bfaa16872052c96a);
+
+
+        var popup_a8105e2bf8804cf19567ee7958254a40 = L.popup({"maxWidth": "270"});
+
+
+            var html_5400bd874459454ead09b0d3cf748767 = $(`<div id="html_5400bd874459454ead09b0d3cf748767" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Campane</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_STRADA_MORABASSA" loop>                      <source src="dati/GU_STRADA_MORABASSA/ZOOM0032.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_a8105e2bf8804cf19567ee7958254a40.setContent(html_5400bd874459454ead09b0d3cf748767);
+
+
+        marker_e4067669e3bd4eb391d395366b4b495a.bindPopup(popup_a8105e2bf8804cf19567ee7958254a40)
+marker_e4067669e3bd4eb391d395366b4b495a.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_STRADA_MORABASSA').play();});
+        ;
+
+
+
+
+            var marker_02464cd9a7e64a06bb21fbc4ffd7f74f = L.marker(
+                [45.33092487, 8.861099374],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_556ff1914dee42c4aab810806abceac9 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_02464cd9a7e64a06bb21fbc4ffd7f74f.setIcon(custom_icon_556ff1914dee42c4aab810806abceac9);
+
+
+        var popup_e559c535b6504746a4946184dabc9494 = L.popup({"maxWidth": "270"});
+
+
+            var html_721bf568fd154a958069952348da5779 = $(`<div id="html_721bf568fd154a958069952348da5779" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Acqua a Morabassa</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_MOLINO_MORABASSA_v1" loop>                      <source src="dati/GU_MOLINO_MORABASSA_v1/ZOOM0034.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_e559c535b6504746a4946184dabc9494.setContent(html_721bf568fd154a958069952348da5779);
+
+
+        marker_02464cd9a7e64a06bb21fbc4ffd7f74f.bindPopup(popup_e559c535b6504746a4946184dabc9494)
+marker_02464cd9a7e64a06bb21fbc4ffd7f74f.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_MOLINO_MORABASSA_v1').play();});
+        ;
+
+
+
+
+            var marker_f11362e7a57d43ae90c60c568c75442e = L.marker(
+                [45.3200354, 8.855686002],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_a5872a85f97e4246b4f4df7d22651a53 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_f11362e7a57d43ae90c60c568c75442e.setIcon(custom_icon_a5872a85f97e4246b4f4df7d22651a53);
+
+
+        var popup_4f635fb1c62f4a85a593fbfed6d04e9e = L.popup({"maxWidth": "270"});
+
+
+            var html_4cbbd3a7747a4d7880af06d98ba1619c = $(`<div id="html_4cbbd3a7747a4d7880af06d98ba1619c" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Pavè</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_MADONNA_7_DOLORI" loop>                      <source src="dati/GU_MADONNA_7_DOLORI/ZOOM0023.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_4f635fb1c62f4a85a593fbfed6d04e9e.setContent(html_4cbbd3a7747a4d7880af06d98ba1619c);
+
+
+        marker_f11362e7a57d43ae90c60c568c75442e.bindPopup(popup_4f635fb1c62f4a85a593fbfed6d04e9e)
+marker_f11362e7a57d43ae90c60c568c75442e.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_MADONNA_7_DOLORI').play();});
+        ;
+
+
+
+
+            var marker_440a4f7c7fe24d75b974ec4e31bbda4d = L.marker(
+                [45.316389, 8.856819],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_7f1c7013ee144e61a5a3214fb14887c2 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_440a4f7c7fe24d75b974ec4e31bbda4d.setIcon(custom_icon_7f1c7013ee144e61a5a3214fb14887c2);
+
+
+        var popup_95a37472498140a5bdf4b5b155242f51 = L.popup({"maxWidth": "270"});
+
+
+            var html_e265db301063457384d191503b0e6c43 = $(`<div id="html_e265db301063457384d191503b0e6c43" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Castello alle 18</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Andrea                                         <audio id="audio_AN_CASTELLO_ORE_18" loop>                      <source src="dati/AN_CASTELLO_ORE_18/castello ore 18.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_95a37472498140a5bdf4b5b155242f51.setContent(html_e265db301063457384d191503b0e6c43);
+
+
+        marker_440a4f7c7fe24d75b974ec4e31bbda4d.bindPopup(popup_95a37472498140a5bdf4b5b155242f51)
+marker_440a4f7c7fe24d75b974ec4e31bbda4d.on('click', function (e) {this.openPopup(); document.getElementById('audio_AN_CASTELLO_ORE_18').play();});
+        ;
+
+
+
+
+            var marker_498dda766f744e3b9d72adfffcedc475 = L.marker(
+                [45.315783, 8.856105],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_3aab377126ec4cb38d2ab2e5d52c10cb = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/grinning-face_1f600.png"});
+        marker_498dda766f744e3b9d72adfffcedc475.setIcon(custom_icon_3aab377126ec4cb38d2ab2e5d52c10cb);
+
+
+        var popup_98a7cbe60adf422f8291671afad4c570 = L.popup({"maxWidth": "270"});
+
+
+            var html_f21228405e4542ba97a70bafab8f1882 = $(`<div id="html_f21228405e4542ba97a70bafab8f1882" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Portone</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Andrea                                         <audio id="audio_AN_PORTONE" loop>                      <source src="dati/AN_PORTONE/portone.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_98a7cbe60adf422f8291671afad4c570.setContent(html_f21228405e4542ba97a70bafab8f1882);
+
+
+        marker_498dda766f744e3b9d72adfffcedc475.bindPopup(popup_98a7cbe60adf422f8291671afad4c570)
+marker_498dda766f744e3b9d72adfffcedc475.on('click', function (e) {this.openPopup(); document.getElementById('audio_AN_PORTONE').play();});
+        ;
+
+
+
+
+            var marker_a74e8942f69f4fbdaad589f38c21410c = L.marker(
+                [45.314307, 8.854067],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_5001339ae4f14219baaaf379d2bc5ed0 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_a74e8942f69f4fbdaad589f38c21410c.setIcon(custom_icon_5001339ae4f14219baaaf379d2bc5ed0);
+
+
+        var popup_d3db356bf3064d3da231eabbd44b480a = L.popup({"maxWidth": "270"});
+
+
+            var html_0e415ca2eafa439ab997cf83b87c0232 = $(`<div id="html_0e415ca2eafa439ab997cf83b87c0232" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Via Mulini</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Andrea                                         <audio id="audio_AN_VIA_MULINI" loop>                      <source src="dati/AN_VIA_MULINI/via mulini acqua.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_d3db356bf3064d3da231eabbd44b480a.setContent(html_0e415ca2eafa439ab997cf83b87c0232);
+
+
+        marker_a74e8942f69f4fbdaad589f38c21410c.bindPopup(popup_d3db356bf3064d3da231eabbd44b480a)
+marker_a74e8942f69f4fbdaad589f38c21410c.on('click', function (e) {this.openPopup(); document.getElementById('audio_AN_VIA_MULINI').play();});
+        ;
+
+
+
+
+            var marker_5be3ab9a83974aaeb7e9502642372238 = L.marker(
+                [45.314712, 8.850959],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_e1360a184f4f431083a0032055c18c02 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_5be3ab9a83974aaeb7e9502642372238.setIcon(custom_icon_e1360a184f4f431083a0032055c18c02);
+
+
+        var popup_b1dbe78144704d9380799d4d95f3f629 = L.popup({"maxWidth": "270"});
+
+
+            var html_1291198787c84eb68aede976de1bee52 = $(`<div id="html_1291198787c84eb68aede976de1bee52" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Traffico di Corso Torino</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Alice                                         <audio id="audio_AL_CORSO_TORINO_TRAFFICO" loop>                      <source src="dati/AL_CORSO_TORINO_TRAFFICO/corso torino 9 traffico.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_b1dbe78144704d9380799d4d95f3f629.setContent(html_1291198787c84eb68aede976de1bee52);
+
+
+        marker_5be3ab9a83974aaeb7e9502642372238.bindPopup(popup_b1dbe78144704d9380799d4d95f3f629)
+marker_5be3ab9a83974aaeb7e9502642372238.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_CORSO_TORINO_TRAFFICO').play();});
+        ;
+
+
+
+
+            var marker_9d14ce31aac54d559c59ee4e80f9ec05 = L.marker(
+                [45.314191, 8.854374],
+                {}
+            ).addTo(map_abdcb3474c634ce1a7b4e961654e8690);
+
+
+        var custom_icon_03a7e0a135864416a265036007e5b4bf = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/314/speaker-low-volume_1f508.png"});
+        marker_9d14ce31aac54d559c59ee4e80f9ec05.setIcon(custom_icon_03a7e0a135864416a265036007e5b4bf);
+
+
+        var popup_59c62fdd6ee448968d4092a0d33072ae = L.popup({"maxWidth": "270"});
+
+
+            var html_39511d5ba0d245baa42b2154c28e92fd = $(`<div id="html_39511d5ba0d245baa42b2154c28e92fd" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Il mulino di Via Mulini</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Alice                                         <audio id="audio_AL_VIA_MULINI_MULINO" loop>                      <source src="dati/AL_VIA_MULINI_MULINO/mulino via mulini.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_59c62fdd6ee448968d4092a0d33072ae.setContent(html_39511d5ba0d245baa42b2154c28e92fd);
+
+
+        marker_9d14ce31aac54d559c59ee4e80f9ec05.bindPopup(popup_59c62fdd6ee448968d4092a0d33072ae)
+marker_9d14ce31aac54d559c59ee4e80f9ec05.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_VIA_MULINI_MULINO').play();});
+        ;
+
+
+
+</script>
