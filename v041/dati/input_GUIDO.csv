@@ -26,7 +26,7 @@ ID;COD;file_audio;data;orario;AUTORE;operatore;file_immagine;Titolo;directory;PO
 25;GU_25;ZOOM0027.mp3;30/01/2022;16:04;Guido;Guido;cigni.jpg;Cigni fx;GU_TICINO_v4;8.88500919;45.33987551;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;cigni figo;1;1;0
 26;GU_26;ZOOM0031.mp3;30/01/2022;18:00;Guido;Guido;;What are you doing here? Get the F out!!!;GU_POLIGONO;8.861188604;45.33114616;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;cani e bang bang;1;1;0
 27;GU_27;ZOOM0032.mp3;30/01/2022;18:30;Guido;Guido;;Campane;GU_STRADA_MORABASSA;8.860613964;45.33321272;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;campane, non male;1;1;0
-28;GU_28;ZOOM0034.mp3;30/01/2022;19:00;Guido;Guido;;Acqua a Morabassa;GU_MOLINO_MORABASSA_v1;8.861099374;45.33092487;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;acqua, cani…mah;1;1;0
+28;GU_28;ZOOM0034.mp3;30/01/2022;19:00;Guido;Guido;;Acqua a Morabassa;GU_MOLINO_MORABASSA_v1;8.861099374;45.33092487;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;acqua, cani…mah;0;1;0
 29;GU_29;ZOOM0035.mp3;30/01/2022;19:01;Guido;Guido;;Acquona;GU_MOLINO_MORABASSA_v2;8.861060113;45.33069287;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;acqua, cani;0;1;0
 30;GU_30;ZOOM0023.mp3;05/02/2022;14:50;Guido;Guido;;Pavè;GU_MADONNA_7_DOLORI;8.855686002;45.3200354;;Zoom h1n;96 khz;24 bit;10;no limiter no lo cut no auto level;macchine, discorsi;1;1;0
 31;AN_1;castello ore 18.mp3;20/01/2022;18:00;Andrea;Andrea;;Castello alle 18;AN_CASTELLO_ORE_18;8.856819;45.316389;;;;;;;;1;1;0
@@ -34,3 +34,5 @@ ID;COD;file_audio;data;orario;AUTORE;operatore;file_immagine;Titolo;directory;PO
 33;AN_3;via mulini acqua.mp3;20/01/2022;;Andrea;Andrea;;Via Mulini;AN_VIA_MULINI;8.854067;45.314307;;;;;;;;1;1;0
 34;AL_1;corso torino 9 traffico.mp3;;;Alice;Alice;;Traffico di Corso Torino;AL_CORSO_TORINO_TRAFFICO;8.850959;45.314712;;;;;;;;1;1;0
 35;AL_2;mulino via mulini.mp3;;;Alice;Alice;;Il mulino di Via Mulini;AL_VIA_MULINI_MULINO;8.854374;45.314191;;;;;;;;1;1;0
+36;GU_31;ZOOM0023.mp3;09/02/2022;21:45;Guido;Guido;;Treno per Milano;GU_TRENO_FERRARI;8.864677;45.316204;;Zoom h1n;96 khz;24 bit;9;no limiter no lo cut no auto level;treno;1;1;0
+37;GU_32;ZOOM0024.mp3;10/02/2022;00:20;Guido;Guido;verso_mortara.jpeg;Treno per Mortara;GU_TRENO_BERCLEDA;8.860711;45.311018;;Zoom h1n;96 khz;24 bit;7;no limiter no lo cut no auto level;treno;1;1;1
