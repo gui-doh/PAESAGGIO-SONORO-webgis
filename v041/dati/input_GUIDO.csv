@@ -36,3 +36,13 @@ ID;COD;file_audio;data;orario;AUTORE;operatore;file_immagine;Titolo;directory;PO
 35;AL_2;mulino via mulini.mp3;;;Alice;Alice;;Il mulino di Via Mulini;AL_VIA_MULINI_MULINO;8.854374;45.314191;;;;;;;;1;1;0
 36;GU_31;ZOOM0023.mp3;09/02/2022;21:45;Guido;Guido;;Treno per Milano;GU_TRENO_FERRARI;8.864677;45.316204;;Zoom h1n;96 khz;24 bit;9;no limiter no lo cut no auto level;treno;1;1;0
 37;GU_32;ZOOM0024.mp3;10/02/2022;00:20;Guido;Guido;verso_mortara.jpeg;Treno per Mortara;GU_TRENO_BERCLEDA;8.860711;45.311018;;Zoom h1n;96 khz;24 bit;7;no limiter no lo cut no auto level;treno;1;1;1
+36;AL_3;Copia di ayala-papere.mp3;;;Alice;Alice;IMG_20181206_140933_617.jpg;Papere;AL_AYALA;8.910479;45.319865;;;;;;;;1;1;1
+37;AL_4;Copia di gallinelle-ayala.mp3;;;Alice;Alice;;Gallinelle;AL_AYALA 2;8.911778;45.319209;;;;;;;;1;1;0
+38;AL_5;Copia di ayala vecchi che parlano.wav;;;Alice;Alice;;Anziani;AL_AYALA 3;8.909743;45.320629;;;;;;;;1;1;0
+39;AL_6;Copia di marcite-sforzesca.mp3;;;Alice;Alice;IMG-20220208-WA0004.jpg;Marcite;AL_SFORZESCA MARCITE;8.904653;45.288236;;;;;;;;1;1;1
+40;AL_7;Copia di castello-campane.mp3;;;Alice;Alice;20220209_123650.jpg;Campane;AL_CASTELLO CAMPANE;8.857617;45.316647;;;;;;;;1;1;1
+41;AL_8;Copia di strada-coperta-sopra-portone.mp3;;;Alice;Alice;strada coperta.jpg;Strada coperta;AL_STRADA COPERTA;8.858551;45.315874;;;;;;;;1;1;1
+42;AL_9;Copia di strada-vignazza-piccolini-su-terdoppio.mp3;;;Alice;Alice;;Strada Vignazza;AL_STRADA VIGNAZZA PICCOLINI;8.804277;45.313771;;;;;;;;1;1;0
+43;AL_10;Copia di st. terdoppio piccolini.wav;;;Alice;Alice;IMG-20220208-WA0001.jpg;Piccolini;AL_TERDOPPIO PICCOLINI;8.80616;45.318815;;;;;;;;1;1;1
+44;AL_11;Copia di via-castellana-piccolini.mp3;;;Alice;Alice;;Via Castellana;AL_VIA CASTELLANA;8.812298;45.310196;;;;;;;;1;1;0
+45;AL_12;Copia di volo-cigni-lapide-boselli.mp3;;;Alice;Alice;;Lapide Boselli;AL_LAPIDE BOSELLI;8.5603;45.18104;;;;;;;;1;1;0
