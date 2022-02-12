@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_db7183816684461fad6ee369e9d9288e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+
+</head>
+<body>
+
+            <div class="folium-map" id="map_db7183816684461fad6ee369e9d9288e" ></div>
+
+</body>
+<script>
+
+            var map_db7183816684461fad6ee369e9d9288e = L.map(
+                "map_db7183816684461fad6ee369e9d9288e",
+                {
+                    center: [45.3169681, 8.857812],
+                    crs: L.CRS.EPSG3857,
+                    maxBounds: [[45.279, 8.77], [45.4, 8.95]],
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+
+
+
+
+            var tile_layer_fc226abee08a4824be79bd6d90ea58f9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 14, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+            var marker_13ebd67ae5204ed6ad65290cca34e45e = L.marker(
+                [45.3230625, 8.850245651],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_814b27713a0e4059b01ad63621daf659 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/motor-scooter_1f6f5.png "});
+        marker_13ebd67ae5204ed6ad65290cca34e45e.setIcon(custom_icon_814b27713a0e4059b01ad63621daf659);
+
+
+        var popup_dffc820e1b574aed85befd8f1daeab39 = L.popup({"maxWidth": "270"});
+
+
+            var html_d8f4b08be7b0449c858f24773a0fbeea = $(`<div id="html_d8f4b08be7b0449c858f24773a0fbeea" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Pizzeria</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_VIALE_MONTEGRAPPA_PIZZERIA" loop>                      <source src="dati/GU_VIALE_MONTEGRAPPA_PIZZERIA/pizzeria.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_dffc820e1b574aed85befd8f1daeab39.setContent(html_d8f4b08be7b0449c858f24773a0fbeea);
+
+
+        marker_13ebd67ae5204ed6ad65290cca34e45e.bindPopup(popup_dffc820e1b574aed85befd8f1daeab39)
+marker_13ebd67ae5204ed6ad65290cca34e45e.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_VIALE_MONTEGRAPPA_PIZZERIA').play();});
+        ;
+
+
+
+
+            var marker_da51a6adff9f4a9a8385d5c4d5fd1651 = L.marker(
+                [45.31211904, 8.860001045],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_a85becd8d41140f7b51bc57e8f6cea67 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_da51a6adff9f4a9a8385d5c4d5fd1651.setIcon(custom_icon_a85becd8d41140f7b51bc57e8f6cea67);
+
+
+        var popup_cb33acbe8eae4db89b99861b7c980cfc = L.popup({"maxWidth": "270"});
+
+
+            var html_5ce66e246fe24ea49b284745380d6c06 = $(`<div id="html_5ce66e246fe24ea49b284745380d6c06" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Giacchetta Canale</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_GIACCHETTA_CANALE" loop>                      <source src="dati/GU_GIACCHETTA_CANALE/ZOOM0027.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_cb33acbe8eae4db89b99861b7c980cfc.setContent(html_5ce66e246fe24ea49b284745380d6c06);
+
+
+        marker_da51a6adff9f4a9a8385d5c4d5fd1651.bindPopup(popup_cb33acbe8eae4db89b99861b7c980cfc)
+marker_da51a6adff9f4a9a8385d5c4d5fd1651.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_GIACCHETTA_CANALE').play();});
+        ;
+
+
+
+
+            var marker_22a3adc0d3b24e44acf05b3a0dc43666 = L.marker(
+                [45.3064081, 8.866924562],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_71fef86482c54fc59d8cf810e06c7742 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/umbrella-with-rain-drops_2614.png "});
+        marker_22a3adc0d3b24e44acf05b3a0dc43666.setIcon(custom_icon_71fef86482c54fc59d8cf810e06c7742);
+
+
+        var popup_f9bec2658266470a80a66ddf596ae6b2 = L.popup({"maxWidth": "270"});
+
+
+            var html_d8df561de5a04b5580861441cedbc92f = $(`<div id="html_d8df561de5a04b5580861441cedbc92f" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Via de chirico Canale Pioggia</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_VIA_DE_CHIRICO_CANALE_v2" loop>                      <source src="dati/GU_VIA_DE_CHIRICO_CANALE_v2/ZOOM0029.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_f9bec2658266470a80a66ddf596ae6b2.setContent(html_d8df561de5a04b5580861441cedbc92f);
+
+
+        marker_22a3adc0d3b24e44acf05b3a0dc43666.bindPopup(popup_f9bec2658266470a80a66ddf596ae6b2)
+marker_22a3adc0d3b24e44acf05b3a0dc43666.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_VIA_DE_CHIRICO_CANALE_v2').play();});
+        ;
+
+
+
+
+            var marker_acbbfca1ae4b44e7aa966768c334c241 = L.marker(
+                [45.30644102, 8.889899845],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_5755d8769a2546ba8e0c9053f9e478ea = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/fallen-leaf_1f342.png "});
+        marker_acbbfca1ae4b44e7aa966768c334c241.setIcon(custom_icon_5755d8769a2546ba8e0c9053f9e478ea);
+
+
+        var popup_d50733911f8146e59ad86fcc5d3f058c = L.popup({"maxWidth": "270"});
+
+
+            var html_6661261292ff4466b06a46eb90f2c42e = $(`<div id="html_6661261292ff4466b06a46eb90f2c42e" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Strada per laghi di santa marta</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_AGRITURISMO_COLDIRETTI" loop>                      <source src="dati/GU_AGRITURISMO_COLDIRETTI/ZOOM0025.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_d50733911f8146e59ad86fcc5d3f058c.setContent(html_6661261292ff4466b06a46eb90f2c42e);
+
+
+        marker_acbbfca1ae4b44e7aa966768c334c241.bindPopup(popup_d50733911f8146e59ad86fcc5d3f058c)
+marker_acbbfca1ae4b44e7aa966768c334c241.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_AGRITURISMO_COLDIRETTI').play();});
+        ;
+
+
+
+
+            var marker_817528da1ca04fbb81483e13fce1f4c3 = L.marker(
+                [45.29917137, 8.905742693],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_dc870c180d094933925294c7c48e39ae = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/bird_1f426.png "});
+        marker_817528da1ca04fbb81483e13fce1f4c3.setIcon(custom_icon_dc870c180d094933925294c7c48e39ae);
+
+
+        var popup_b2e04685299e4539826158ca893227a9 = L.popup({"maxWidth": "270"});
+
+
+            var html_b3f2001a9cb249e28898242dbe626efd = $(`<div id="html_b3f2001a9cb249e28898242dbe626efd" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Laghetto dei piccoli</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_LAGHETTO_DEI_PICCOLI" loop>                      <source src="dati/GU_LAGHETTO_DEI_PICCOLI/ZOOM0033.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_b2e04685299e4539826158ca893227a9.setContent(html_b3f2001a9cb249e28898242dbe626efd);
+
+
+        marker_817528da1ca04fbb81483e13fce1f4c3.bindPopup(popup_b2e04685299e4539826158ca893227a9)
+marker_817528da1ca04fbb81483e13fce1f4c3.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_LAGHETTO_DEI_PICCOLI').play();});
+        ;
+
+
+
+
+            var marker_7c5852584acb4017882940be5e4f7b5b = L.marker(
+                [45.31246512, 8.883821165],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_f21ea872413b45ad9b6abd5e540fbf52 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/cat_1f408.png "});
+        marker_7c5852584acb4017882940be5e4f7b5b.setIcon(custom_icon_f21ea872413b45ad9b6abd5e540fbf52);
+
+
+        var popup_aecc74084ecf43ac9829fdca495dadca = L.popup({"maxWidth": "270"});
+
+
+            var html_0b4191e7fb524d35b97f980d5d41f6cc = $(`<div id="html_0b4191e7fb524d35b97f980d5d41f6cc" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Miciopolis</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_MICIOPOLIS" loop>                      <source src="dati/GU_MICIOPOLIS/ZOOM0022.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_aecc74084ecf43ac9829fdca495dadca.setContent(html_0b4191e7fb524d35b97f980d5d41f6cc);
+
+
+        marker_7c5852584acb4017882940be5e4f7b5b.bindPopup(popup_aecc74084ecf43ac9829fdca495dadca)
+marker_7c5852584acb4017882940be5e4f7b5b.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_MICIOPOLIS').play();});
+        ;
+
+
+
+
+            var marker_39758486e4cc49a2aaf188f315eb4d17 = L.marker(
+                [45.30433837, 8.883231356],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_acdb7a9e47264f13afa497dda313f478 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_39758486e4cc49a2aaf188f315eb4d17.setIcon(custom_icon_acdb7a9e47264f13afa497dda313f478);
+
+
+        var popup_981b9c9643d747ab89e9909d0c88184e = L.popup({"maxWidth": "270"});
+
+
+            var html_3b3da11bb1fa4bb7bee124cc95ecea37 = $(`<div id="html_3b3da11bb1fa4bb7bee124cc95ecea37" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Strada per la Sforzesca</b></h1>                      <img src="dati/GU_STRADA_REBUFFI/canale.jpeg" width="270" height="270">                       <br><br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_STRADA_REBUFFI" loop>                      <source src="dati/GU_STRADA_REBUFFI/ZOOM0024.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_981b9c9643d747ab89e9909d0c88184e.setContent(html_3b3da11bb1fa4bb7bee124cc95ecea37);
+
+
+        marker_39758486e4cc49a2aaf188f315eb4d17.bindPopup(popup_981b9c9643d747ab89e9909d0c88184e)
+marker_39758486e4cc49a2aaf188f315eb4d17.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_STRADA_REBUFFI').play();});
+        ;
+
+
+
+
+            var marker_6e81aca588054a40a982bf8bc160eced = L.marker(
+                [45.29236968, 8.884778005],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_00cb0d59e2504d869a46d5d0686823a7 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/fog_1f32b.png "});
+        marker_6e81aca588054a40a982bf8bc160eced.setIcon(custom_icon_00cb0d59e2504d869a46d5d0686823a7);
+
+
+        var popup_410ae9c352cb406c8c6e1ca56382bf54 = L.popup({"maxWidth": "270"});
+
+
+            var html_90e48f40211248e0974382dff188d709 = $(`<div id="html_90e48f40211248e0974382dff188d709" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Cimitero musicale</b></h1>                      <img src="dati/GU_STRADA_REBUFFI_v3/cimitero.jpeg" width="270" height="270">                       <br><br>                               Mi ringrazia. Provo a suonare live sotto il suo suggerimento insieme ad altri amici.<br />Non sapendo suonare mi concentro timidamente sul Re. Rinuncio e chiudo il piano.<br />Il sottofondo è musica ambient e sono attorniato dal mio datore di lavoro.                      <br><br>                       <i>Guido                                         <audio id="audio_GU_STRADA_REBUFFI_v3" loop>                      <source src="dati/GU_STRADA_REBUFFI_v3/ZOOM0028.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_410ae9c352cb406c8c6e1ca56382bf54.setContent(html_90e48f40211248e0974382dff188d709);
+
+
+        marker_6e81aca588054a40a982bf8bc160eced.bindPopup(popup_410ae9c352cb406c8c6e1ca56382bf54)
+marker_6e81aca588054a40a982bf8bc160eced.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_STRADA_REBUFFI_v3').play();});
+        ;
+
+
+
+
+            var marker_e033e439349e41f49e5f0bda806da809 = L.marker(
+                [45.34084406, 8.867725439],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_5e8285bdcfd24e6ab33d91e0929ef186 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/speaker-with-three-sound-waves_1f50a.png "});
+        marker_e033e439349e41f49e5f0bda806da809.setIcon(custom_icon_5e8285bdcfd24e6ab33d91e0929ef186);
+
+
+        var popup_59149ccde0894313b910de9e4e4e6269 = L.popup({"maxWidth": "270"});
+
+
+            var html_27aa238053ac4eeab30bab91ab6021fe = $(`<div id="html_27aa238053ac4eeab30bab91ab6021fe" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Rave a Ticino</b></h1>                      <img src="dati/GU_RAVE_TISIN_v1/rave.jpeg" width="270" height="270">                       <br><br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_RAVE_TISIN_v1" loop>                      <source src="dati/GU_RAVE_TISIN_v1/ZOOM0025.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_59149ccde0894313b910de9e4e4e6269.setContent(html_27aa238053ac4eeab30bab91ab6021fe);
+
+
+        marker_e033e439349e41f49e5f0bda806da809.bindPopup(popup_59149ccde0894313b910de9e4e4e6269)
+marker_e033e439349e41f49e5f0bda806da809.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_RAVE_TISIN_v1').play();});
+        ;
+
+
+
+
+            var marker_288c50bf02e14c4f9d868ad7022b999f = L.marker(
+                [45.34220987, 8.865593442],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_1a3857a61cf8487691ea8d6f87e55d49 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_288c50bf02e14c4f9d868ad7022b999f.setIcon(custom_icon_1a3857a61cf8487691ea8d6f87e55d49);
+
+
+        var popup_df84bb29483242f388a1bc4278f546af = L.popup({"maxWidth": "270"});
+
+
+            var html_853f892c710b4f48aa9954f125054054 = $(`<div id="html_853f892c710b4f48aa9954f125054054" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Acqua dolce e cassa dritta</b></h1>                      <img src="dati/GU_RAVE_TISIN_v3/albero.jpg" width="270" height="270">                       <br><br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_RAVE_TISIN_v3" loop>                      <source src="dati/GU_RAVE_TISIN_v3/ZOOM0028.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_df84bb29483242f388a1bc4278f546af.setContent(html_853f892c710b4f48aa9954f125054054);
+
+
+        marker_288c50bf02e14c4f9d868ad7022b999f.bindPopup(popup_df84bb29483242f388a1bc4278f546af)
+marker_288c50bf02e14c4f9d868ad7022b999f.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_RAVE_TISIN_v3').play();});
+        ;
+
+
+
+
+            var marker_9674bbf1e1f644b3ab36ffd876671709 = L.marker(
+                [45.34300948, 8.862928168],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_aa6742bfde874737aba9b1f7fb02653d = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/bird_1f426.png "});
+        marker_9674bbf1e1f644b3ab36ffd876671709.setIcon(custom_icon_aa6742bfde874737aba9b1f7fb02653d);
+
+
+        var popup_a416608e7813401282dd7eec88b99138 = L.popup({"maxWidth": "270"});
+
+
+            var html_3b83671063ad42cca619f4307a9d37c4 = $(`<div id="html_3b83671063ad42cca619f4307a9d37c4" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Birds of Rocca Petrella</b></h1>                      <img src="dati/GU_ROCCA_PETRELLA/rocca_petrella.jpeg" width="270" height="270">                       <br><br>                               Qua si sente bene<br /><br />Avrei voluto scendere ma non era possibile a causa di una stramaledetta proprietà privata<br /><br />Tantè                      <br><br>                       <i>Guido                                         <audio id="audio_GU_ROCCA_PETRELLA" loop>                      <source src="dati/GU_ROCCA_PETRELLA/ZOOM0033.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_a416608e7813401282dd7eec88b99138.setContent(html_3b83671063ad42cca619f4307a9d37c4);
+
+
+        marker_9674bbf1e1f644b3ab36ffd876671709.bindPopup(popup_a416608e7813401282dd7eec88b99138)
+marker_9674bbf1e1f644b3ab36ffd876671709.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_ROCCA_PETRELLA').play();});
+        ;
+
+
+
+
+            var marker_0e6243c321f440fab9c3ba60a0cebaa9 = L.marker(
+                [45.33842032, 8.87050925],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_b44b9957a68a4298bb57c120a96b915c = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/309/person-biking_1f6b4.png "});
+        marker_0e6243c321f440fab9c3ba60a0cebaa9.setIcon(custom_icon_b44b9957a68a4298bb57c120a96b915c);
+
+
+        var popup_98d6ded84a614209bd5494299306cedb = L.popup({"maxWidth": "270"});
+
+
+            var html_333cc63af845416685edc3a61bf67727 = $(`<div id="html_333cc63af845416685edc3a61bf67727" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>UFO e ciclismo</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_CENTRALE_ENEL_v2" loop>                      <source src="dati/GU_CENTRALE_ENEL_v2/ZOOM0037.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_98d6ded84a614209bd5494299306cedb.setContent(html_333cc63af845416685edc3a61bf67727);
+
+
+        marker_0e6243c321f440fab9c3ba60a0cebaa9.bindPopup(popup_98d6ded84a614209bd5494299306cedb)
+marker_0e6243c321f440fab9c3ba60a0cebaa9.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_CENTRALE_ENEL_v2').play();});
+        ;
+
+
+
+
+            var marker_cf535392c2dd44919338a12a7b429486 = L.marker(
+                [45.34069404, 8.878451395],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_ad65be80c2924d2cb1c5f9bfccebdece = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_cf535392c2dd44919338a12a7b429486.setIcon(custom_icon_ad65be80c2924d2cb1c5f9bfccebdece);
+
+
+        var popup_3641859389c64524a135a60051e237e8 = L.popup({"maxWidth": "270"});
+
+
+            var html_69b52019d65b4b0e81144f7fed67ee96 = $(`<div id="html_69b52019d65b4b0e81144f7fed67ee96" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Fiume azzurro</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_TICINO_v3" loop>                      <source src="dati/GU_TICINO_v3/ZOOM0026.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_3641859389c64524a135a60051e237e8.setContent(html_69b52019d65b4b0e81144f7fed67ee96);
+
+
+        marker_cf535392c2dd44919338a12a7b429486.bindPopup(popup_3641859389c64524a135a60051e237e8)
+marker_cf535392c2dd44919338a12a7b429486.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_TICINO_v3').play();});
+        ;
+
+
+
+
+            var marker_4363ab94f0124f788d900f56d7ed6a0b = L.marker(
+                [45.33987551, 8.88500919],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_ef71e0a676a0463c80bec9fba108f26f = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/153/swan_1f9a2.png "});
+        marker_4363ab94f0124f788d900f56d7ed6a0b.setIcon(custom_icon_ef71e0a676a0463c80bec9fba108f26f);
+
+
+        var popup_6c234b6bb72c45b3a780795cd4132f05 = L.popup({"maxWidth": "270"});
+
+
+            var html_636a3bbb379e4f349e5f3832bac6100b = $(`<div id="html_636a3bbb379e4f349e5f3832bac6100b" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Cigni fx</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_TICINO_v4" loop>                      <source src="dati/GU_TICINO_v4/ZOOM0027.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_6c234b6bb72c45b3a780795cd4132f05.setContent(html_636a3bbb379e4f349e5f3832bac6100b);
+
+
+        marker_4363ab94f0124f788d900f56d7ed6a0b.bindPopup(popup_6c234b6bb72c45b3a780795cd4132f05)
+marker_4363ab94f0124f788d900f56d7ed6a0b.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_TICINO_v4').play();});
+        ;
+
+
+
+
+            var marker_34009d1b622045f7ac93140191db5282 = L.marker(
+                [45.33114616, 8.861188604],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_9c5eef5853d84784bbc9315d14892975 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/pistol_1f52b.png "});
+        marker_34009d1b622045f7ac93140191db5282.setIcon(custom_icon_9c5eef5853d84784bbc9315d14892975);
+
+
+        var popup_36f6249b08874d5ab91e193f36529b69 = L.popup({"maxWidth": "270"});
+
+
+            var html_a852ad3051a742cbbd8f292605d211ce = $(`<div id="html_a852ad3051a742cbbd8f292605d211ce" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>What are you doing here? Get the F out!!!</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_POLIGONO" loop>                      <source src="dati/GU_POLIGONO/ZOOM0031.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_36f6249b08874d5ab91e193f36529b69.setContent(html_a852ad3051a742cbbd8f292605d211ce);
+
+
+        marker_34009d1b622045f7ac93140191db5282.bindPopup(popup_36f6249b08874d5ab91e193f36529b69)
+marker_34009d1b622045f7ac93140191db5282.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_POLIGONO').play();});
+        ;
+
+
+
+
+            var marker_5e062150fc9242ddb6ea497719413332 = L.marker(
+                [45.33321272, 8.860613964],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_7fb9d95aa6f44984a2077f1533e4c83b = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/bell_1f514.png "});
+        marker_5e062150fc9242ddb6ea497719413332.setIcon(custom_icon_7fb9d95aa6f44984a2077f1533e4c83b);
+
+
+        var popup_f9b201741a9245fab81355be91150350 = L.popup({"maxWidth": "270"});
+
+
+            var html_c640a2bd210145fe99f733122a803271 = $(`<div id="html_c640a2bd210145fe99f733122a803271" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Campane</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_STRADA_MORABASSA" loop>                      <source src="dati/GU_STRADA_MORABASSA/ZOOM0032.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_f9b201741a9245fab81355be91150350.setContent(html_c640a2bd210145fe99f733122a803271);
+
+
+        marker_5e062150fc9242ddb6ea497719413332.bindPopup(popup_f9b201741a9245fab81355be91150350)
+marker_5e062150fc9242ddb6ea497719413332.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_STRADA_MORABASSA').play();});
+        ;
+
+
+
+
+            var marker_5534cba86f2144738b10581d3181c4d9 = L.marker(
+                [45.3200354, 8.855686002],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_cd56dab204464341a10ed5980b93e9cb = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/automobile_1f697.png "});
+        marker_5534cba86f2144738b10581d3181c4d9.setIcon(custom_icon_cd56dab204464341a10ed5980b93e9cb);
+
+
+        var popup_240e53430233458796788b391b4a7297 = L.popup({"maxWidth": "270"});
+
+
+            var html_b31a9d66126e4accaa864b71cafde589 = $(`<div id="html_b31a9d66126e4accaa864b71cafde589" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Pavè</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Guido                                         <audio id="audio_GU_MADONNA_7_DOLORI" loop>                      <source src="dati/GU_MADONNA_7_DOLORI/ZOOM0023.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_240e53430233458796788b391b4a7297.setContent(html_b31a9d66126e4accaa864b71cafde589);
+
+
+        marker_5534cba86f2144738b10581d3181c4d9.bindPopup(popup_240e53430233458796788b391b4a7297)
+marker_5534cba86f2144738b10581d3181c4d9.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_MADONNA_7_DOLORI').play();});
+        ;
+
+
+
+
+            var marker_45f7aaadc8164eb3973acafc837d6d94 = L.marker(
+                [45.316389, 8.856819],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_31be201ddcf44d5188d7c7c66c79111e = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/speaking-head-in-silhouette_1f5e3.png "});
+        marker_45f7aaadc8164eb3973acafc837d6d94.setIcon(custom_icon_31be201ddcf44d5188d7c7c66c79111e);
+
+
+        var popup_2223c5a1b25744de870c7f5a7ae51696 = L.popup({"maxWidth": "270"});
+
+
+            var html_285d0a9da83243bfae996da4cc0e2c48 = $(`<div id="html_285d0a9da83243bfae996da4cc0e2c48" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Castello alle 18</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Andrea                                         <audio id="audio_AN_CASTELLO_ORE_18" loop>                      <source src="dati/AN_CASTELLO_ORE_18/castello ore 18.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_2223c5a1b25744de870c7f5a7ae51696.setContent(html_285d0a9da83243bfae996da4cc0e2c48);
+
+
+        marker_45f7aaadc8164eb3973acafc837d6d94.bindPopup(popup_2223c5a1b25744de870c7f5a7ae51696)
+marker_45f7aaadc8164eb3973acafc837d6d94.on('click', function (e) {this.openPopup(); document.getElementById('audio_AN_CASTELLO_ORE_18').play();});
+        ;
+
+
+
+
+            var marker_6de918a5ea184767b18cc44a8a1b6d1b = L.marker(
+                [45.315783, 8.856105],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_c9eaed886fb3489ea58928e5b06fa7b2 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/speaking-head-in-silhouette_1f5e3.png "});
+        marker_6de918a5ea184767b18cc44a8a1b6d1b.setIcon(custom_icon_c9eaed886fb3489ea58928e5b06fa7b2);
+
+
+        var popup_16c0486c1d764a1a805e257dae0e91b8 = L.popup({"maxWidth": "270"});
+
+
+            var html_cbd2903e365840c7a41d4d5c419b4a9f = $(`<div id="html_cbd2903e365840c7a41d4d5c419b4a9f" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Portone</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Andrea                                         <audio id="audio_AN_PORTONE" loop>                      <source src="dati/AN_PORTONE/portone.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_16c0486c1d764a1a805e257dae0e91b8.setContent(html_cbd2903e365840c7a41d4d5c419b4a9f);
+
+
+        marker_6de918a5ea184767b18cc44a8a1b6d1b.bindPopup(popup_16c0486c1d764a1a805e257dae0e91b8)
+marker_6de918a5ea184767b18cc44a8a1b6d1b.on('click', function (e) {this.openPopup(); document.getElementById('audio_AN_PORTONE').play();});
+        ;
+
+
+
+
+            var marker_155dfae8acd44a3bbc115d0ce6be71c9 = L.marker(
+                [45.314307, 8.854067],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_c2f47dd57ee242fdbe60fb8d8655ba67 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_155dfae8acd44a3bbc115d0ce6be71c9.setIcon(custom_icon_c2f47dd57ee242fdbe60fb8d8655ba67);
+
+
+        var popup_1a77e22a1e9740e59687745f5d04e052 = L.popup({"maxWidth": "270"});
+
+
+            var html_f0b8436630124bf898947721d336908d = $(`<div id="html_f0b8436630124bf898947721d336908d" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Via Mulini</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Andrea                                         <audio id="audio_AN_VIA_MULINI" loop>                      <source src="dati/AN_VIA_MULINI/via mulini acqua.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_1a77e22a1e9740e59687745f5d04e052.setContent(html_f0b8436630124bf898947721d336908d);
+
+
+        marker_155dfae8acd44a3bbc115d0ce6be71c9.bindPopup(popup_1a77e22a1e9740e59687745f5d04e052)
+marker_155dfae8acd44a3bbc115d0ce6be71c9.on('click', function (e) {this.openPopup(); document.getElementById('audio_AN_VIA_MULINI').play();});
+        ;
+
+
+
+
+            var marker_a784f37db37c42d0a7e433409b40d7f3 = L.marker(
+                [45.314712, 8.850959],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_f3a35128672f433aa7a2583b76138e5f = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/automobile_1f697.png "});
+        marker_a784f37db37c42d0a7e433409b40d7f3.setIcon(custom_icon_f3a35128672f433aa7a2583b76138e5f);
+
+
+        var popup_ec8a9d48b01a40f0b91fdd42c60d98fc = L.popup({"maxWidth": "270"});
+
+
+            var html_4cdcc6f6e582461291eb227d7232d65d = $(`<div id="html_4cdcc6f6e582461291eb227d7232d65d" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Traffico di Corso Torino</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Alice                                         <audio id="audio_AL_CORSO_TORINO_TRAFFICO" loop>                      <source src="dati/AL_CORSO_TORINO_TRAFFICO/corso torino 9 traffico.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_ec8a9d48b01a40f0b91fdd42c60d98fc.setContent(html_4cdcc6f6e582461291eb227d7232d65d);
+
+
+        marker_a784f37db37c42d0a7e433409b40d7f3.bindPopup(popup_ec8a9d48b01a40f0b91fdd42c60d98fc)
+marker_a784f37db37c42d0a7e433409b40d7f3.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_CORSO_TORINO_TRAFFICO').play();});
+        ;
+
+
+
+
+            var marker_eda733d52c6d42baa679ea9540f1efb1 = L.marker(
+                [45.314191, 8.854374],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_d45c173d5439415295901e4e28b35d90 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_eda733d52c6d42baa679ea9540f1efb1.setIcon(custom_icon_d45c173d5439415295901e4e28b35d90);
+
+
+        var popup_bb2051ca695e4b6ca8dff14c1f0c0ca1 = L.popup({"maxWidth": "270"});
+
+
+            var html_d2b9757e79654edd965bc053cdc95264 = $(`<div id="html_d2b9757e79654edd965bc053cdc95264" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Il mulino di Via Mulini</b></h1>                       <br>                               PLACEHOLDER                      <br><br>                       <i>Alice                                         <audio id="audio_AL_VIA_MULINI_MULINO" loop>                      <source src="dati/AL_VIA_MULINI_MULINO/mulino via mulini.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_bb2051ca695e4b6ca8dff14c1f0c0ca1.setContent(html_d2b9757e79654edd965bc053cdc95264);
+
+
+        marker_eda733d52c6d42baa679ea9540f1efb1.bindPopup(popup_bb2051ca695e4b6ca8dff14c1f0c0ca1)
+marker_eda733d52c6d42baa679ea9540f1efb1.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_VIA_MULINI_MULINO').play();});
+        ;
+
+
+
+
+            var marker_f0c11d4d6e124fd1b76cc8c0a2bfe0f6 = L.marker(
+                [45.316204, 8.864677],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_25bef4eafcfa42c68f27fcef3fdfff48 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/station_1f689.png "});
+        marker_f0c11d4d6e124fd1b76cc8c0a2bfe0f6.setIcon(custom_icon_25bef4eafcfa42c68f27fcef3fdfff48);
+
+
+        var popup_aefac0b0373d477ebb0795a2f416a10d = L.popup({"maxWidth": "270"});
+
+
+            var html_fd18d53f26b0461e8efe45f73bf7525e = $(`<div id="html_fd18d53f26b0461e8efe45f73bf7525e" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Treno per Milano</b></h1>                       <br>                               Registrato con la "paura" del fraintendimento relativo ai recenti fatti di cronaca.                      <br><br>                       <i>Guido                                         <audio id="audio_GU_TRENO_FERRARI" loop>                      <source src="dati/GU_TRENO_FERRARI/ZOOM0023.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_aefac0b0373d477ebb0795a2f416a10d.setContent(html_fd18d53f26b0461e8efe45f73bf7525e);
+
+
+        marker_f0c11d4d6e124fd1b76cc8c0a2bfe0f6.bindPopup(popup_aefac0b0373d477ebb0795a2f416a10d)
+marker_f0c11d4d6e124fd1b76cc8c0a2bfe0f6.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_TRENO_FERRARI').play();});
+        ;
+
+
+
+
+            var marker_42b74b3544a748359efdc4dc935915f0 = L.marker(
+                [45.311018, 8.860711],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_d84ac291c1e64ebda0ac2ff090959394 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/station_1f689.png "});
+        marker_42b74b3544a748359efdc4dc935915f0.setIcon(custom_icon_d84ac291c1e64ebda0ac2ff090959394);
+
+
+        var popup_1655d190835c4b2a8b5f97686c1cb994 = L.popup({"maxWidth": "270"});
+
+
+            var html_95e993eace35413ea487444cfee4d1f1 = $(`<div id="html_95e993eace35413ea487444cfee4d1f1" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Treno per Mortara</b></h1>                      <img src="dati/GU_TRENO_BERCLEDA/verso_mortara.jpeg" width="270" height="270">                       <br><br>                               Sono genuinamente impressionato dal suono che fanno le sbarre quando si alzano e non credo avrei potuto aprezzarlo a un orario diverso.<br /><br />Good job "famosa società operante nel settore del trasporto ferroviario della regione che inizia con la L e non è Liguria".                      <br><br>                       <i>Guido                                         <audio id="audio_GU_TRENO_BERCLEDA" loop>                      <source src="dati/GU_TRENO_BERCLEDA/ZOOM0024.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_1655d190835c4b2a8b5f97686c1cb994.setContent(html_95e993eace35413ea487444cfee4d1f1);
+
+
+        marker_42b74b3544a748359efdc4dc935915f0.bindPopup(popup_1655d190835c4b2a8b5f97686c1cb994)
+marker_42b74b3544a748359efdc4dc935915f0.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_TRENO_BERCLEDA').play();});
+        ;
+
+
+
+
+            var marker_9306f6297fa04c879311581be77ffe37 = L.marker(
+                [45.319865, 8.910479],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_9a4fa44616084cecb3a1da4abb6e14ba = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/duck_1f986.png "});
+        marker_9306f6297fa04c879311581be77ffe37.setIcon(custom_icon_9a4fa44616084cecb3a1da4abb6e14ba);
+
+
+        var popup_1d4d8972db8f456c8768dffdd456d389 = L.popup({"maxWidth": "270"});
+
+
+            var html_09ad885231964eb7b2826118b5a4f6d5 = $(`<div id="html_09ad885231964eb7b2826118b5a4f6d5" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Papere</b></h1>                      <img src="dati/AL_AYALA/IMG_20181206_140933_617.jpg" width="270" height="270">                       <br><br>                               PLACEHOLDER<br />                      <br><br>                       <i>Alice                                         <audio id="audio_AL_AYALA" loop>                      <source src="dati/AL_AYALA/Copia di ayala-papere.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_1d4d8972db8f456c8768dffdd456d389.setContent(html_09ad885231964eb7b2826118b5a4f6d5);
+
+
+        marker_9306f6297fa04c879311581be77ffe37.bindPopup(popup_1d4d8972db8f456c8768dffdd456d389)
+marker_9306f6297fa04c879311581be77ffe37.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_AYALA').play();});
+        ;
+
+
+
+
+            var marker_26e17bd9190446b78b94afee48ec0a4f = L.marker(
+                [45.319209, 8.911778],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_4d0ca001feb3470da17b109467aa6867 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/bird_1f426.png "});
+        marker_26e17bd9190446b78b94afee48ec0a4f.setIcon(custom_icon_4d0ca001feb3470da17b109467aa6867);
+
+
+        var popup_dc39f596db9d4eb1aea7f0c55866cd57 = L.popup({"maxWidth": "270"});
+
+
+            var html_212303f5f083465b9a8f83d6e4d99343 = $(`<div id="html_212303f5f083465b9a8f83d6e4d99343" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Gallinelle</b></h1>                       <br>                               PLACEHOLDER<br />                      <br><br>                       <i>Alice                                         <audio id="audio_AL_AYALA 2" loop>                      <source src="dati/AL_AYALA 2/Copia di gallinelle-ayala.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_dc39f596db9d4eb1aea7f0c55866cd57.setContent(html_212303f5f083465b9a8f83d6e4d99343);
+
+
+        marker_26e17bd9190446b78b94afee48ec0a4f.bindPopup(popup_dc39f596db9d4eb1aea7f0c55866cd57)
+marker_26e17bd9190446b78b94afee48ec0a4f.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_AYALA 2').play();});
+        ;
+
+
+
+
+            var marker_6ed996d5fb62413188d072f56c2dc6de = L.marker(
+                [45.320629, 8.909743],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_b9affc06085e4f5ab206f5f11547c03d = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/older-man_emoji-modifier-fitzpatrick-type-1-2_1f474-1f3fb_1f3fb.png "});
+        marker_6ed996d5fb62413188d072f56c2dc6de.setIcon(custom_icon_b9affc06085e4f5ab206f5f11547c03d);
+
+
+        var popup_2477a286131a4fb5812c9a5e37e003b5 = L.popup({"maxWidth": "270"});
+
+
+            var html_fdc2f11a5a8c4e00b7b2c3a210a46401 = $(`<div id="html_fdc2f11a5a8c4e00b7b2c3a210a46401" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Anziani</b></h1>                       <br>                               PLACEHOLDER<br />                      <br><br>                       <i>Alice                                         <audio id="audio_AL_AYALA 3" loop>                      <source src="dati/AL_AYALA 3/Copia di ayala vecchi che parlano.wav" type="audio/wav">                      </audio>                      </div>`)[0];
+            popup_2477a286131a4fb5812c9a5e37e003b5.setContent(html_fdc2f11a5a8c4e00b7b2c3a210a46401);
+
+
+        marker_6ed996d5fb62413188d072f56c2dc6de.bindPopup(popup_2477a286131a4fb5812c9a5e37e003b5)
+marker_6ed996d5fb62413188d072f56c2dc6de.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_AYALA 3').play();});
+        ;
+
+
+
+
+            var marker_292d83cbd9f24a738592979d78cbc283 = L.marker(
+                [45.288236, 8.904653],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_aaeb00c6fdd9409cb150f40c7c9dbc4f = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/fallen-leaf_1f342.png "});
+        marker_292d83cbd9f24a738592979d78cbc283.setIcon(custom_icon_aaeb00c6fdd9409cb150f40c7c9dbc4f);
+
+
+        var popup_01e41e7c82ae44418a9361aa5968a643 = L.popup({"maxWidth": "270"});
+
+
+            var html_6a8436dd7582460cb4040527315f8027 = $(`<div id="html_6a8436dd7582460cb4040527315f8027" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Marcite</b></h1>                      <img src="dati/AL_SFORZESCA MARCITE/IMG-20220208-WA0004.jpg" width="270" height="270">                       <br><br>                               PLACEHOLDER<br />                      <br><br>                       <i>Alice                                         <audio id="audio_AL_SFORZESCA MARCITE" loop>                      <source src="dati/AL_SFORZESCA MARCITE/Copia di marcite-sforzesca.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_01e41e7c82ae44418a9361aa5968a643.setContent(html_6a8436dd7582460cb4040527315f8027);
+
+
+        marker_292d83cbd9f24a738592979d78cbc283.bindPopup(popup_01e41e7c82ae44418a9361aa5968a643)
+marker_292d83cbd9f24a738592979d78cbc283.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_SFORZESCA MARCITE').play();});
+        ;
+
+
+
+
+            var marker_cf639036751343c198ee653c846ca447 = L.marker(
+                [45.316647, 8.857617],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_f2d9437f04cf4600bab723eec5c8d854 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/bell_1f514.png "});
+        marker_cf639036751343c198ee653c846ca447.setIcon(custom_icon_f2d9437f04cf4600bab723eec5c8d854);
+
+
+        var popup_cf849857ce184d1280b017a0eaa24d2e = L.popup({"maxWidth": "270"});
+
+
+            var html_01803a964ff54ce08dd7af84837318e0 = $(`<div id="html_01803a964ff54ce08dd7af84837318e0" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Campane</b></h1>                      <img src="dati/AL_CASTELLO CAMPANE/20220209_123650.jpg" width="270" height="270">                       <br><br>                               PLACEHOLDER<br />                      <br><br>                       <i>Alice                                         <audio id="audio_AL_CASTELLO CAMPANE" loop>                      <source src="dati/AL_CASTELLO CAMPANE/Copia di castello-campane.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_cf849857ce184d1280b017a0eaa24d2e.setContent(html_01803a964ff54ce08dd7af84837318e0);
+
+
+        marker_cf639036751343c198ee653c846ca447.bindPopup(popup_cf849857ce184d1280b017a0eaa24d2e)
+marker_cf639036751343c198ee653c846ca447.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_CASTELLO CAMPANE').play();});
+        ;
+
+
+
+
+            var marker_325656259d65480ea973566150d58061 = L.marker(
+                [45.315874, 8.858551],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_5a2bd1d308834d06b6e4b77dc5b2b14c = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/309/woman-walking_1f6b6-200d-2640-fe0f.png "});
+        marker_325656259d65480ea973566150d58061.setIcon(custom_icon_5a2bd1d308834d06b6e4b77dc5b2b14c);
+
+
+        var popup_1e3b80018cde48ca95aa00be1d5d6b1c = L.popup({"maxWidth": "270"});
+
+
+            var html_2e247b47a6134090a5384e9165e7d548 = $(`<div id="html_2e247b47a6134090a5384e9165e7d548" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Strada coperta</b></h1>                      <img src="dati/AL_STRADA COPERTA/strada coperta.jpg" width="270" height="270">                       <br><br>                               PLACEHOLDER<br />                      <br><br>                       <i>Alice                                         <audio id="audio_AL_STRADA COPERTA" loop>                      <source src="dati/AL_STRADA COPERTA/Copia di strada-coperta-sopra-portone.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_1e3b80018cde48ca95aa00be1d5d6b1c.setContent(html_2e247b47a6134090a5384e9165e7d548);
+
+
+        marker_325656259d65480ea973566150d58061.bindPopup(popup_1e3b80018cde48ca95aa00be1d5d6b1c)
+marker_325656259d65480ea973566150d58061.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_STRADA COPERTA').play();});
+        ;
+
+
+
+
+            var marker_710db1aa706f428085b9cae8221f9740 = L.marker(
+                [45.313771, 8.804277],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_cace6c8fbbfb4852ad4aa6b490cb2974 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_710db1aa706f428085b9cae8221f9740.setIcon(custom_icon_cace6c8fbbfb4852ad4aa6b490cb2974);
+
+
+        var popup_f92ad23b82d842acb4f3093e9154f14c = L.popup({"maxWidth": "270"});
+
+
+            var html_f4b1cd83c138407bb6f0132437b7fbe9 = $(`<div id="html_f4b1cd83c138407bb6f0132437b7fbe9" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Strada Vignazza</b></h1>                       <br>                               PLACEHOLDER<br />                      <br><br>                       <i>Alice                                         <audio id="audio_AL_STRADA VIGNAZZA PICCOLINI" loop>                      <source src="dati/AL_STRADA VIGNAZZA PICCOLINI/Copia di strada-vignazza-piccolini-su-terdoppio.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_f92ad23b82d842acb4f3093e9154f14c.setContent(html_f4b1cd83c138407bb6f0132437b7fbe9);
+
+
+        marker_710db1aa706f428085b9cae8221f9740.bindPopup(popup_f92ad23b82d842acb4f3093e9154f14c)
+marker_710db1aa706f428085b9cae8221f9740.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_STRADA VIGNAZZA PICCOLINI').play();});
+        ;
+
+
+
+
+            var marker_a0015a3442fe42a99c45c6b1ef018830 = L.marker(
+                [45.318815, 8.80616],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_5a1ad00627504f83b612a1dc26e85441 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_a0015a3442fe42a99c45c6b1ef018830.setIcon(custom_icon_5a1ad00627504f83b612a1dc26e85441);
+
+
+        var popup_cf790d1cfa7a48b890a631b48bdd4fad = L.popup({"maxWidth": "270"});
+
+
+            var html_b88c8610697545268e7ccfad15dd03b7 = $(`<div id="html_b88c8610697545268e7ccfad15dd03b7" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Piccolini</b></h1>                      <img src="dati/AL_TERDOPPIO PICCOLINI/IMG-20220208-WA0001.jpg" width="270" height="270">                       <br><br>                               PLACEHOLDER<br />                      <br><br>                       <i>Alice                                         <audio id="audio_AL_TERDOPPIO PICCOLINI" loop>                      <source src="dati/AL_TERDOPPIO PICCOLINI/Copia di st. terdoppio piccolini.wav" type="audio/wav">                      </audio>                      </div>`)[0];
+            popup_cf790d1cfa7a48b890a631b48bdd4fad.setContent(html_b88c8610697545268e7ccfad15dd03b7);
+
+
+        marker_a0015a3442fe42a99c45c6b1ef018830.bindPopup(popup_cf790d1cfa7a48b890a631b48bdd4fad)
+marker_a0015a3442fe42a99c45c6b1ef018830.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_TERDOPPIO PICCOLINI').play();});
+        ;
+
+
+
+
+            var marker_5000496a66be40ec8920c8ed2607d299 = L.marker(
+                [45.310196, 8.812298],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_3c96222a36664b739fd5e5df5c798daf = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/fallen-leaf_1f342.png "});
+        marker_5000496a66be40ec8920c8ed2607d299.setIcon(custom_icon_3c96222a36664b739fd5e5df5c798daf);
+
+
+        var popup_d3fb2edcf7d645f5983498a02c0df4ee = L.popup({"maxWidth": "270"});
+
+
+            var html_20a2a23e5ad84e868900983a44096e5a = $(`<div id="html_20a2a23e5ad84e868900983a44096e5a" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Via Castellana</b></h1>                       <br>                               PLACEHOLDER<br />                      <br><br>                       <i>Alice                                         <audio id="audio_AL_VIA CASTELLANA" loop>                      <source src="dati/AL_VIA CASTELLANA/Copia di via-castellana-piccolini.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_d3fb2edcf7d645f5983498a02c0df4ee.setContent(html_20a2a23e5ad84e868900983a44096e5a);
+
+
+        marker_5000496a66be40ec8920c8ed2607d299.bindPopup(popup_d3fb2edcf7d645f5983498a02c0df4ee)
+marker_5000496a66be40ec8920c8ed2607d299.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_VIA CASTELLANA').play();});
+        ;
+
+
+
+
+            var marker_200ecfd6123c47389beff9efa3f5a1ea = L.marker(
+                [45.18104, 8.5603],
+                {}
+            ).addTo(map_db7183816684461fad6ee369e9d9288e);
+
+
+        var custom_icon_724684f648d544a19d28445856fac679 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/153/swan_1f9a2.png "});
+        marker_200ecfd6123c47389beff9efa3f5a1ea.setIcon(custom_icon_724684f648d544a19d28445856fac679);
+
+
+        var popup_901760060b1240978806791997514623 = L.popup({"maxWidth": "270"});
+
+
+            var html_df8fda5763c140f8b491af234d1ab60f = $(`<div id="html_df8fda5763c140f8b491af234d1ab60f" style="width: 100.0%; height: 100.0%;">                      <h1 style = "font-size: 30px;"><b>Lapide Boselli</b></h1>                       <br>                               PLACEHOLDER<br />                      <br><br>                       <i>Alice                                         <audio id="audio_AL_LAPIDE BOSELLI" loop>                      <source src="dati/AL_LAPIDE BOSELLI/Copia di volo-cigni-lapide-boselli.mp3" type="audio/mpeg">                      </audio>                      </div>`)[0];
+            popup_901760060b1240978806791997514623.setContent(html_df8fda5763c140f8b491af234d1ab60f);
+
+
+        marker_200ecfd6123c47389beff9efa3f5a1ea.bindPopup(popup_901760060b1240978806791997514623)
+marker_200ecfd6123c47389beff9efa3f5a1ea.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_LAPIDE BOSELLI').play();});
+        ;
+
+
+
+</script>
