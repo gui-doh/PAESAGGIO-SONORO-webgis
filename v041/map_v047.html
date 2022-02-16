@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_04fe23892ba645af8a55aabc97b99979 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+
+</head>
+<body>
+
+            <div class="folium-map" id="map_04fe23892ba645af8a55aabc97b99979" ></div>
+
+</body>
+<script>
+
+            var map_04fe23892ba645af8a55aabc97b99979 = L.map(
+                "map_04fe23892ba645af8a55aabc97b99979",
+                {
+                    center: [45.317245, 8.858102],
+                    crs: L.CRS.EPSG3857,
+                    maxBounds: [[45.151245, 8.692102], [45.483245, 9.024102000000001]],
+                    zoom: 12,
+                    zoomControl: false,
+                    preferCanvas: false,
+                }
+            );
+
+
+
+
+
+            var tile_layer_1e1a5044d0fd411d8a4661c237d6cdef = L.tileLayer(
+                "https://tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=3dc24c77246845e5b1c941baf227ba56",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.thunderforest.com/\"\u003eThunderforest\u003c/a\u003e, \u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 12, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+            var marker_ac3e27557dd04e73865c5b24b69fff54 = L.marker(
+                [45.3230625, 8.850245651],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_7f61e09f162e430697ac3293b693d884 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/motor-scooter_1f6f5.png "});
+        marker_ac3e27557dd04e73865c5b24b69fff54.setIcon(custom_icon_7f61e09f162e430697ac3293b693d884);
+
+
+        var popup_bb4b1d09b5674b488d803a9b59b1593f = L.popup({"maxWidth": "270"});
+
+
+            var html_f5eb107617314c8b8480eea929315f24 = $(`<div id="html_f5eb107617314c8b8480eea929315f24" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Pizzeria</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_VIALE_MONTEGRAPPA_PIZZERIA" loop> <source src="dati/GU_VIALE_MONTEGRAPPA_PIZZERIA/pizzeria.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_bb4b1d09b5674b488d803a9b59b1593f.setContent(html_f5eb107617314c8b8480eea929315f24);
+
+
+        marker_ac3e27557dd04e73865c5b24b69fff54.bindPopup(popup_bb4b1d09b5674b488d803a9b59b1593f)
+marker_ac3e27557dd04e73865c5b24b69fff54.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_VIALE_MONTEGRAPPA_PIZZERIA').play();});
+        ;
+
+
+
+
+            var marker_47a21343ef504649a48a882e762185fc = L.marker(
+                [45.31211904, 8.860001045],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_490420ca909e4d53b3c4186abf471654 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_47a21343ef504649a48a882e762185fc.setIcon(custom_icon_490420ca909e4d53b3c4186abf471654);
+
+
+        var popup_aaeb1fb14e7c49828e6bfefaa6fcc116 = L.popup({"maxWidth": "270"});
+
+
+            var html_7a040ffe9ccf4a5fa469a5021aa3cf73 = $(`<div id="html_7a040ffe9ccf4a5fa469a5021aa3cf73" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Giacchetta Canale</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_GIACCHETTA_CANALE" loop> <source src="dati/GU_GIACCHETTA_CANALE/ZOOM0027.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_aaeb1fb14e7c49828e6bfefaa6fcc116.setContent(html_7a040ffe9ccf4a5fa469a5021aa3cf73);
+
+
+        marker_47a21343ef504649a48a882e762185fc.bindPopup(popup_aaeb1fb14e7c49828e6bfefaa6fcc116)
+marker_47a21343ef504649a48a882e762185fc.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_GIACCHETTA_CANALE').play();});
+        ;
+
+
+
+
+            var marker_7a95b035bb7f45dda17fc73578fdf26c = L.marker(
+                [45.3064081, 8.866924562],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_5a4285a0139f4ad59c49dc57b7f63976 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/umbrella-with-rain-drops_2614.png "});
+        marker_7a95b035bb7f45dda17fc73578fdf26c.setIcon(custom_icon_5a4285a0139f4ad59c49dc57b7f63976);
+
+
+        var popup_cf24bc7b692d40169a7942bdfa04ced8 = L.popup({"maxWidth": "270"});
+
+
+            var html_58569f498b5c49f0b0d2bc3d49a56943 = $(`<div id="html_58569f498b5c49f0b0d2bc3d49a56943" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Via de chirico Canale Pioggia</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_VIA_DE_CHIRICO_CANALE_v2" loop> <source src="dati/GU_VIA_DE_CHIRICO_CANALE_v2/ZOOM0029.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_cf24bc7b692d40169a7942bdfa04ced8.setContent(html_58569f498b5c49f0b0d2bc3d49a56943);
+
+
+        marker_7a95b035bb7f45dda17fc73578fdf26c.bindPopup(popup_cf24bc7b692d40169a7942bdfa04ced8)
+marker_7a95b035bb7f45dda17fc73578fdf26c.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_VIA_DE_CHIRICO_CANALE_v2').play();});
+        ;
+
+
+
+
+            var marker_350b401dfa3647d3becb7740ad998669 = L.marker(
+                [45.30644102, 8.889899845],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_3681573106374d9bad6582d80c4935cb = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/fallen-leaf_1f342.png "});
+        marker_350b401dfa3647d3becb7740ad998669.setIcon(custom_icon_3681573106374d9bad6582d80c4935cb);
+
+
+        var popup_71b894b2d84a48d0922cba6c000033f3 = L.popup({"maxWidth": "270"});
+
+
+            var html_37911d02c3ae48fab19ef43ca80c0acb = $(`<div id="html_37911d02c3ae48fab19ef43ca80c0acb" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Strada per laghi di santa marta</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_AGRITURISMO_COLDIRETTI" loop> <source src="dati/GU_AGRITURISMO_COLDIRETTI/ZOOM0025.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_71b894b2d84a48d0922cba6c000033f3.setContent(html_37911d02c3ae48fab19ef43ca80c0acb);
+
+
+        marker_350b401dfa3647d3becb7740ad998669.bindPopup(popup_71b894b2d84a48d0922cba6c000033f3)
+marker_350b401dfa3647d3becb7740ad998669.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_AGRITURISMO_COLDIRETTI').play();});
+        ;
+
+
+
+
+            var marker_7c4218dfd5064cdabf8c8e80c262ed4c = L.marker(
+                [45.29917137, 8.905742693],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_80e03345591d42afb305821b8db042d1 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/bird_1f426.png "});
+        marker_7c4218dfd5064cdabf8c8e80c262ed4c.setIcon(custom_icon_80e03345591d42afb305821b8db042d1);
+
+
+        var popup_38b4400c6562426380ef431547e27802 = L.popup({"maxWidth": "270"});
+
+
+            var html_d370968840634159b6495d7c46b34d95 = $(`<div id="html_d370968840634159b6495d7c46b34d95" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Laghetto dei piccoli</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_LAGHETTO_DEI_PICCOLI" loop> <source src="dati/GU_LAGHETTO_DEI_PICCOLI/ZOOM0033.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_38b4400c6562426380ef431547e27802.setContent(html_d370968840634159b6495d7c46b34d95);
+
+
+        marker_7c4218dfd5064cdabf8c8e80c262ed4c.bindPopup(popup_38b4400c6562426380ef431547e27802)
+marker_7c4218dfd5064cdabf8c8e80c262ed4c.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_LAGHETTO_DEI_PICCOLI').play();});
+        ;
+
+
+
+
+            var marker_f945a5ed16864240a7a0a4798f3f54aa = L.marker(
+                [45.31246512, 8.883821165],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_58a1828c8b69411ea7bbfef65380d047 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/cat_1f408.png "});
+        marker_f945a5ed16864240a7a0a4798f3f54aa.setIcon(custom_icon_58a1828c8b69411ea7bbfef65380d047);
+
+
+        var popup_8305e8542bcf4e32ae2208211b1a4d5c = L.popup({"maxWidth": "270"});
+
+
+            var html_ed7f2b1417454e04a7b33cc98a2db856 = $(`<div id="html_ed7f2b1417454e04a7b33cc98a2db856" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Miciopolis</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_MICIOPOLIS" loop> <source src="dati/GU_MICIOPOLIS/ZOOM0022.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_8305e8542bcf4e32ae2208211b1a4d5c.setContent(html_ed7f2b1417454e04a7b33cc98a2db856);
+
+
+        marker_f945a5ed16864240a7a0a4798f3f54aa.bindPopup(popup_8305e8542bcf4e32ae2208211b1a4d5c)
+marker_f945a5ed16864240a7a0a4798f3f54aa.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_MICIOPOLIS').play();});
+        ;
+
+
+
+
+            var marker_f36e590561694e40b7813ca82fda423f = L.marker(
+                [45.30433837, 8.883231356],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_0ff58ed211244a02b1d76c32d20d6d4e = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_f36e590561694e40b7813ca82fda423f.setIcon(custom_icon_0ff58ed211244a02b1d76c32d20d6d4e);
+
+
+        var popup_e16573b0d4bb4c39b613ed8b53de1692 = L.popup({"maxWidth": "270"});
+
+
+            var html_ae67aecfafe64177a186ba42178d5f64 = $(`<div id="html_ae67aecfafe64177a186ba42178d5f64" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Strada per la Sforzesca</b></h1><img src="dati/GU_STRADA_REBUFFI/canale_square.jpeg" width="270" height="270"><br><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_STRADA_REBUFFI" loop> <source src="dati/GU_STRADA_REBUFFI/ZOOM0024.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_e16573b0d4bb4c39b613ed8b53de1692.setContent(html_ae67aecfafe64177a186ba42178d5f64);
+
+
+        marker_f36e590561694e40b7813ca82fda423f.bindPopup(popup_e16573b0d4bb4c39b613ed8b53de1692)
+marker_f36e590561694e40b7813ca82fda423f.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_STRADA_REBUFFI').play();});
+        ;
+
+
+
+
+            var marker_7e1be12ff8424a278ea6d14183a0a5eb = L.marker(
+                [45.29236968, 8.884778005],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_daae1b3016e2401f85cfd886c1622c8f = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/fog_1f32b.png "});
+        marker_7e1be12ff8424a278ea6d14183a0a5eb.setIcon(custom_icon_daae1b3016e2401f85cfd886c1622c8f);
+
+
+        var popup_f96d00636c984880866f1f8738ead844 = L.popup({"maxWidth": "270"});
+
+
+            var html_5feb641283854ace882d2e1ed05d28bf = $(`<div id="html_5feb641283854ace882d2e1ed05d28bf" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Cimitero musicale</b></h1><img src="dati/GU_STRADA_REBUFFI_v3/cimitero_square.jpeg" width="270" height="270"><br><br>Mi ringrazia. Provo a suonare live sotto il suo suggerimento insieme ad altri amici.<br />Non sapendo suonare mi concentro timidamente sul Re. Rinuncio e chiudo il piano.<br />Il sottofondo è musica ambient e sono attorniato dal mio datore di lavoro.<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_STRADA_REBUFFI_v3" loop> <source src="dati/GU_STRADA_REBUFFI_v3/ZOOM0028.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_f96d00636c984880866f1f8738ead844.setContent(html_5feb641283854ace882d2e1ed05d28bf);
+
+
+        marker_7e1be12ff8424a278ea6d14183a0a5eb.bindPopup(popup_f96d00636c984880866f1f8738ead844)
+marker_7e1be12ff8424a278ea6d14183a0a5eb.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_STRADA_REBUFFI_v3').play();});
+        ;
+
+
+
+
+            var marker_9c11063c8f1b4e7693f91e94135c28ab = L.marker(
+                [45.34084406, 8.867725439],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_b0f5b7354a4a457cbc8654be72ddbc3b = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/speaker-with-three-sound-waves_1f50a.png "});
+        marker_9c11063c8f1b4e7693f91e94135c28ab.setIcon(custom_icon_b0f5b7354a4a457cbc8654be72ddbc3b);
+
+
+        var popup_229686fdd3bf4a92a96fcd2980e1d4a9 = L.popup({"maxWidth": "270"});
+
+
+            var html_42eb69c189b641baace59a0329a8d706 = $(`<div id="html_42eb69c189b641baace59a0329a8d706" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Rave a Ticino</b></h1><img src="dati/GU_RAVE_TISIN_v1/rave_square.jpeg" width="270" height="270"><br><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_RAVE_TISIN_v1" loop> <source src="dati/GU_RAVE_TISIN_v1/ZOOM0025.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_229686fdd3bf4a92a96fcd2980e1d4a9.setContent(html_42eb69c189b641baace59a0329a8d706);
+
+
+        marker_9c11063c8f1b4e7693f91e94135c28ab.bindPopup(popup_229686fdd3bf4a92a96fcd2980e1d4a9)
+marker_9c11063c8f1b4e7693f91e94135c28ab.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_RAVE_TISIN_v1').play();});
+        ;
+
+
+
+
+            var marker_38ad37418d064a3fa4713b45205d3c93 = L.marker(
+                [45.34220987, 8.865593442],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_5a4a529701f947bc86d86c5fac722565 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_38ad37418d064a3fa4713b45205d3c93.setIcon(custom_icon_5a4a529701f947bc86d86c5fac722565);
+
+
+        var popup_00e4ecd71d824862a8b2e022b2364b77 = L.popup({"maxWidth": "270"});
+
+
+            var html_81a278c14e184761a8ac1ca506cd7f98 = $(`<div id="html_81a278c14e184761a8ac1ca506cd7f98" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Acqua dolce e cassa dritta</b></h1><img src="dati/GU_RAVE_TISIN_v3/albero_square.jpg" width="270" height="270"><br><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_RAVE_TISIN_v3" loop> <source src="dati/GU_RAVE_TISIN_v3/ZOOM0028.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_00e4ecd71d824862a8b2e022b2364b77.setContent(html_81a278c14e184761a8ac1ca506cd7f98);
+
+
+        marker_38ad37418d064a3fa4713b45205d3c93.bindPopup(popup_00e4ecd71d824862a8b2e022b2364b77)
+marker_38ad37418d064a3fa4713b45205d3c93.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_RAVE_TISIN_v3').play();});
+        ;
+
+
+
+
+            var marker_40ff4d1893ab44039bc1df2ba2111200 = L.marker(
+                [45.34300948, 8.862928168],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_c0a5fdec71f2434db0aace1c60b045f5 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/bird_1f426.png "});
+        marker_40ff4d1893ab44039bc1df2ba2111200.setIcon(custom_icon_c0a5fdec71f2434db0aace1c60b045f5);
+
+
+        var popup_a7902786e05d496f9008380dfbbf247a = L.popup({"maxWidth": "270"});
+
+
+            var html_68e318f5e2f14387948035dac8e93d7e = $(`<div id="html_68e318f5e2f14387948035dac8e93d7e" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Birds of Rocca Petrella</b></h1><img src="dati/GU_ROCCA_PETRELLA/rocca_petrella_square.jpeg" width="270" height="270"><br><br>Qua si sente bene<br /><br />Avrei voluto scendere ma non era possibile a causa di una stramaledetta proprietà privata<br /><br />Tantè<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_ROCCA_PETRELLA" loop> <source src="dati/GU_ROCCA_PETRELLA/ZOOM0033.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_a7902786e05d496f9008380dfbbf247a.setContent(html_68e318f5e2f14387948035dac8e93d7e);
+
+
+        marker_40ff4d1893ab44039bc1df2ba2111200.bindPopup(popup_a7902786e05d496f9008380dfbbf247a)
+marker_40ff4d1893ab44039bc1df2ba2111200.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_ROCCA_PETRELLA').play();});
+        ;
+
+
+
+
+            var marker_10af034c7d364d178f0558f4988f7f33 = L.marker(
+                [45.33842032, 8.87050925],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_146ea39decd5421bb95f5075dd2c81fe = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/309/person-biking_1f6b4.png "});
+        marker_10af034c7d364d178f0558f4988f7f33.setIcon(custom_icon_146ea39decd5421bb95f5075dd2c81fe);
+
+
+        var popup_aae1a76ee94e4ef6bea18e86e480fe4f = L.popup({"maxWidth": "270"});
+
+
+            var html_7128c237227340ba9f36ad4d40d5364b = $(`<div id="html_7128c237227340ba9f36ad4d40d5364b" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>UFO e ciclismo</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_CENTRALE_ENEL_v2" loop> <source src="dati/GU_CENTRALE_ENEL_v2/ZOOM0037.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_aae1a76ee94e4ef6bea18e86e480fe4f.setContent(html_7128c237227340ba9f36ad4d40d5364b);
+
+
+        marker_10af034c7d364d178f0558f4988f7f33.bindPopup(popup_aae1a76ee94e4ef6bea18e86e480fe4f)
+marker_10af034c7d364d178f0558f4988f7f33.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_CENTRALE_ENEL_v2').play();});
+        ;
+
+
+
+
+            var marker_3dd853bdb15e4beeab204a7922332e21 = L.marker(
+                [45.34069404, 8.878451395],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_4b9d579d20e941e4ace5d3d2d4a5a738 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_3dd853bdb15e4beeab204a7922332e21.setIcon(custom_icon_4b9d579d20e941e4ace5d3d2d4a5a738);
+
+
+        var popup_2d31d1a3caec49d08aeb978c5b71f902 = L.popup({"maxWidth": "270"});
+
+
+            var html_11304f5a69a14433b0627050fe03952a = $(`<div id="html_11304f5a69a14433b0627050fe03952a" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Fiume azzurro</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_TICINO_v3" loop> <source src="dati/GU_TICINO_v3/ZOOM0026.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_2d31d1a3caec49d08aeb978c5b71f902.setContent(html_11304f5a69a14433b0627050fe03952a);
+
+
+        marker_3dd853bdb15e4beeab204a7922332e21.bindPopup(popup_2d31d1a3caec49d08aeb978c5b71f902)
+marker_3dd853bdb15e4beeab204a7922332e21.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_TICINO_v3').play();});
+        ;
+
+
+
+
+            var marker_d393f945f14b4f1a95c2c4b2ede79d71 = L.marker(
+                [45.33987551, 8.88500919],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_998665dca18a43699eecdf36eb06ccb3 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/153/swan_1f9a2.png "});
+        marker_d393f945f14b4f1a95c2c4b2ede79d71.setIcon(custom_icon_998665dca18a43699eecdf36eb06ccb3);
+
+
+        var popup_3c757e6523504608be7da09fb359b45d = L.popup({"maxWidth": "270"});
+
+
+            var html_7a9b87bc1aa0462793f4b455cc3dc4fd = $(`<div id="html_7a9b87bc1aa0462793f4b455cc3dc4fd" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Cigni fx</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_TICINO_v4" loop> <source src="dati/GU_TICINO_v4/ZOOM0027.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_3c757e6523504608be7da09fb359b45d.setContent(html_7a9b87bc1aa0462793f4b455cc3dc4fd);
+
+
+        marker_d393f945f14b4f1a95c2c4b2ede79d71.bindPopup(popup_3c757e6523504608be7da09fb359b45d)
+marker_d393f945f14b4f1a95c2c4b2ede79d71.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_TICINO_v4').play();});
+        ;
+
+
+
+
+            var marker_91566d563af74fff882c73891210c1e9 = L.marker(
+                [45.33114616, 8.861188604],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_a1034f12f87a493cb60934b664ba23b3 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/pistol_1f52b.png "});
+        marker_91566d563af74fff882c73891210c1e9.setIcon(custom_icon_a1034f12f87a493cb60934b664ba23b3);
+
+
+        var popup_7a99e6f4d11a43a7837adf1ba9770d91 = L.popup({"maxWidth": "270"});
+
+
+            var html_61706be495894c7ba2c48f475d51c77a = $(`<div id="html_61706be495894c7ba2c48f475d51c77a" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Cani e bang bang</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_POLIGONO" loop> <source src="dati/GU_POLIGONO/ZOOM0031.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_7a99e6f4d11a43a7837adf1ba9770d91.setContent(html_61706be495894c7ba2c48f475d51c77a);
+
+
+        marker_91566d563af74fff882c73891210c1e9.bindPopup(popup_7a99e6f4d11a43a7837adf1ba9770d91)
+marker_91566d563af74fff882c73891210c1e9.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_POLIGONO').play();});
+        ;
+
+
+
+
+            var marker_0be4a83ebaf44bcaaf380f75a2ab29d4 = L.marker(
+                [45.33321272, 8.860613964],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_c66a481b6bdd473d99dbe6db9163923c = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/bell_1f514.png "});
+        marker_0be4a83ebaf44bcaaf380f75a2ab29d4.setIcon(custom_icon_c66a481b6bdd473d99dbe6db9163923c);
+
+
+        var popup_eb21875d3e07431caef9f4cd4bc3069a = L.popup({"maxWidth": "270"});
+
+
+            var html_c106bfc3ef0742f9a21e230da20d8040 = $(`<div id="html_c106bfc3ef0742f9a21e230da20d8040" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Campane</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_STRADA_MORABASSA" loop> <source src="dati/GU_STRADA_MORABASSA/ZOOM0032.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_eb21875d3e07431caef9f4cd4bc3069a.setContent(html_c106bfc3ef0742f9a21e230da20d8040);
+
+
+        marker_0be4a83ebaf44bcaaf380f75a2ab29d4.bindPopup(popup_eb21875d3e07431caef9f4cd4bc3069a)
+marker_0be4a83ebaf44bcaaf380f75a2ab29d4.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_STRADA_MORABASSA').play();});
+        ;
+
+
+
+
+            var marker_a5da3e9ff3e24df4be07aa93e888cde0 = L.marker(
+                [45.3200354, 8.855686002],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_d3f00fdf6d044a63a6440fe487f0403a = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/automobile_1f697.png "});
+        marker_a5da3e9ff3e24df4be07aa93e888cde0.setIcon(custom_icon_d3f00fdf6d044a63a6440fe487f0403a);
+
+
+        var popup_3fcba9b0ce554534826bd14867fb1890 = L.popup({"maxWidth": "270"});
+
+
+            var html_654ec40c93b0491ba3a8dbc1e67f5326 = $(`<div id="html_654ec40c93b0491ba3a8dbc1e67f5326" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Pavè</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_MADONNA_7_DOLORI" loop> <source src="dati/GU_MADONNA_7_DOLORI/ZOOM0023.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_3fcba9b0ce554534826bd14867fb1890.setContent(html_654ec40c93b0491ba3a8dbc1e67f5326);
+
+
+        marker_a5da3e9ff3e24df4be07aa93e888cde0.bindPopup(popup_3fcba9b0ce554534826bd14867fb1890)
+marker_a5da3e9ff3e24df4be07aa93e888cde0.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_MADONNA_7_DOLORI').play();});
+        ;
+
+
+
+
+            var marker_85592983766048dfbe6479865f928e99 = L.marker(
+                [45.316389, 8.856819],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_b5a009ce20074f849c8c78268fc3c519 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/speaking-head-in-silhouette_1f5e3.png "});
+        marker_85592983766048dfbe6479865f928e99.setIcon(custom_icon_b5a009ce20074f849c8c78268fc3c519);
+
+
+        var popup_cba00609146d4aa88479cd9535df2537 = L.popup({"maxWidth": "270"});
+
+
+            var html_6c737fcdd5584c9ab4a0e04b4e6b6d70 = $(`<div id="html_6c737fcdd5584c9ab4a0e04b4e6b6d70" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Castello alle 18</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Andrea <audio id="audio_AN_CASTELLO_ORE_18" loop> <source src="dati/AN_CASTELLO_ORE_18/castello ore 18.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_cba00609146d4aa88479cd9535df2537.setContent(html_6c737fcdd5584c9ab4a0e04b4e6b6d70);
+
+
+        marker_85592983766048dfbe6479865f928e99.bindPopup(popup_cba00609146d4aa88479cd9535df2537)
+marker_85592983766048dfbe6479865f928e99.on('click', function (e) {this.openPopup(); document.getElementById('audio_AN_CASTELLO_ORE_18').play();});
+        ;
+
+
+
+
+            var marker_572d325c7e434484804a69150f6ac5db = L.marker(
+                [45.315783, 8.856105],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_51ade822dc16458cb31b478c295c29ae = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/speaking-head-in-silhouette_1f5e3.png "});
+        marker_572d325c7e434484804a69150f6ac5db.setIcon(custom_icon_51ade822dc16458cb31b478c295c29ae);
+
+
+        var popup_c1919b7ee4b74fa3b28824f678c91a6f = L.popup({"maxWidth": "270"});
+
+
+            var html_5a107cf424c249f09cb5c703acab68ad = $(`<div id="html_5a107cf424c249f09cb5c703acab68ad" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Portone</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Andrea <audio id="audio_AN_PORTONE" loop> <source src="dati/AN_PORTONE/portone.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_c1919b7ee4b74fa3b28824f678c91a6f.setContent(html_5a107cf424c249f09cb5c703acab68ad);
+
+
+        marker_572d325c7e434484804a69150f6ac5db.bindPopup(popup_c1919b7ee4b74fa3b28824f678c91a6f)
+marker_572d325c7e434484804a69150f6ac5db.on('click', function (e) {this.openPopup(); document.getElementById('audio_AN_PORTONE').play();});
+        ;
+
+
+
+
+            var marker_83561e0edff74403abb024bbd513e792 = L.marker(
+                [45.314307, 8.854067],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_7fb36c9f7e7c4babafc43f86dd18ae3c = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_83561e0edff74403abb024bbd513e792.setIcon(custom_icon_7fb36c9f7e7c4babafc43f86dd18ae3c);
+
+
+        var popup_5fbc713f81fe437d981cde4a05948b85 = L.popup({"maxWidth": "270"});
+
+
+            var html_b1a60ca158f947fc86f1a17af9490203 = $(`<div id="html_b1a60ca158f947fc86f1a17af9490203" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Via Mulini</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Andrea <audio id="audio_AN_VIA_MULINI" loop> <source src="dati/AN_VIA_MULINI/via mulini acqua.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_5fbc713f81fe437d981cde4a05948b85.setContent(html_b1a60ca158f947fc86f1a17af9490203);
+
+
+        marker_83561e0edff74403abb024bbd513e792.bindPopup(popup_5fbc713f81fe437d981cde4a05948b85)
+marker_83561e0edff74403abb024bbd513e792.on('click', function (e) {this.openPopup(); document.getElementById('audio_AN_VIA_MULINI').play();});
+        ;
+
+
+
+
+            var marker_116042a25cc34b01ac15cdae4d3b0f7d = L.marker(
+                [45.314712, 8.850959],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_0cbf44917966444cbbe74a80429ac4f6 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/automobile_1f697.png "});
+        marker_116042a25cc34b01ac15cdae4d3b0f7d.setIcon(custom_icon_0cbf44917966444cbbe74a80429ac4f6);
+
+
+        var popup_5b8912efcd074c33865454cbb7270ce8 = L.popup({"maxWidth": "270"});
+
+
+            var html_0a31b92dcabb4aa8a71b0c6fc85f9294 = $(`<div id="html_0a31b92dcabb4aa8a71b0c6fc85f9294" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Traffico di Corso Torino</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Alice <audio id="audio_AL_CORSO_TORINO_TRAFFICO" loop> <source src="dati/AL_CORSO_TORINO_TRAFFICO/corso torino 9 traffico.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_5b8912efcd074c33865454cbb7270ce8.setContent(html_0a31b92dcabb4aa8a71b0c6fc85f9294);
+
+
+        marker_116042a25cc34b01ac15cdae4d3b0f7d.bindPopup(popup_5b8912efcd074c33865454cbb7270ce8)
+marker_116042a25cc34b01ac15cdae4d3b0f7d.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_CORSO_TORINO_TRAFFICO').play();});
+        ;
+
+
+
+
+            var marker_11a434b7a1a04b1abb30a914b17c6404 = L.marker(
+                [45.314191, 8.854374],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_349b51ac90824480ba8f2b8fd784100f = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_11a434b7a1a04b1abb30a914b17c6404.setIcon(custom_icon_349b51ac90824480ba8f2b8fd784100f);
+
+
+        var popup_0ead1b90ffdb4d3690b1527230f6d199 = L.popup({"maxWidth": "270"});
+
+
+            var html_4d2157cb6945467094b5cfdee501914d = $(`<div id="html_4d2157cb6945467094b5cfdee501914d" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Il mulino di Via Mulini</b></h1><br>PLACEHOLDER<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Alice <audio id="audio_AL_VIA_MULINI_MULINO" loop> <source src="dati/AL_VIA_MULINI_MULINO/mulino via mulini.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_0ead1b90ffdb4d3690b1527230f6d199.setContent(html_4d2157cb6945467094b5cfdee501914d);
+
+
+        marker_11a434b7a1a04b1abb30a914b17c6404.bindPopup(popup_0ead1b90ffdb4d3690b1527230f6d199)
+marker_11a434b7a1a04b1abb30a914b17c6404.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_VIA_MULINI_MULINO').play();});
+        ;
+
+
+
+
+            var marker_1300c82d4a8f488daaa06a6fdbd1b0f7 = L.marker(
+                [45.319865, 8.910479],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_cef434a9ee2e47b88212fcda8c57ff2a = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/duck_1f986.png "});
+        marker_1300c82d4a8f488daaa06a6fdbd1b0f7.setIcon(custom_icon_cef434a9ee2e47b88212fcda8c57ff2a);
+
+
+        var popup_fcab149c941744cabf1ebb82a3333c50 = L.popup({"maxWidth": "270"});
+
+
+            var html_d75ced0d700243669045ae6d58c39c35 = $(`<div id="html_d75ced0d700243669045ae6d58c39c35" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Papere</b></h1><img src="dati/AL_AYALA/IMG_20181206_140933_617.jpg" width="270" height="270"><br><br>PLACEHOLDER<br /><br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Alice <audio id="audio_AL_AYALA" loop> <source src="dati/AL_AYALA/Copia di ayala-papere.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_fcab149c941744cabf1ebb82a3333c50.setContent(html_d75ced0d700243669045ae6d58c39c35);
+
+
+        marker_1300c82d4a8f488daaa06a6fdbd1b0f7.bindPopup(popup_fcab149c941744cabf1ebb82a3333c50)
+marker_1300c82d4a8f488daaa06a6fdbd1b0f7.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_AYALA').play();});
+        ;
+
+
+
+
+            var marker_e9836e6f19414853a7a9310b446b0e28 = L.marker(
+                [45.316204, 8.864677],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_055626615de04088a3f3937ebc14329c = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/station_1f689.png "});
+        marker_e9836e6f19414853a7a9310b446b0e28.setIcon(custom_icon_055626615de04088a3f3937ebc14329c);
+
+
+        var popup_965b8258a0224f6d89ce5654cab086ec = L.popup({"maxWidth": "270"});
+
+
+            var html_d28da17a3b5749198783f88b5cbde972 = $(`<div id="html_d28da17a3b5749198783f88b5cbde972" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Treno per Milano</b></h1><br>Registrato con la "paura" del fraintendimento relativo ai recenti fatti di cronaca.<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_TRENO_FERRARI" loop> <source src="dati/GU_TRENO_FERRARI/ZOOM0023.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_965b8258a0224f6d89ce5654cab086ec.setContent(html_d28da17a3b5749198783f88b5cbde972);
+
+
+        marker_e9836e6f19414853a7a9310b446b0e28.bindPopup(popup_965b8258a0224f6d89ce5654cab086ec)
+marker_e9836e6f19414853a7a9310b446b0e28.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_TRENO_FERRARI').play();});
+        ;
+
+
+
+
+            var marker_f762c4e9d4114e32a4aa4f9720e7bcfe = L.marker(
+                [45.319209, 8.911778],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_a543c7380efb4d03aa6a48647ee544c7 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/bird_1f426.png "});
+        marker_f762c4e9d4114e32a4aa4f9720e7bcfe.setIcon(custom_icon_a543c7380efb4d03aa6a48647ee544c7);
+
+
+        var popup_86260efc91fb43099a00fee8772820b8 = L.popup({"maxWidth": "270"});
+
+
+            var html_3fa1018595a34c14873cae0bd9bf9d04 = $(`<div id="html_3fa1018595a34c14873cae0bd9bf9d04" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Gallinelle</b></h1><br>PLACEHOLDER<br /><br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Alice <audio id="audio_AL_AYALA 2" loop> <source src="dati/AL_AYALA 2/Copia di gallinelle-ayala.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_86260efc91fb43099a00fee8772820b8.setContent(html_3fa1018595a34c14873cae0bd9bf9d04);
+
+
+        marker_f762c4e9d4114e32a4aa4f9720e7bcfe.bindPopup(popup_86260efc91fb43099a00fee8772820b8)
+marker_f762c4e9d4114e32a4aa4f9720e7bcfe.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_AYALA 2').play();});
+        ;
+
+
+
+
+            var marker_b553d676fcb9473f9a30388d3b6b4be8 = L.marker(
+                [45.311018, 8.860711],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_4b8b756022e8437ab2b062477dd0395a = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/station_1f689.png "});
+        marker_b553d676fcb9473f9a30388d3b6b4be8.setIcon(custom_icon_4b8b756022e8437ab2b062477dd0395a);
+
+
+        var popup_1fe62a1e4a8048c18ed959655acbcf71 = L.popup({"maxWidth": "270"});
+
+
+            var html_ffff9a66b1174eea979f81ab89fde1e4 = $(`<div id="html_ffff9a66b1174eea979f81ab89fde1e4" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Treno per Mortara</b></h1><img src="dati/GU_TRENO_BERCLEDA/verso_mortara_square.jpeg" width="270" height="270"><br><br>Sono genuinamente impressionato dal suono che fanno le sbarre quando si alzano e non credo avrei potuto aprezzarlo a un orario diverso.<br /><br />Good job "famosa società operante nel settore del trasporto ferroviario della regione che inizia con la L e non è Liguria".<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_TRENO_BERCLEDA" loop> <source src="dati/GU_TRENO_BERCLEDA/ZOOM0024.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_1fe62a1e4a8048c18ed959655acbcf71.setContent(html_ffff9a66b1174eea979f81ab89fde1e4);
+
+
+        marker_b553d676fcb9473f9a30388d3b6b4be8.bindPopup(popup_1fe62a1e4a8048c18ed959655acbcf71)
+marker_b553d676fcb9473f9a30388d3b6b4be8.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_TRENO_BERCLEDA').play();});
+        ;
+
+
+
+
+            var marker_3b0708c9a84345409bd29c8b177e9f54 = L.marker(
+                [45.320629, 8.909743],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_0e3fefb6d7ee474bb2524cf14bdf0dcc = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/older-man_emoji-modifier-fitzpatrick-type-1-2_1f474-1f3fb_1f3fb.png "});
+        marker_3b0708c9a84345409bd29c8b177e9f54.setIcon(custom_icon_0e3fefb6d7ee474bb2524cf14bdf0dcc);
+
+
+        var popup_2ad2721f9a9e4ee687e7a72ae695dcbc = L.popup({"maxWidth": "270"});
+
+
+            var html_e789429ab6514941bfafde7456046842 = $(`<div id="html_e789429ab6514941bfafde7456046842" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Anziani</b></h1><br>PLACEHOLDER<br /><br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Alice <audio id="audio_AL_AYALA 3" loop> <source src="dati/AL_AYALA 3/Copia di ayala vecchi che parlano.wav" type="audio/wav"> </audio></div>`)[0];
+            popup_2ad2721f9a9e4ee687e7a72ae695dcbc.setContent(html_e789429ab6514941bfafde7456046842);
+
+
+        marker_3b0708c9a84345409bd29c8b177e9f54.bindPopup(popup_2ad2721f9a9e4ee687e7a72ae695dcbc)
+marker_3b0708c9a84345409bd29c8b177e9f54.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_AYALA 3').play();});
+        ;
+
+
+
+
+            var marker_acfa81d9834543e3a35137acce463bdd = L.marker(
+                [45.292744, 8.862007],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_e6a9fc18104b4418b8f1ae5e47ed8d70 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/fallen-leaf_1f342.png "});
+        marker_acfa81d9834543e3a35137acce463bdd.setIcon(custom_icon_e6a9fc18104b4418b8f1ae5e47ed8d70);
+
+
+        var popup_27219ab79699444789f427bd768fec32 = L.popup({"maxWidth": "270"});
+
+
+            var html_e7cc8a74e98040aa9877c0a1862ea156 = $(`<div id="html_e7cc8a74e98040aa9877c0a1862ea156" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Strada delle ripe alte</b></h1><img src="dati/GU_RIPE_ALTE/IMG_20220213_154358_square.jpg" width="270" height="270"><br><br>Lo senti come mi batte forte il tuo vento?<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_RIPE_ALTE" loop> <source src="dati/GU_RIPE_ALTE/ZOOM0024.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_27219ab79699444789f427bd768fec32.setContent(html_e7cc8a74e98040aa9877c0a1862ea156);
+
+
+        marker_acfa81d9834543e3a35137acce463bdd.bindPopup(popup_27219ab79699444789f427bd768fec32)
+marker_acfa81d9834543e3a35137acce463bdd.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_RIPE_ALTE').play();});
+        ;
+
+
+
+
+            var marker_902b464ad4c24211ad3a837a3db8e07c = L.marker(
+                [45.288236, 8.904653],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_e5285db3296f4796b998f6e0102db25e = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_902b464ad4c24211ad3a837a3db8e07c.setIcon(custom_icon_e5285db3296f4796b998f6e0102db25e);
+
+
+        var popup_6d0d3caa2ed04168abb52933ee21c920 = L.popup({"maxWidth": "270"});
+
+
+            var html_3604eaeaf6e846398779d0cead6f9ed7 = $(`<div id="html_3604eaeaf6e846398779d0cead6f9ed7" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Marcite</b></h1><img src="dati/AL_SFORZESCA MARCITE/IMG-20220208-WA0004_square.jpg" width="270" height="270"><br><br>PLACEHOLDER<br /><br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Alice <audio id="audio_AL_SFORZESCA MARCITE" loop> <source src="dati/AL_SFORZESCA MARCITE/Copia di marcite-sforzesca.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_6d0d3caa2ed04168abb52933ee21c920.setContent(html_3604eaeaf6e846398779d0cead6f9ed7);
+
+
+        marker_902b464ad4c24211ad3a837a3db8e07c.bindPopup(popup_6d0d3caa2ed04168abb52933ee21c920)
+marker_902b464ad4c24211ad3a837a3db8e07c.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_SFORZESCA MARCITE').play();});
+        ;
+
+
+
+
+            var marker_e5f0560bfc20496aa5bd14f93564f287 = L.marker(
+                [45.292295, 8.864371],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_aaa20f1f336744f39dcc39d12a7a72f0 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/pedestrian_1f6b6.png "});
+        marker_e5f0560bfc20496aa5bd14f93564f287.setIcon(custom_icon_aaa20f1f336744f39dcc39d12a7a72f0);
+
+
+        var popup_468feb89e5db401984bc6a529e3f8462 = L.popup({"maxWidth": "270"});
+
+
+            var html_316d76d271e84d548ebe6fe641bcd344 = $(`<div id="html_316d76d271e84d548ebe6fe641bcd344" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Cammino cammino cammino</b></h1><img src="dati/GU_SANTA_MARCITA/IMG_20220213_155458_square.jpg" width="270" height="270"><br><br>L'importanza di questo posto, per me, in questo momento è la possibilità di sentire chiaramente la geografia che scorre sotto i piedi.<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_SANTA_MARCITA" loop> <source src="dati/GU_SANTA_MARCITA/ZOOM0025.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_468feb89e5db401984bc6a529e3f8462.setContent(html_316d76d271e84d548ebe6fe641bcd344);
+
+
+        marker_e5f0560bfc20496aa5bd14f93564f287.bindPopup(popup_468feb89e5db401984bc6a529e3f8462)
+marker_e5f0560bfc20496aa5bd14f93564f287.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_SANTA_MARCITA').play();});
+        ;
+
+
+
+
+            var marker_2bf9d0a3efa44ab08498253f592f602a = L.marker(
+                [45.316647, 8.857617],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_a6df2e245a754d01afacf10f66af625f = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/bell_1f514.png "});
+        marker_2bf9d0a3efa44ab08498253f592f602a.setIcon(custom_icon_a6df2e245a754d01afacf10f66af625f);
+
+
+        var popup_a2db315748ce4ff78e2a7c6a0e830d74 = L.popup({"maxWidth": "270"});
+
+
+            var html_9100711c6ac4427da33458d2b64c2c7a = $(`<div id="html_9100711c6ac4427da33458d2b64c2c7a" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Campane</b></h1><img src="dati/AL_CASTELLO CAMPANE/20220209_123650_square.jpg" width="270" height="270"><br><br>PLACEHOLDER<br /><br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Alice <audio id="audio_AL_CASTELLO CAMPANE" loop> <source src="dati/AL_CASTELLO CAMPANE/Copia di castello-campane.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_a2db315748ce4ff78e2a7c6a0e830d74.setContent(html_9100711c6ac4427da33458d2b64c2c7a);
+
+
+        marker_2bf9d0a3efa44ab08498253f592f602a.bindPopup(popup_a2db315748ce4ff78e2a7c6a0e830d74)
+marker_2bf9d0a3efa44ab08498253f592f602a.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_CASTELLO CAMPANE').play();});
+        ;
+
+
+
+
+            var marker_c95be67003ea4148b88dab8773a1e5e7 = L.marker(
+                [45.315874, 8.858551],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_5a53cc875ebb4d3a9063bf4af1a27f39 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/309/woman-walking_1f6b6-200d-2640-fe0f.png "});
+        marker_c95be67003ea4148b88dab8773a1e5e7.setIcon(custom_icon_5a53cc875ebb4d3a9063bf4af1a27f39);
+
+
+        var popup_3251a32380e644b28af1f7e2273fcd39 = L.popup({"maxWidth": "270"});
+
+
+            var html_c2f38da642f04462a8102c5624058ab1 = $(`<div id="html_c2f38da642f04462a8102c5624058ab1" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Strada coperta</b></h1><img src="dati/AL_STRADA COPERTA/strada coperta_square.jpg" width="270" height="270"><br><br>PLACEHOLDER<br /><br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Alice <audio id="audio_AL_STRADA COPERTA" loop> <source src="dati/AL_STRADA COPERTA/Copia di strada-coperta-sopra-portone.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_3251a32380e644b28af1f7e2273fcd39.setContent(html_c2f38da642f04462a8102c5624058ab1);
+
+
+        marker_c95be67003ea4148b88dab8773a1e5e7.bindPopup(popup_3251a32380e644b28af1f7e2273fcd39)
+marker_c95be67003ea4148b88dab8773a1e5e7.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_STRADA COPERTA').play();});
+        ;
+
+
+
+
+            var marker_782223d47d234d69ae6a6ceae48a9494 = L.marker(
+                [45.28298, 8.865029],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_a0e42f99952440a29baa1ab3a0d69101 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/small-airplane_1f6e9.png "});
+        marker_782223d47d234d69ae6a6ceae48a9494.setIcon(custom_icon_a0e42f99952440a29baa1ab3a0d69101);
+
+
+        var popup_5a949df7abfa42f29ad502071814b1b8 = L.popup({"maxWidth": "270"});
+
+
+            var html_e796c8587a7c4786b5397cb2467fc9c1 = $(`<div id="html_e796c8587a7c4786b5397cb2467fc9c1" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Aliante</b></h1><img src="dati/GU_BATTAGLIA_SFORZESCA_2/IMG_20220213_174333_square.jpg" width="270" height="270"><br><br>Accedere all'asse Z è un atto ricreativo e come insegna Flatlandia la realtà è una sola, mentre a cambiare è il punto di vista.<br /><br />Elevazione dimensionale > elevazione sociale.<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_BATTAGLIA_SFORZESCA_2" loop> <source src="dati/GU_BATTAGLIA_SFORZESCA_2/ZOOM0029.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_5a949df7abfa42f29ad502071814b1b8.setContent(html_e796c8587a7c4786b5397cb2467fc9c1);
+
+
+        marker_782223d47d234d69ae6a6ceae48a9494.bindPopup(popup_5a949df7abfa42f29ad502071814b1b8)
+marker_782223d47d234d69ae6a6ceae48a9494.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_BATTAGLIA_SFORZESCA_2').play();});
+        ;
+
+
+
+
+            var marker_049fab516f644864974ef145112007a3 = L.marker(
+                [45.313771, 8.804277],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_ac0693f1673445c4b797ddf776e49296 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_049fab516f644864974ef145112007a3.setIcon(custom_icon_ac0693f1673445c4b797ddf776e49296);
+
+
+        var popup_c61cd50aef9e41c5bef85ea41a273a6e = L.popup({"maxWidth": "270"});
+
+
+            var html_4ba5657dc66d4e4f910cb1b9b5d4e7ea = $(`<div id="html_4ba5657dc66d4e4f910cb1b9b5d4e7ea" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Strada Vignazza</b></h1><br>PLACEHOLDER<br /><br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Alice <audio id="audio_AL_STRADA VIGNAZZA PICCOLINI" loop> <source src="dati/AL_STRADA VIGNAZZA PICCOLINI/Copia di strada-vignazza-piccolini-su-terdoppio.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_c61cd50aef9e41c5bef85ea41a273a6e.setContent(html_4ba5657dc66d4e4f910cb1b9b5d4e7ea);
+
+
+        marker_049fab516f644864974ef145112007a3.bindPopup(popup_c61cd50aef9e41c5bef85ea41a273a6e)
+marker_049fab516f644864974ef145112007a3.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_STRADA VIGNAZZA PICCOLINI').play();});
+        ;
+
+
+
+
+            var marker_ddbcbe357b8646138ca2514a4959cc59 = L.marker(
+                [45.283684, 8.859826],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_ecf931ea907e41ccbf2a31234517c196 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/sparkles_2728.png "});
+        marker_ddbcbe357b8646138ca2514a4959cc59.setIcon(custom_icon_ecf931ea907e41ccbf2a31234517c196);
+
+
+        var popup_114b5b47da6145bfad581d1836287c71 = L.popup({"maxWidth": "270"});
+
+
+            var html_e2d1b0e3d1b44c51b50106f84beef183 = $(`<div id="html_e2d1b0e3d1b44c51b50106f84beef183" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Gioventù</b></h1><img src="dati/GU_BATTAGLIA_SFORZESCA_3/IMG_20220213_164411_square.jpg" width="270" height="270"><br><br>Ciao sono il te più giovane!<br />Hai voglia di fare un giretto?<br />Come? <br />Non hai tempo?<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_BATTAGLIA_SFORZESCA_3" loop> <source src="dati/GU_BATTAGLIA_SFORZESCA_3/ZOOM0032.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_114b5b47da6145bfad581d1836287c71.setContent(html_e2d1b0e3d1b44c51b50106f84beef183);
+
+
+        marker_ddbcbe357b8646138ca2514a4959cc59.bindPopup(popup_114b5b47da6145bfad581d1836287c71)
+marker_ddbcbe357b8646138ca2514a4959cc59.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_BATTAGLIA_SFORZESCA_3').play();});
+        ;
+
+
+
+
+            var marker_5eb541456a324055a2f8580fb3ef6536 = L.marker(
+                [45.318815, 8.80616],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_d00d175f9adf4dd5802564e5b05584b0 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_5eb541456a324055a2f8580fb3ef6536.setIcon(custom_icon_d00d175f9adf4dd5802564e5b05584b0);
+
+
+        var popup_a3452029fdd846158de9c15f0bc415a3 = L.popup({"maxWidth": "270"});
+
+
+            var html_58fc85e1ea84425b9f7faea9fd69e095 = $(`<div id="html_58fc85e1ea84425b9f7faea9fd69e095" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Piccolini</b></h1><img src="dati/AL_TERDOPPIO PICCOLINI/IMG-20220208-WA0001_square.jpg" width="270" height="270"><br><br>PLACEHOLDER<br /><br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Alice <audio id="audio_AL_TERDOPPIO PICCOLINI" loop> <source src="dati/AL_TERDOPPIO PICCOLINI/Copia di st. terdoppio piccolini.wav" type="audio/wav"> </audio></div>`)[0];
+            popup_a3452029fdd846158de9c15f0bc415a3.setContent(html_58fc85e1ea84425b9f7faea9fd69e095);
+
+
+        marker_5eb541456a324055a2f8580fb3ef6536.bindPopup(popup_a3452029fdd846158de9c15f0bc415a3)
+marker_5eb541456a324055a2f8580fb3ef6536.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_TERDOPPIO PICCOLINI').play();});
+        ;
+
+
+
+
+            var marker_d05d64f54a774f429037decacf47859a = L.marker(
+                [45.283238, 8.855915],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_89260e17dc294d3b80755e917c9254ba = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/high-voltage-sign_26a1.png "});
+        marker_d05d64f54a774f429037decacf47859a.setIcon(custom_icon_89260e17dc294d3b80755e917c9254ba);
+
+
+        var popup_92fcc4f191a3493b873eec53fc951b82 = L.popup({"maxWidth": "270"});
+
+
+            var html_60ba98b24bdf452b84a2e9fe8834cd67 = $(`<div id="html_60ba98b24bdf452b84a2e9fe8834cd67" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Energia pulita</b></h1><img src="dati/GU_BATTAGLIA_SFORZESCA_4/IMG_20220213_171753_square.jpg" width="270" height="270"><br><br>Quando ho deciso che facevo da me<br />cuore, batti il cuore<br />na,na,na,na<br />rumore, rumore<br />rumore, rumore!<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_BATTAGLIA_SFORZESCA_4" loop> <source src="dati/GU_BATTAGLIA_SFORZESCA_4/ZOOM0036.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_92fcc4f191a3493b873eec53fc951b82.setContent(html_60ba98b24bdf452b84a2e9fe8834cd67);
+
+
+        marker_d05d64f54a774f429037decacf47859a.bindPopup(popup_92fcc4f191a3493b873eec53fc951b82)
+marker_d05d64f54a774f429037decacf47859a.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_BATTAGLIA_SFORZESCA_4').play();});
+        ;
+
+
+
+
+            var marker_bf804afe829843678ab074b50425f311 = L.marker(
+                [45.310196, 8.812298],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_9b832004df7245ab9c0f1190e336fe51 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/fallen-leaf_1f342.png "});
+        marker_bf804afe829843678ab074b50425f311.setIcon(custom_icon_9b832004df7245ab9c0f1190e336fe51);
+
+
+        var popup_07ea369b1c24430aa58ecc162f8bb05b = L.popup({"maxWidth": "270"});
+
+
+            var html_68f19e5d6f2a4e188116f30254350624 = $(`<div id="html_68f19e5d6f2a4e188116f30254350624" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Via Castellana</b></h1><br>PLACEHOLDER<br /><br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Alice <audio id="audio_AL_VIA CASTELLANA" loop> <source src="dati/AL_VIA CASTELLANA/Copia di via-castellana-piccolini.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_07ea369b1c24430aa58ecc162f8bb05b.setContent(html_68f19e5d6f2a4e188116f30254350624);
+
+
+        marker_bf804afe829843678ab074b50425f311.bindPopup(popup_07ea369b1c24430aa58ecc162f8bb05b)
+marker_bf804afe829843678ab074b50425f311.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_VIA CASTELLANA').play();});
+        ;
+
+
+
+
+            var marker_77bcf3a1c3c046e99f231632844f42dc = L.marker(
+                [45.284372, 8.8599],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_ef01ae5c497e4f24b04dfb97998aeecf = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/bird_1f426.png "});
+        marker_77bcf3a1c3c046e99f231632844f42dc.setIcon(custom_icon_ef01ae5c497e4f24b04dfb97998aeecf);
+
+
+        var popup_3ab86783da624f81989417d7c17e6f8c = L.popup({"maxWidth": "270"});
+
+
+            var html_418f1ad0ee204224987c8810b942983e = $(`<div id="html_418f1ad0ee204224987c8810b942983e" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>I ragazzi sono andati a casa</b></h1><img src="dati/GU_BATTAGLIA_SFORZESCA_5/IMG_20220213_164404_square.jpg" width="270" height="270"><br><br>Una piccola traslazione nello spazio.<br />Un'altra nel tempo.<br />Sono in grado di immaginare senza difficoltà uno scenario in cui il canale è in secca e i ragazzi divenuti adulti sono altrove.<br /><br />Sono rimasti gli uccellini come riferimento acustico del luogo.<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_BATTAGLIA_SFORZESCA_5" loop> <source src="dati/GU_BATTAGLIA_SFORZESCA_5/ZOOM0037.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_3ab86783da624f81989417d7c17e6f8c.setContent(html_418f1ad0ee204224987c8810b942983e);
+
+
+        marker_77bcf3a1c3c046e99f231632844f42dc.bindPopup(popup_3ab86783da624f81989417d7c17e6f8c)
+marker_77bcf3a1c3c046e99f231632844f42dc.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_BATTAGLIA_SFORZESCA_5').play();});
+        ;
+
+
+
+
+            var marker_3624acc26fea4037b0b1108fd21bfb8a = L.marker(
+                [45.302898, 8.934893],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_3ac592e350704133915f7299e0456707 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/153/swan_1f9a2.png "});
+        marker_3624acc26fea4037b0b1108fd21bfb8a.setIcon(custom_icon_3ac592e350704133915f7299e0456707);
+
+
+        var popup_93bcbd36313a454da468c3a433937eda = L.popup({"maxWidth": "270"});
+
+
+            var html_9a5aef4fbfbc4c45b1d3d88a9c2eec29 = $(`<div id="html_9a5aef4fbfbc4c45b1d3d88a9c2eec29" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Lapide Boselli</b></h1><br>PLACEHOLDER<br /><br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Alice <audio id="audio_AL_LAPIDE BOSELLI" loop> <source src="dati/AL_LAPIDE BOSELLI/Copia di volo-cigni-lapide-boselli.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_93bcbd36313a454da468c3a433937eda.setContent(html_9a5aef4fbfbc4c45b1d3d88a9c2eec29);
+
+
+        marker_3624acc26fea4037b0b1108fd21bfb8a.bindPopup(popup_93bcbd36313a454da468c3a433937eda)
+marker_3624acc26fea4037b0b1108fd21bfb8a.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_LAPIDE BOSELLI').play();});
+        ;
+
+
+
+
+            var marker_f04d6e8ec69e4e539c0cd16e8362d610 = L.marker(
+                [45.286434, 8.859578],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_4fbf3889e7b4488297693e83808ca19b = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_f04d6e8ec69e4e539c0cd16e8362d610.setIcon(custom_icon_4fbf3889e7b4488297693e83808ca19b);
+
+
+        var popup_31450bc434c24f4585a5cf9fdfe97793 = L.popup({"maxWidth": "270"});
+
+
+            var html_f7cbd38b1d264cbe918c018adcf1c325 = $(`<div id="html_f7cbd38b1d264cbe918c018adcf1c325" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Roggia</b></h1><img src="dati/GU_BATTAGLIA_SFORZESCA_6/IMG_20220213_175804_square.jpg" width="270" height="270"><br><br>Gorgoglio in stereo!<br /><br />S T E <br />		R E O <br /><br />Ma quando ti ricapita?<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_BATTAGLIA_SFORZESCA_6" loop> <source src="dati/GU_BATTAGLIA_SFORZESCA_6/ZOOM0038.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_31450bc434c24f4585a5cf9fdfe97793.setContent(html_f7cbd38b1d264cbe918c018adcf1c325);
+
+
+        marker_f04d6e8ec69e4e539c0cd16e8362d610.bindPopup(popup_31450bc434c24f4585a5cf9fdfe97793)
+marker_f04d6e8ec69e4e539c0cd16e8362d610.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_BATTAGLIA_SFORZESCA_6').play();});
+        ;
+
+
+
+
+            var marker_3d871dd13a2d4f24995c8abae4dbac4b = L.marker(
+                [45.325122, 8.850307],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_1c36339a9b874f1b81129037cbd57afa = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/bell_1f514.png "});
+        marker_3d871dd13a2d4f24995c8abae4dbac4b.setIcon(custom_icon_1c36339a9b874f1b81129037cbd57afa);
+
+
+        var popup_1a9bd6dc638c45d780c65c9b192af654 = L.popup({"maxWidth": "270"});
+
+
+            var html_ccfe3fa4b6174eb9846f30f027fea0de = $(`<div id="html_ccfe3fa4b6174eb9846f30f027fea0de" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Maria Addolorata</b></h1><img src="dati/GU_ADDOLORATA/IMG_20220213_202820.jpg" width="270" height="270"><br><br>I) Profezia dell'anziano Simeone sul Bambino Gesù<br />II) La fuga in Egitto della Sacra famiglia<br />III) La perdita del Bambin Gesù nel Tempio<br />IV) L'incontro di Maria e Gesù lungo la Via Crucis<br />V) Maria ai piedi della croce dove Gesù è crocifisso<br />VI) Maria accoglie nelle sue braccia Gesù morto<br />VII) Maria vede seppellire Gesù<br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_ADDOLORATA" loop> <source src="dati/GU_ADDOLORATA/ZOOM0041.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_1a9bd6dc638c45d780c65c9b192af654.setContent(html_ccfe3fa4b6174eb9846f30f027fea0de);
+
+
+        marker_3d871dd13a2d4f24995c8abae4dbac4b.bindPopup(popup_1a9bd6dc638c45d780c65c9b192af654)
+marker_3d871dd13a2d4f24995c8abae4dbac4b.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_ADDOLORATA').play();});
+        ;
+
+
+
+
+            var marker_18392ec1a53542f2a5e5cc7bae8660fa = L.marker(
+                [45.31646, 8.87454],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_f56b0d9bb60e4a0e9d1bff52163832cb = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/roller-coaster_1f3a2.png "});
+        marker_18392ec1a53542f2a5e5cc7bae8660fa.setIcon(custom_icon_f56b0d9bb60e4a0e9d1bff52163832cb);
+
+
+        var popup_877247a8615b45f5b5251cba81119a0b = L.popup({"maxWidth": "270"});
+
+
+            var html_6729271b56be4759aadc793a2bf9951a = $(`<div id="html_6729271b56be4759aadc793a2bf9951a" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Luna Park</b></h1><br>PLACEHOLDER<br /><br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Alice <audio id="audio_AL_LUNA PARK" loop> <source src="dati/AL_LUNA PARK/Copia di luna park.wav" type="audio/wav"> </audio></div>`)[0];
+            popup_877247a8615b45f5b5251cba81119a0b.setContent(html_6729271b56be4759aadc793a2bf9951a);
+
+
+        marker_18392ec1a53542f2a5e5cc7bae8660fa.bindPopup(popup_877247a8615b45f5b5251cba81119a0b)
+marker_18392ec1a53542f2a5e5cc7bae8660fa.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_LUNA PARK').play();});
+        ;
+
+
+
+
+            var marker_7acf55ffeac64c53bfa8ba0911be7f05 = L.marker(
+                [45.305648, 8.863469],
+                {}
+            ).addTo(map_04fe23892ba645af8a55aabc97b99979);
+
+
+        var custom_icon_d07e14566cd64c0aac9ebc3b045e4cbc = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/gear_2699.png "});
+        marker_7acf55ffeac64c53bfa8ba0911be7f05.setIcon(custom_icon_d07e14566cd64c0aac9ebc3b045e4cbc);
+
+
+        var popup_69929100dcb042f5b97a1ef02493eb78 = L.popup({"maxWidth": "270"});
+
+
+            var html_aec3df68fea845fe8bdd7adfa047a914 = $(`<div id="html_aec3df68fea845fe8bdd7adfa047a914" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Fresa</b></h1><br>PLACEHOLDER<br /><br><br><a href="mailto:postmaster@ecologiaacustica.org" target="_blank" rel="noopener noreferrer">Facci sapere cosa ne pensi!</a><br><br><i>Guido <audio id="audio_GU_BERCLEDA_INDUSTRIA" loop> <source src="dati/GU_BERCLEDA_INDUSTRIA/ZOOM0024.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_69929100dcb042f5b97a1ef02493eb78.setContent(html_aec3df68fea845fe8bdd7adfa047a914);
+
+
+        marker_7acf55ffeac64c53bfa8ba0911be7f05.bindPopup(popup_69929100dcb042f5b97a1ef02493eb78)
+marker_7acf55ffeac64c53bfa8ba0911be7f05.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_BERCLEDA_INDUSTRIA').play();});
+        ;
+
+
+
+</script>
