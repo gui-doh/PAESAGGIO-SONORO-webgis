@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+<link rel="stylesheet" href="lib/EasyButton-master/src/easy-button.css">
+<script src="lib/EasyButton-master/src/easy-button.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4679eff328334239940f6eb48a6d0359 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+
+</head>
+<body>
+
+            <div class="folium-map" id="map_4679eff328334239940f6eb48a6d0359" ></div>
+
+</body>
+<script>
+
+            var map_4679eff328334239940f6eb48a6d0359 = L.map(
+                "map_4679eff328334239940f6eb48a6d0359",
+                {
+                    center: [45.317245, 8.858102],
+                    crs: L.CRS.EPSG3857,
+                    maxBounds: [[45.151245, 8.692102], [45.483245, 9.024102000000001]],
+                    zoom: 12,
+                    zoomControl: false,
+                    preferCanvas: false,
+                }
+            );
+
+
+
+
+
+            var tile_layer_2e675bf06e2b4633b3a8e4ceca1792e9 = L.tileLayer(
+                "https://tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=3dc24c77246845e5b1c941baf227ba56",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.thunderforest.com/\"\u003eThunderforest\u003c/a\u003e, \u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 12, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+            var marker_ad0f291aef9e488ba2afb31ba83378ec = L.marker(
+                [45.3230625, 8.850245651],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_ea68abe1f0aa42e5be03c229f3d28241 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/motor-scooter_1f6f5.png "});
+        marker_ad0f291aef9e488ba2afb31ba83378ec.setIcon(custom_icon_ea68abe1f0aa42e5be03c229f3d28241);
+
+
+        var popup_0a57566fbe6a4f0dbb71a5a4a893c9ed = L.popup({"maxWidth": "270"});
+
+
+            var html_74f995738b2a400ebab235dbc6bf864e = $(`<div id="html_74f995738b2a400ebab235dbc6bf864e" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Pizzeria</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Pizzeria"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_VIALE_MONTEGRAPPA_PIZZERIA" loop> <source src="dati/GU_VIALE_MONTEGRAPPA_PIZZERIA/pizzeria.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_0a57566fbe6a4f0dbb71a5a4a893c9ed.setContent(html_74f995738b2a400ebab235dbc6bf864e);
+
+
+        marker_ad0f291aef9e488ba2afb31ba83378ec.bindPopup(popup_0a57566fbe6a4f0dbb71a5a4a893c9ed)
+marker_ad0f291aef9e488ba2afb31ba83378ec.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_VIALE_MONTEGRAPPA_PIZZERIA').play();});
+        ;
+
+
+
+
+            var marker_ec9861ad300f47858ef150481e6a9099 = L.marker(
+                [45.31211904, 8.860001045],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_ecb20b40017d4cd889435936c29359f0 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_ec9861ad300f47858ef150481e6a9099.setIcon(custom_icon_ecb20b40017d4cd889435936c29359f0);
+
+
+        var popup_0a0b9ebb502640bda21a38d1afd14b78 = L.popup({"maxWidth": "270"});
+
+
+            var html_24f34705894f4ab6b9057d390c1f4d0c = $(`<div id="html_24f34705894f4ab6b9057d390c1f4d0c" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Giacchetta Canale</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Giacchetta Canale"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_GIACCHETTA_CANALE" loop> <source src="dati/GU_GIACCHETTA_CANALE/ZOOM0027.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_0a0b9ebb502640bda21a38d1afd14b78.setContent(html_24f34705894f4ab6b9057d390c1f4d0c);
+
+
+        marker_ec9861ad300f47858ef150481e6a9099.bindPopup(popup_0a0b9ebb502640bda21a38d1afd14b78)
+marker_ec9861ad300f47858ef150481e6a9099.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_GIACCHETTA_CANALE').play();});
+        ;
+
+
+
+
+            var marker_2897d3ec8b464002a9fb3760382d5b8b = L.marker(
+                [45.3064081, 8.866924562],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_d8c08a9a9dd24f95819b4c225b53a5c7 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/umbrella-with-rain-drops_2614.png "});
+        marker_2897d3ec8b464002a9fb3760382d5b8b.setIcon(custom_icon_d8c08a9a9dd24f95819b4c225b53a5c7);
+
+
+        var popup_5d5f1f8245c5491fbff72cc9e43b0ec3 = L.popup({"maxWidth": "270"});
+
+
+            var html_138ffa4f34f74c658ec9c4dc107de7a1 = $(`<div id="html_138ffa4f34f74c658ec9c4dc107de7a1" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Via de chirico Canale Pioggia</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Via de chirico Canale Pioggia"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_VIA_DE_CHIRICO_CANALE_v2" loop> <source src="dati/GU_VIA_DE_CHIRICO_CANALE_v2/ZOOM0029.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_5d5f1f8245c5491fbff72cc9e43b0ec3.setContent(html_138ffa4f34f74c658ec9c4dc107de7a1);
+
+
+        marker_2897d3ec8b464002a9fb3760382d5b8b.bindPopup(popup_5d5f1f8245c5491fbff72cc9e43b0ec3)
+marker_2897d3ec8b464002a9fb3760382d5b8b.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_VIA_DE_CHIRICO_CANALE_v2').play();});
+        ;
+
+
+
+
+            var marker_cd861752481c47b3aadabea66bd776de = L.marker(
+                [45.30644102, 8.889899845],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_40fd8813acc74b239e6a155dfcb51754 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/fallen-leaf_1f342.png "});
+        marker_cd861752481c47b3aadabea66bd776de.setIcon(custom_icon_40fd8813acc74b239e6a155dfcb51754);
+
+
+        var popup_59b5a449ff204d0398c49cbc43f47fd0 = L.popup({"maxWidth": "270"});
+
+
+            var html_2223e7970c2147c2aa24f1f0e62fed17 = $(`<div id="html_2223e7970c2147c2aa24f1f0e62fed17" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Strada per laghi di santa marta</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Strada per laghi di santa marta"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_AGRITURISMO_COLDIRETTI" loop> <source src="dati/GU_AGRITURISMO_COLDIRETTI/ZOOM0025.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_59b5a449ff204d0398c49cbc43f47fd0.setContent(html_2223e7970c2147c2aa24f1f0e62fed17);
+
+
+        marker_cd861752481c47b3aadabea66bd776de.bindPopup(popup_59b5a449ff204d0398c49cbc43f47fd0)
+marker_cd861752481c47b3aadabea66bd776de.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_AGRITURISMO_COLDIRETTI').play();});
+        ;
+
+
+
+
+            var marker_a865626b99244697b8be5ff016af3cb1 = L.marker(
+                [45.29917137, 8.905742693],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_055f37b759a74f748d497acc2b15fc50 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/bird_1f426.png "});
+        marker_a865626b99244697b8be5ff016af3cb1.setIcon(custom_icon_055f37b759a74f748d497acc2b15fc50);
+
+
+        var popup_13362dc1d9314e3f82dd313a18daeb41 = L.popup({"maxWidth": "270"});
+
+
+            var html_6b1fd8207c874706a3a28037f594b78e = $(`<div id="html_6b1fd8207c874706a3a28037f594b78e" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Laghetto dei piccoli</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Laghetto dei piccoli"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_LAGHETTO_DEI_PICCOLI" loop> <source src="dati/GU_LAGHETTO_DEI_PICCOLI/ZOOM0033.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_13362dc1d9314e3f82dd313a18daeb41.setContent(html_6b1fd8207c874706a3a28037f594b78e);
+
+
+        marker_a865626b99244697b8be5ff016af3cb1.bindPopup(popup_13362dc1d9314e3f82dd313a18daeb41)
+marker_a865626b99244697b8be5ff016af3cb1.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_LAGHETTO_DEI_PICCOLI').play();});
+        ;
+
+
+
+
+            var marker_1527fce7c6a043cb9cd819d0cd185ba9 = L.marker(
+                [45.31246512, 8.883821165],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_b1dd641303a84c558e62500c8fa60e14 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/cat_1f408.png "});
+        marker_1527fce7c6a043cb9cd819d0cd185ba9.setIcon(custom_icon_b1dd641303a84c558e62500c8fa60e14);
+
+
+        var popup_36c9c55488b04bdc8155888c3a85c04e = L.popup({"maxWidth": "270"});
+
+
+            var html_00b9a426c6214c9796c01c81cd3523cc = $(`<div id="html_00b9a426c6214c9796c01c81cd3523cc" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Miciopolis</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Miciopolis"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_MICIOPOLIS" loop> <source src="dati/GU_MICIOPOLIS/ZOOM0022.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_36c9c55488b04bdc8155888c3a85c04e.setContent(html_00b9a426c6214c9796c01c81cd3523cc);
+
+
+        marker_1527fce7c6a043cb9cd819d0cd185ba9.bindPopup(popup_36c9c55488b04bdc8155888c3a85c04e)
+marker_1527fce7c6a043cb9cd819d0cd185ba9.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_MICIOPOLIS').play();});
+        ;
+
+
+
+
+            var marker_8e0602c5fa6a45618f0ef6065893b1c9 = L.marker(
+                [45.30433837, 8.883231356],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_7bf6e2b1364a4e849ecd3fe06db7d805 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_8e0602c5fa6a45618f0ef6065893b1c9.setIcon(custom_icon_7bf6e2b1364a4e849ecd3fe06db7d805);
+
+
+        var popup_527b4d4a7f8141938768c808e5c84824 = L.popup({"maxWidth": "270"});
+
+
+            var html_d95addc92c764b27af870bf0afc168f6 = $(`<div id="html_d95addc92c764b27af870bf0afc168f6" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Strada per la Sforzesca</b></h1><img src="dati/GU_STRADA_REBUFFI/canale_square.jpeg" width="270" height="270"><br><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Strada per la Sforzesca"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_STRADA_REBUFFI" loop> <source src="dati/GU_STRADA_REBUFFI/ZOOM0024.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_527b4d4a7f8141938768c808e5c84824.setContent(html_d95addc92c764b27af870bf0afc168f6);
+
+
+        marker_8e0602c5fa6a45618f0ef6065893b1c9.bindPopup(popup_527b4d4a7f8141938768c808e5c84824)
+marker_8e0602c5fa6a45618f0ef6065893b1c9.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_STRADA_REBUFFI').play();});
+        ;
+
+
+
+
+            var marker_a69f624d6a4a4ab9a4df8e17b19df81a = L.marker(
+                [45.29236968, 8.884778005],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_cdbfa76b49e74f29bcdf5271ee6e40fe = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/fog_1f32b.png "});
+        marker_a69f624d6a4a4ab9a4df8e17b19df81a.setIcon(custom_icon_cdbfa76b49e74f29bcdf5271ee6e40fe);
+
+
+        var popup_e7b047dd9cb1439aa5e0f05cfd60b36f = L.popup({"maxWidth": "270"});
+
+
+            var html_1da27ec6b0ed49078984d0abc540815b = $(`<div id="html_1da27ec6b0ed49078984d0abc540815b" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Cimitero musicale</b></h1><img src="dati/GU_STRADA_REBUFFI_v3/cimitero_square.jpeg" width="270" height="270"><br><br>Mi ringrazia. Provo a suonare live sotto il suo suggerimento insieme ad altri amici.<br />Non sapendo suonare mi concentro timidamente sul Re. Rinuncio e chiudo il piano.<br />Il sottofondo è musica ambient e sono attorniato dal mio datore di lavoro.<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Cimitero musicale"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_STRADA_REBUFFI_v3" loop> <source src="dati/GU_STRADA_REBUFFI_v3/ZOOM0028.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_e7b047dd9cb1439aa5e0f05cfd60b36f.setContent(html_1da27ec6b0ed49078984d0abc540815b);
+
+
+        marker_a69f624d6a4a4ab9a4df8e17b19df81a.bindPopup(popup_e7b047dd9cb1439aa5e0f05cfd60b36f)
+marker_a69f624d6a4a4ab9a4df8e17b19df81a.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_STRADA_REBUFFI_v3').play();});
+        ;
+
+
+
+
+            var marker_2dce7a75f2b041279c9141c933f157e2 = L.marker(
+                [45.34084406, 8.867725439],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_982e7cd70d0642ae9fbca414c0ba41d9 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/speaker-with-three-sound-waves_1f50a.png "});
+        marker_2dce7a75f2b041279c9141c933f157e2.setIcon(custom_icon_982e7cd70d0642ae9fbca414c0ba41d9);
+
+
+        var popup_0399f4b34bbf41eda85ff5b27422fdef = L.popup({"maxWidth": "270"});
+
+
+            var html_8f939ee8a1e84e2c8b262a3aaed257e2 = $(`<div id="html_8f939ee8a1e84e2c8b262a3aaed257e2" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Rave a Ticino</b></h1><img src="dati/GU_RAVE_TISIN_v1/rave_square.jpeg" width="270" height="270"><br><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Rave a Ticino"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_RAVE_TISIN_v1" loop> <source src="dati/GU_RAVE_TISIN_v1/ZOOM0025.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_0399f4b34bbf41eda85ff5b27422fdef.setContent(html_8f939ee8a1e84e2c8b262a3aaed257e2);
+
+
+        marker_2dce7a75f2b041279c9141c933f157e2.bindPopup(popup_0399f4b34bbf41eda85ff5b27422fdef)
+marker_2dce7a75f2b041279c9141c933f157e2.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_RAVE_TISIN_v1').play();});
+        ;
+
+
+
+
+            var marker_a0b891c0b2e34131bad0fa73cb89731c = L.marker(
+                [45.34220987, 8.865593442],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_d8299a24781c4a8f88b86b7440f0f37f = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_a0b891c0b2e34131bad0fa73cb89731c.setIcon(custom_icon_d8299a24781c4a8f88b86b7440f0f37f);
+
+
+        var popup_351fddeb5d37408d83c784f42f888178 = L.popup({"maxWidth": "270"});
+
+
+            var html_541a26362b2345ea85553d0e0cd4d678 = $(`<div id="html_541a26362b2345ea85553d0e0cd4d678" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Acqua dolce e cassa dritta</b></h1><img src="dati/GU_RAVE_TISIN_v3/albero_square.jpg" width="270" height="270"><br><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Acqua dolce e cassa dritta"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_RAVE_TISIN_v3" loop> <source src="dati/GU_RAVE_TISIN_v3/ZOOM0028.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_351fddeb5d37408d83c784f42f888178.setContent(html_541a26362b2345ea85553d0e0cd4d678);
+
+
+        marker_a0b891c0b2e34131bad0fa73cb89731c.bindPopup(popup_351fddeb5d37408d83c784f42f888178)
+marker_a0b891c0b2e34131bad0fa73cb89731c.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_RAVE_TISIN_v3').play();});
+        ;
+
+
+
+
+            var marker_17df3943c2074267a153c86684534274 = L.marker(
+                [45.34300948, 8.862928168],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_6f429d670bca46d388ddf8e2842e6519 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/bird_1f426.png "});
+        marker_17df3943c2074267a153c86684534274.setIcon(custom_icon_6f429d670bca46d388ddf8e2842e6519);
+
+
+        var popup_675b14abdf60406d8374bfe034e36c81 = L.popup({"maxWidth": "270"});
+
+
+            var html_20def9e1124047adbcd185d8d18076eb = $(`<div id="html_20def9e1124047adbcd185d8d18076eb" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Birds of Rocca Petrella</b></h1><img src="dati/GU_ROCCA_PETRELLA/rocca_petrella_square.jpeg" width="270" height="270"><br><br>Qua si sente bene<br /><br />Avrei voluto scendere ma non era possibile a causa di una stramaledetta proprietà privata<br /><br />Tantè<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Birds of Rocca Petrella"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_ROCCA_PETRELLA" loop> <source src="dati/GU_ROCCA_PETRELLA/ZOOM0033.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_675b14abdf60406d8374bfe034e36c81.setContent(html_20def9e1124047adbcd185d8d18076eb);
+
+
+        marker_17df3943c2074267a153c86684534274.bindPopup(popup_675b14abdf60406d8374bfe034e36c81)
+marker_17df3943c2074267a153c86684534274.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_ROCCA_PETRELLA').play();});
+        ;
+
+
+
+
+            var marker_1655b29d21e04a1b9cb5ff17abfe2c31 = L.marker(
+                [45.33842032, 8.87050925],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_35de886857594d21aea9ec2430042a95 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/309/person-biking_1f6b4.png "});
+        marker_1655b29d21e04a1b9cb5ff17abfe2c31.setIcon(custom_icon_35de886857594d21aea9ec2430042a95);
+
+
+        var popup_bf4531005d6b4704ae99d796f323303a = L.popup({"maxWidth": "270"});
+
+
+            var html_152ef74fdb254363bb3c1fb79b6e5f63 = $(`<div id="html_152ef74fdb254363bb3c1fb79b6e5f63" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>UFO e ciclismo</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: UFO e ciclismo"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_CENTRALE_ENEL_v2" loop> <source src="dati/GU_CENTRALE_ENEL_v2/ZOOM0037.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_bf4531005d6b4704ae99d796f323303a.setContent(html_152ef74fdb254363bb3c1fb79b6e5f63);
+
+
+        marker_1655b29d21e04a1b9cb5ff17abfe2c31.bindPopup(popup_bf4531005d6b4704ae99d796f323303a)
+marker_1655b29d21e04a1b9cb5ff17abfe2c31.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_CENTRALE_ENEL_v2').play();});
+        ;
+
+
+
+
+            var marker_27325a49af55493383137d28dd25eb43 = L.marker(
+                [45.34069404, 8.878451395],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_66df1004f5a747c4bc071362804f61d1 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_27325a49af55493383137d28dd25eb43.setIcon(custom_icon_66df1004f5a747c4bc071362804f61d1);
+
+
+        var popup_aa6f68597ce547739555ede13ebcc3a2 = L.popup({"maxWidth": "270"});
+
+
+            var html_9a9bf9e71ffe488497f80ac683f4e5c7 = $(`<div id="html_9a9bf9e71ffe488497f80ac683f4e5c7" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Fiume azzurro</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Fiume azzurro"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_TICINO_v3" loop> <source src="dati/GU_TICINO_v3/ZOOM0026.opus" type="audio/ogg"> </audio></div>`)[0];
+            popup_aa6f68597ce547739555ede13ebcc3a2.setContent(html_9a9bf9e71ffe488497f80ac683f4e5c7);
+
+
+        marker_27325a49af55493383137d28dd25eb43.bindPopup(popup_aa6f68597ce547739555ede13ebcc3a2)
+marker_27325a49af55493383137d28dd25eb43.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_TICINO_v3').play();});
+        ;
+
+
+
+
+            var marker_4e9ff140ea384682a05d5906dd898f5b = L.marker(
+                [45.33987551, 8.88500919],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_6b5fd76e1d134cb2b19b0f5a5239c32b = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/153/swan_1f9a2.png "});
+        marker_4e9ff140ea384682a05d5906dd898f5b.setIcon(custom_icon_6b5fd76e1d134cb2b19b0f5a5239c32b);
+
+
+        var popup_03d244e0c6104deb9bd8b733e50f330a = L.popup({"maxWidth": "270"});
+
+
+            var html_6d920d56d6aa41279048ab3164f5c93e = $(`<div id="html_6d920d56d6aa41279048ab3164f5c93e" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Cigni fx</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Cigni fx"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_TICINO_v4" loop> <source src="dati/GU_TICINO_v4/ZOOM0027.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_03d244e0c6104deb9bd8b733e50f330a.setContent(html_6d920d56d6aa41279048ab3164f5c93e);
+
+
+        marker_4e9ff140ea384682a05d5906dd898f5b.bindPopup(popup_03d244e0c6104deb9bd8b733e50f330a)
+marker_4e9ff140ea384682a05d5906dd898f5b.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_TICINO_v4').play();});
+        ;
+
+
+
+
+            var marker_dcc15d9c24c7420c9fed78c06981bc68 = L.marker(
+                [45.33114616, 8.861188604],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_9df535c0e9884fc783101d05e61cddc9 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/pistol_1f52b.png "});
+        marker_dcc15d9c24c7420c9fed78c06981bc68.setIcon(custom_icon_9df535c0e9884fc783101d05e61cddc9);
+
+
+        var popup_2950452e8290437c97a2f9a7c6381af1 = L.popup({"maxWidth": "270"});
+
+
+            var html_e910b2a5cc8944f4baa35644301a5af1 = $(`<div id="html_e910b2a5cc8944f4baa35644301a5af1" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Cani e bang bang</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Cani e bang bang"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_POLIGONO" loop> <source src="dati/GU_POLIGONO/ZOOM0031.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_2950452e8290437c97a2f9a7c6381af1.setContent(html_e910b2a5cc8944f4baa35644301a5af1);
+
+
+        marker_dcc15d9c24c7420c9fed78c06981bc68.bindPopup(popup_2950452e8290437c97a2f9a7c6381af1)
+marker_dcc15d9c24c7420c9fed78c06981bc68.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_POLIGONO').play();});
+        ;
+
+
+
+
+            var marker_6c9d3e332a774fd9bcbe824f5ed3f36c = L.marker(
+                [45.33321272, 8.860613964],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_7f53c3d00bf64e7b913e19f4a1870f22 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/bell_1f514.png "});
+        marker_6c9d3e332a774fd9bcbe824f5ed3f36c.setIcon(custom_icon_7f53c3d00bf64e7b913e19f4a1870f22);
+
+
+        var popup_26303ec7d168490dbe5f065f1288c9d0 = L.popup({"maxWidth": "270"});
+
+
+            var html_2f897d782a4e43c9acc9271088f225b7 = $(`<div id="html_2f897d782a4e43c9acc9271088f225b7" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Campane</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Campane"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_STRADA_MORABASSA" loop> <source src="dati/GU_STRADA_MORABASSA/ZOOM0032.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_26303ec7d168490dbe5f065f1288c9d0.setContent(html_2f897d782a4e43c9acc9271088f225b7);
+
+
+        marker_6c9d3e332a774fd9bcbe824f5ed3f36c.bindPopup(popup_26303ec7d168490dbe5f065f1288c9d0)
+marker_6c9d3e332a774fd9bcbe824f5ed3f36c.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_STRADA_MORABASSA').play();});
+        ;
+
+
+
+
+            var marker_a9e50c39d8a64d40a2c5d31997ec454e = L.marker(
+                [45.3200354, 8.855686002],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_a0b85ef720064d51a980b673dca6657b = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/automobile_1f697.png "});
+        marker_a9e50c39d8a64d40a2c5d31997ec454e.setIcon(custom_icon_a0b85ef720064d51a980b673dca6657b);
+
+
+        var popup_9c80af7f67a64a228f12d5b575915a39 = L.popup({"maxWidth": "270"});
+
+
+            var html_2037ea3d526b4c86b5ce99732e38a2fa = $(`<div id="html_2037ea3d526b4c86b5ce99732e38a2fa" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Pavè</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Pavè"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_MADONNA_7_DOLORI" loop> <source src="dati/GU_MADONNA_7_DOLORI/ZOOM0023.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_9c80af7f67a64a228f12d5b575915a39.setContent(html_2037ea3d526b4c86b5ce99732e38a2fa);
+
+
+        marker_a9e50c39d8a64d40a2c5d31997ec454e.bindPopup(popup_9c80af7f67a64a228f12d5b575915a39)
+marker_a9e50c39d8a64d40a2c5d31997ec454e.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_MADONNA_7_DOLORI').play();});
+        ;
+
+
+
+
+            var marker_f4870f666621493a93be3ed53156712e = L.marker(
+                [45.316389, 8.856819],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_275810c45488407aa77c5ffcfa7f00c8 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/speaking-head-in-silhouette_1f5e3.png "});
+        marker_f4870f666621493a93be3ed53156712e.setIcon(custom_icon_275810c45488407aa77c5ffcfa7f00c8);
+
+
+        var popup_eac3949c31c24e4b92e08ef7cc10f6dc = L.popup({"maxWidth": "270"});
+
+
+            var html_cddcbe12f58c47169ada170857c358e7 = $(`<div id="html_cddcbe12f58c47169ada170857c358e7" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Castello alle 18</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Castello alle 18"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_AN_CASTELLO_ORE_18" loop> <source src="dati/AN_CASTELLO_ORE_18/castello ore 18.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_eac3949c31c24e4b92e08ef7cc10f6dc.setContent(html_cddcbe12f58c47169ada170857c358e7);
+
+
+        marker_f4870f666621493a93be3ed53156712e.bindPopup(popup_eac3949c31c24e4b92e08ef7cc10f6dc)
+marker_f4870f666621493a93be3ed53156712e.on('click', function (e) {this.openPopup(); document.getElementById('audio_AN_CASTELLO_ORE_18').play();});
+        ;
+
+
+
+
+            var marker_79bdbb4cdfc84122a88ae0b632edea02 = L.marker(
+                [45.315783, 8.856105],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_bbc3e8e22a47412aa193b0fa62cb2478 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/speaking-head-in-silhouette_1f5e3.png "});
+        marker_79bdbb4cdfc84122a88ae0b632edea02.setIcon(custom_icon_bbc3e8e22a47412aa193b0fa62cb2478);
+
+
+        var popup_06191eaea89e46aaa658b30d49a5a9ef = L.popup({"maxWidth": "270"});
+
+
+            var html_beeeede384e2491aa6b5803c53d3efbb = $(`<div id="html_beeeede384e2491aa6b5803c53d3efbb" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Portone</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Portone"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_AN_PORTONE" loop> <source src="dati/AN_PORTONE/portone.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_06191eaea89e46aaa658b30d49a5a9ef.setContent(html_beeeede384e2491aa6b5803c53d3efbb);
+
+
+        marker_79bdbb4cdfc84122a88ae0b632edea02.bindPopup(popup_06191eaea89e46aaa658b30d49a5a9ef)
+marker_79bdbb4cdfc84122a88ae0b632edea02.on('click', function (e) {this.openPopup(); document.getElementById('audio_AN_PORTONE').play();});
+        ;
+
+
+
+
+            var marker_53d075b88c9f4a8a92b5c9baf4e81b1a = L.marker(
+                [45.314307, 8.854067],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_5e855173b21d462398325d3fc100eaa0 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_53d075b88c9f4a8a92b5c9baf4e81b1a.setIcon(custom_icon_5e855173b21d462398325d3fc100eaa0);
+
+
+        var popup_d824aa34f6ce4ac4b623cad3ab991695 = L.popup({"maxWidth": "270"});
+
+
+            var html_9237360bc6b9487cb591457a686ec46d = $(`<div id="html_9237360bc6b9487cb591457a686ec46d" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Via Mulini</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Via Mulini"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_AN_VIA_MULINI" loop> <source src="dati/AN_VIA_MULINI/via mulini acqua.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_d824aa34f6ce4ac4b623cad3ab991695.setContent(html_9237360bc6b9487cb591457a686ec46d);
+
+
+        marker_53d075b88c9f4a8a92b5c9baf4e81b1a.bindPopup(popup_d824aa34f6ce4ac4b623cad3ab991695)
+marker_53d075b88c9f4a8a92b5c9baf4e81b1a.on('click', function (e) {this.openPopup(); document.getElementById('audio_AN_VIA_MULINI').play();});
+        ;
+
+
+
+
+            var marker_30533e1415fa4550a44665e2ea9af9b4 = L.marker(
+                [45.314712, 8.850959],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_8ed023ab04fb41e5917ae9671d86f502 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/automobile_1f697.png "});
+        marker_30533e1415fa4550a44665e2ea9af9b4.setIcon(custom_icon_8ed023ab04fb41e5917ae9671d86f502);
+
+
+        var popup_0b1b908d39174f6091900033d819dfa0 = L.popup({"maxWidth": "270"});
+
+
+            var html_129c097844544a8d8339168219e9987d = $(`<div id="html_129c097844544a8d8339168219e9987d" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Traffico di Corso Torino</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Traffico di Corso Torino"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_AL_CORSO_TORINO_TRAFFICO" loop> <source src="dati/AL_CORSO_TORINO_TRAFFICO/corso torino 9 traffico.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_0b1b908d39174f6091900033d819dfa0.setContent(html_129c097844544a8d8339168219e9987d);
+
+
+        marker_30533e1415fa4550a44665e2ea9af9b4.bindPopup(popup_0b1b908d39174f6091900033d819dfa0)
+marker_30533e1415fa4550a44665e2ea9af9b4.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_CORSO_TORINO_TRAFFICO').play();});
+        ;
+
+
+
+
+            var marker_aa418019358045b98ffbda740d90bd3d = L.marker(
+                [45.314191, 8.854374],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_bd723044ba434199a9466c20e4562224 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_aa418019358045b98ffbda740d90bd3d.setIcon(custom_icon_bd723044ba434199a9466c20e4562224);
+
+
+        var popup_5114134bc9164298bc0558f4bd2011aa = L.popup({"maxWidth": "270"});
+
+
+            var html_47c21eb126e7432582bb26b53e5e8e01 = $(`<div id="html_47c21eb126e7432582bb26b53e5e8e01" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Il mulino di Via Mulini</b></h1><br>PLACEHOLDER<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Il mulino di Via Mulini"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_AL_VIA_MULINI_MULINO" loop> <source src="dati/AL_VIA_MULINI_MULINO/mulino via mulini.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_5114134bc9164298bc0558f4bd2011aa.setContent(html_47c21eb126e7432582bb26b53e5e8e01);
+
+
+        marker_aa418019358045b98ffbda740d90bd3d.bindPopup(popup_5114134bc9164298bc0558f4bd2011aa)
+marker_aa418019358045b98ffbda740d90bd3d.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_VIA_MULINI_MULINO').play();});
+        ;
+
+
+
+
+            var marker_11234f497d354604b449a9a3b05fb552 = L.marker(
+                [45.319865, 8.910479],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_f604b5e1eded43eb8c6153837b6e92ba = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/duck_1f986.png "});
+        marker_11234f497d354604b449a9a3b05fb552.setIcon(custom_icon_f604b5e1eded43eb8c6153837b6e92ba);
+
+
+        var popup_bd9c5fe4d4bb413199551aba11332ef2 = L.popup({"maxWidth": "270"});
+
+
+            var html_3b204c6bcee34c2d8c90605acd5f3fac = $(`<div id="html_3b204c6bcee34c2d8c90605acd5f3fac" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Papere</b></h1><img src="dati/AL_AYALA/IMG_20181206_140933_617.jpg" width="270" height="270"><br><br>PLACEHOLDER<br /><br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Papere"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_AL_AYALA" loop> <source src="dati/AL_AYALA/Copia di ayala-papere.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_bd9c5fe4d4bb413199551aba11332ef2.setContent(html_3b204c6bcee34c2d8c90605acd5f3fac);
+
+
+        marker_11234f497d354604b449a9a3b05fb552.bindPopup(popup_bd9c5fe4d4bb413199551aba11332ef2)
+marker_11234f497d354604b449a9a3b05fb552.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_AYALA').play();});
+        ;
+
+
+
+
+            var marker_2b2de33aba8043809ea6747f5bc9b2e2 = L.marker(
+                [45.316204, 8.864677],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_bbfeab477a0e4b1eb7dcd43e647c9972 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/station_1f689.png "});
+        marker_2b2de33aba8043809ea6747f5bc9b2e2.setIcon(custom_icon_bbfeab477a0e4b1eb7dcd43e647c9972);
+
+
+        var popup_5038e8f36ef44a90a310b2fddbbc5c09 = L.popup({"maxWidth": "270"});
+
+
+            var html_bcf364d752d74411bf44a6d336ea2a8d = $(`<div id="html_bcf364d752d74411bf44a6d336ea2a8d" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Treno per Milano</b></h1><br>Registrato con la "paura" del fraintendimento relativo ai recenti fatti di cronaca.<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Treno per Milano"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_TRENO_FERRARI" loop> <source src="dati/GU_TRENO_FERRARI/ZOOM0023.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_5038e8f36ef44a90a310b2fddbbc5c09.setContent(html_bcf364d752d74411bf44a6d336ea2a8d);
+
+
+        marker_2b2de33aba8043809ea6747f5bc9b2e2.bindPopup(popup_5038e8f36ef44a90a310b2fddbbc5c09)
+marker_2b2de33aba8043809ea6747f5bc9b2e2.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_TRENO_FERRARI').play();});
+        ;
+
+
+
+
+            var marker_111f77b29e264f7b80eb12e794a4d12a = L.marker(
+                [45.319209, 8.911778],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_6704ef14c8e54a04893fde81b06a2349 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/bird_1f426.png "});
+        marker_111f77b29e264f7b80eb12e794a4d12a.setIcon(custom_icon_6704ef14c8e54a04893fde81b06a2349);
+
+
+        var popup_96e42c1cb13a4f1c9d1f20fc5a4d1c57 = L.popup({"maxWidth": "270"});
+
+
+            var html_c07b493b3b3d4754b6587bf491695989 = $(`<div id="html_c07b493b3b3d4754b6587bf491695989" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Gallinelle</b></h1><br>PLACEHOLDER<br /><br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Gallinelle"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_AL_AYALA 2" loop> <source src="dati/AL_AYALA 2/Copia di gallinelle-ayala.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_96e42c1cb13a4f1c9d1f20fc5a4d1c57.setContent(html_c07b493b3b3d4754b6587bf491695989);
+
+
+        marker_111f77b29e264f7b80eb12e794a4d12a.bindPopup(popup_96e42c1cb13a4f1c9d1f20fc5a4d1c57)
+marker_111f77b29e264f7b80eb12e794a4d12a.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_AYALA 2').play();});
+        ;
+
+
+
+
+            var marker_1b397fcc39d04f1e898555ea4a9e142e = L.marker(
+                [45.311018, 8.860711],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_4425d0a728b34eb79fae4ab6d44aa153 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/station_1f689.png "});
+        marker_1b397fcc39d04f1e898555ea4a9e142e.setIcon(custom_icon_4425d0a728b34eb79fae4ab6d44aa153);
+
+
+        var popup_22495bf8d813420caaf2073151f19985 = L.popup({"maxWidth": "270"});
+
+
+            var html_421b0ba7476f42389fe4ae33908b5cbf = $(`<div id="html_421b0ba7476f42389fe4ae33908b5cbf" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Treno per Mortara</b></h1><img src="dati/GU_TRENO_BERCLEDA/verso_mortara_square.jpeg" width="270" height="270"><br><br>Sono genuinamente impressionato dal suono che fanno le sbarre quando si alzano e non credo avrei potuto aprezzarlo a un orario diverso.<br /><br />Good job "famosa società operante nel settore del trasporto ferroviario della regione che inizia con la L e non è Liguria".<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Treno per Mortara"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_TRENO_BERCLEDA" loop> <source src="dati/GU_TRENO_BERCLEDA/ZOOM0024.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_22495bf8d813420caaf2073151f19985.setContent(html_421b0ba7476f42389fe4ae33908b5cbf);
+
+
+        marker_1b397fcc39d04f1e898555ea4a9e142e.bindPopup(popup_22495bf8d813420caaf2073151f19985)
+marker_1b397fcc39d04f1e898555ea4a9e142e.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_TRENO_BERCLEDA').play();});
+        ;
+
+
+
+
+            var marker_2d52f217eba74b3ea6a8e60d51d617f8 = L.marker(
+                [45.320629, 8.909743],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_78262498a89a4f6d91a83f6f8d16164c = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/older-man_emoji-modifier-fitzpatrick-type-1-2_1f474-1f3fb_1f3fb.png "});
+        marker_2d52f217eba74b3ea6a8e60d51d617f8.setIcon(custom_icon_78262498a89a4f6d91a83f6f8d16164c);
+
+
+        var popup_2931c386a9c9478a8208e03e17e77e86 = L.popup({"maxWidth": "270"});
+
+
+            var html_b1c127d2250a403b9d2300b77a92a70d = $(`<div id="html_b1c127d2250a403b9d2300b77a92a70d" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Anziani</b></h1><br>PLACEHOLDER<br /><br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Anziani"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_AL_AYALA 3" loop> <source src="dati/AL_AYALA 3/Copia di ayala vecchi che parlano.wav" type="audio/wav"> </audio></div>`)[0];
+            popup_2931c386a9c9478a8208e03e17e77e86.setContent(html_b1c127d2250a403b9d2300b77a92a70d);
+
+
+        marker_2d52f217eba74b3ea6a8e60d51d617f8.bindPopup(popup_2931c386a9c9478a8208e03e17e77e86)
+marker_2d52f217eba74b3ea6a8e60d51d617f8.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_AYALA 3').play();});
+        ;
+
+
+
+
+            var marker_b3c7dbf3dd734a6ca484397746cd8a74 = L.marker(
+                [45.292744, 8.862007],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_0f1fba3f99f74cec88d5b68f84df3ff2 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/fallen-leaf_1f342.png "});
+        marker_b3c7dbf3dd734a6ca484397746cd8a74.setIcon(custom_icon_0f1fba3f99f74cec88d5b68f84df3ff2);
+
+
+        var popup_fa6d9bf7a84b4fe791de0e680857b294 = L.popup({"maxWidth": "270"});
+
+
+            var html_d600206ac47f4c70bda21bddce6bb941 = $(`<div id="html_d600206ac47f4c70bda21bddce6bb941" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Strada delle ripe alte</b></h1><img src="dati/GU_RIPE_ALTE/IMG_20220213_154358_square.jpg" width="270" height="270"><br><br>Lo senti come mi batte forte il tuo vento?<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Strada delle ripe alte"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_RIPE_ALTE" loop> <source src="dati/GU_RIPE_ALTE/ZOOM0024.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_fa6d9bf7a84b4fe791de0e680857b294.setContent(html_d600206ac47f4c70bda21bddce6bb941);
+
+
+        marker_b3c7dbf3dd734a6ca484397746cd8a74.bindPopup(popup_fa6d9bf7a84b4fe791de0e680857b294)
+marker_b3c7dbf3dd734a6ca484397746cd8a74.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_RIPE_ALTE').play();});
+        ;
+
+
+
+
+            var marker_4e06f7ec0a3545e1861bd73c5639bf91 = L.marker(
+                [45.288236, 8.904653],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_a902e99d33f345c79031632b5734d674 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_4e06f7ec0a3545e1861bd73c5639bf91.setIcon(custom_icon_a902e99d33f345c79031632b5734d674);
+
+
+        var popup_989048356bd842728eca0032b2900b2e = L.popup({"maxWidth": "270"});
+
+
+            var html_0b7eb6b04add43caaba902e517521f2b = $(`<div id="html_0b7eb6b04add43caaba902e517521f2b" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Marcite</b></h1><img src="dati/AL_SFORZESCA MARCITE/IMG-20220208-WA0004_square.jpg" width="270" height="270"><br><br>PLACEHOLDER<br /><br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Marcite"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_AL_SFORZESCA MARCITE" loop> <source src="dati/AL_SFORZESCA MARCITE/Copia di marcite-sforzesca.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_989048356bd842728eca0032b2900b2e.setContent(html_0b7eb6b04add43caaba902e517521f2b);
+
+
+        marker_4e06f7ec0a3545e1861bd73c5639bf91.bindPopup(popup_989048356bd842728eca0032b2900b2e)
+marker_4e06f7ec0a3545e1861bd73c5639bf91.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_SFORZESCA MARCITE').play();});
+        ;
+
+
+
+
+            var marker_5fcd716f84a64626825a3707e48be378 = L.marker(
+                [45.292295, 8.864371],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_25a09c58233a4801a5360fd005aaa2dc = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/pedestrian_1f6b6.png "});
+        marker_5fcd716f84a64626825a3707e48be378.setIcon(custom_icon_25a09c58233a4801a5360fd005aaa2dc);
+
+
+        var popup_b743c04d83b742d2a1c62c396a8307d4 = L.popup({"maxWidth": "270"});
+
+
+            var html_a1b90a731dbf453aa0d3d668feb2b335 = $(`<div id="html_a1b90a731dbf453aa0d3d668feb2b335" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Cammino cammino cammino</b></h1><img src="dati/GU_SANTA_MARCITA/IMG_20220213_155458_square.jpg" width="270" height="270"><br><br>L'importanza di questo posto, per me, in questo momento è la possibilità di sentire chiaramente la geografia che scorre sotto i piedi.<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Cammino cammino cammino"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_SANTA_MARCITA" loop> <source src="dati/GU_SANTA_MARCITA/ZOOM0025.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_b743c04d83b742d2a1c62c396a8307d4.setContent(html_a1b90a731dbf453aa0d3d668feb2b335);
+
+
+        marker_5fcd716f84a64626825a3707e48be378.bindPopup(popup_b743c04d83b742d2a1c62c396a8307d4)
+marker_5fcd716f84a64626825a3707e48be378.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_SANTA_MARCITA').play();});
+        ;
+
+
+
+
+            var marker_4eb6582f06a44350842de6052db45557 = L.marker(
+                [45.316647, 8.857617],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_170df2a50093494db5c7f9f98036ed9d = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/bell_1f514.png "});
+        marker_4eb6582f06a44350842de6052db45557.setIcon(custom_icon_170df2a50093494db5c7f9f98036ed9d);
+
+
+        var popup_641fec5906c84f1eaec6c371021209f1 = L.popup({"maxWidth": "270"});
+
+
+            var html_e24be4a784cf40c699c7c3a3e600721e = $(`<div id="html_e24be4a784cf40c699c7c3a3e600721e" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Campane</b></h1><img src="dati/AL_CASTELLO CAMPANE/20220209_123650_square.jpg" width="270" height="270"><br><br>PLACEHOLDER<br /><br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Campane"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_AL_CASTELLO CAMPANE" loop> <source src="dati/AL_CASTELLO CAMPANE/Copia di castello-campane.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_641fec5906c84f1eaec6c371021209f1.setContent(html_e24be4a784cf40c699c7c3a3e600721e);
+
+
+        marker_4eb6582f06a44350842de6052db45557.bindPopup(popup_641fec5906c84f1eaec6c371021209f1)
+marker_4eb6582f06a44350842de6052db45557.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_CASTELLO CAMPANE').play();});
+        ;
+
+
+
+
+            var marker_b461daec37174844b09132b24d6c7d5a = L.marker(
+                [45.315874, 8.858551],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_c802b3d19f1542879595be1e4b9c9f3a = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/309/woman-walking_1f6b6-200d-2640-fe0f.png "});
+        marker_b461daec37174844b09132b24d6c7d5a.setIcon(custom_icon_c802b3d19f1542879595be1e4b9c9f3a);
+
+
+        var popup_09f6a66d404b4f96a1129120c58a6e0f = L.popup({"maxWidth": "270"});
+
+
+            var html_8b8d80a8917d4a948815aa94d5d30593 = $(`<div id="html_8b8d80a8917d4a948815aa94d5d30593" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Strada coperta</b></h1><img src="dati/AL_STRADA COPERTA/strada coperta_square.jpg" width="270" height="270"><br><br>PLACEHOLDER<br /><br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Strada coperta"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_AL_STRADA COPERTA" loop> <source src="dati/AL_STRADA COPERTA/Copia di strada-coperta-sopra-portone.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_09f6a66d404b4f96a1129120c58a6e0f.setContent(html_8b8d80a8917d4a948815aa94d5d30593);
+
+
+        marker_b461daec37174844b09132b24d6c7d5a.bindPopup(popup_09f6a66d404b4f96a1129120c58a6e0f)
+marker_b461daec37174844b09132b24d6c7d5a.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_STRADA COPERTA').play();});
+        ;
+
+
+
+
+            var marker_1883a7f4b15c4090a21839d19dd7752e = L.marker(
+                [45.28298, 8.865029],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_e595301445d94e82bbe248e025f1210f = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/small-airplane_1f6e9.png "});
+        marker_1883a7f4b15c4090a21839d19dd7752e.setIcon(custom_icon_e595301445d94e82bbe248e025f1210f);
+
+
+        var popup_6cdd9fcf84ab4e21874efa1e079b6f20 = L.popup({"maxWidth": "270"});
+
+
+            var html_779103d3a6a94146af8ab1f15db6dc69 = $(`<div id="html_779103d3a6a94146af8ab1f15db6dc69" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Aliante</b></h1><img src="dati/GU_BATTAGLIA_SFORZESCA_2/IMG_20220213_174333_square.jpg" width="270" height="270"><br><br>Accedere all'asse Z è un atto ricreativo e come insegna Flatlandia la realtà è una sola, mentre a cambiare è il punto di vista.<br /><br />Elevazione dimensionale > elevazione sociale.<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Aliante"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_BATTAGLIA_SFORZESCA_2" loop> <source src="dati/GU_BATTAGLIA_SFORZESCA_2/ZOOM0029.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_6cdd9fcf84ab4e21874efa1e079b6f20.setContent(html_779103d3a6a94146af8ab1f15db6dc69);
+
+
+        marker_1883a7f4b15c4090a21839d19dd7752e.bindPopup(popup_6cdd9fcf84ab4e21874efa1e079b6f20)
+marker_1883a7f4b15c4090a21839d19dd7752e.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_BATTAGLIA_SFORZESCA_2').play();});
+        ;
+
+
+
+
+            var marker_ae9754ada5c545af9ada74a894286427 = L.marker(
+                [45.313771, 8.804277],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_8789d5a4c79e402d950875138d6d96b3 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_ae9754ada5c545af9ada74a894286427.setIcon(custom_icon_8789d5a4c79e402d950875138d6d96b3);
+
+
+        var popup_09ce7c6941f4481ca5bd4c47cc4b5551 = L.popup({"maxWidth": "270"});
+
+
+            var html_da6f52e3626c42299ef6898e28403a66 = $(`<div id="html_da6f52e3626c42299ef6898e28403a66" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Strada Vignazza</b></h1><br>PLACEHOLDER<br /><br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Strada Vignazza"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_AL_STRADA VIGNAZZA PICCOLINI" loop> <source src="dati/AL_STRADA VIGNAZZA PICCOLINI/Copia di strada-vignazza-piccolini-su-terdoppio.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_09ce7c6941f4481ca5bd4c47cc4b5551.setContent(html_da6f52e3626c42299ef6898e28403a66);
+
+
+        marker_ae9754ada5c545af9ada74a894286427.bindPopup(popup_09ce7c6941f4481ca5bd4c47cc4b5551)
+marker_ae9754ada5c545af9ada74a894286427.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_STRADA VIGNAZZA PICCOLINI').play();});
+        ;
+
+
+
+
+            var marker_25b558a6444543a7bbfe86541d684822 = L.marker(
+                [45.283684, 8.859826],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_6409deda1e9a4e5daf97003e06706bba = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/sparkles_2728.png "});
+        marker_25b558a6444543a7bbfe86541d684822.setIcon(custom_icon_6409deda1e9a4e5daf97003e06706bba);
+
+
+        var popup_9fa64b0045914da88ff59c606ea821ca = L.popup({"maxWidth": "270"});
+
+
+            var html_0bb223c1fb2948baba15fd1cac1620fe = $(`<div id="html_0bb223c1fb2948baba15fd1cac1620fe" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Gioventù</b></h1><img src="dati/GU_BATTAGLIA_SFORZESCA_3/IMG_20220213_164411_square.jpg" width="270" height="270"><br><br>Ciao sono il te più giovane!<br />Hai voglia di fare un giretto?<br />Come? <br />Non hai tempo?<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Gioventù"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_BATTAGLIA_SFORZESCA_3" loop> <source src="dati/GU_BATTAGLIA_SFORZESCA_3/ZOOM0032.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_9fa64b0045914da88ff59c606ea821ca.setContent(html_0bb223c1fb2948baba15fd1cac1620fe);
+
+
+        marker_25b558a6444543a7bbfe86541d684822.bindPopup(popup_9fa64b0045914da88ff59c606ea821ca)
+marker_25b558a6444543a7bbfe86541d684822.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_BATTAGLIA_SFORZESCA_3').play();});
+        ;
+
+
+
+
+            var marker_a08980ee3d5c4374b428465067d2c1c4 = L.marker(
+                [45.318815, 8.80616],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_395d2d1cdb384eab96d8e5342646463e = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_a08980ee3d5c4374b428465067d2c1c4.setIcon(custom_icon_395d2d1cdb384eab96d8e5342646463e);
+
+
+        var popup_88df1256eb3a426e819bc265163192ee = L.popup({"maxWidth": "270"});
+
+
+            var html_51e22f5bf7de4330b767e4a7bac31972 = $(`<div id="html_51e22f5bf7de4330b767e4a7bac31972" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Piccolini</b></h1><img src="dati/AL_TERDOPPIO PICCOLINI/IMG-20220208-WA0001_square.jpg" width="270" height="270"><br><br>PLACEHOLDER<br /><br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Piccolini"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_AL_TERDOPPIO PICCOLINI" loop> <source src="dati/AL_TERDOPPIO PICCOLINI/Copia di st. terdoppio piccolini.wav" type="audio/wav"> </audio></div>`)[0];
+            popup_88df1256eb3a426e819bc265163192ee.setContent(html_51e22f5bf7de4330b767e4a7bac31972);
+
+
+        marker_a08980ee3d5c4374b428465067d2c1c4.bindPopup(popup_88df1256eb3a426e819bc265163192ee)
+marker_a08980ee3d5c4374b428465067d2c1c4.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_TERDOPPIO PICCOLINI').play();});
+        ;
+
+
+
+
+            var marker_fcb14d7824b147ae82c1a30faed2c12d = L.marker(
+                [45.283238, 8.855915],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_d382b727aa4145f0a5a38cbfb2e69dc5 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/high-voltage-sign_26a1.png "});
+        marker_fcb14d7824b147ae82c1a30faed2c12d.setIcon(custom_icon_d382b727aa4145f0a5a38cbfb2e69dc5);
+
+
+        var popup_70ee4a9402b2407b858e5c48ee39dc2a = L.popup({"maxWidth": "270"});
+
+
+            var html_82bd5323dd9d4cd4814c2b419bc90b68 = $(`<div id="html_82bd5323dd9d4cd4814c2b419bc90b68" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Energia pulita</b></h1><img src="dati/GU_BATTAGLIA_SFORZESCA_4/IMG_20220213_171753_square.jpg" width="270" height="270"><br><br>Quando ho deciso che facevo da me<br />cuore, batti il cuore<br />na,na,na,na<br />rumore, rumore<br />rumore, rumore!<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Energia pulita"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_BATTAGLIA_SFORZESCA_4" loop> <source src="dati/GU_BATTAGLIA_SFORZESCA_4/ZOOM0036.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_70ee4a9402b2407b858e5c48ee39dc2a.setContent(html_82bd5323dd9d4cd4814c2b419bc90b68);
+
+
+        marker_fcb14d7824b147ae82c1a30faed2c12d.bindPopup(popup_70ee4a9402b2407b858e5c48ee39dc2a)
+marker_fcb14d7824b147ae82c1a30faed2c12d.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_BATTAGLIA_SFORZESCA_4').play();});
+        ;
+
+
+
+
+            var marker_449fbf486e0a4656b31b03817c8ed893 = L.marker(
+                [45.310196, 8.812298],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_606f1d7879874dd4aec869460ea740dd = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/fallen-leaf_1f342.png "});
+        marker_449fbf486e0a4656b31b03817c8ed893.setIcon(custom_icon_606f1d7879874dd4aec869460ea740dd);
+
+
+        var popup_cdee6ff519ab464d8bf801f7579200ff = L.popup({"maxWidth": "270"});
+
+
+            var html_cef2b18c8e71484d8a5a7ab1d20f698e = $(`<div id="html_cef2b18c8e71484d8a5a7ab1d20f698e" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Via Castellana</b></h1><br>PLACEHOLDER<br /><br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Via Castellana"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_AL_VIA CASTELLANA" loop> <source src="dati/AL_VIA CASTELLANA/Copia di via-castellana-piccolini.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_cdee6ff519ab464d8bf801f7579200ff.setContent(html_cef2b18c8e71484d8a5a7ab1d20f698e);
+
+
+        marker_449fbf486e0a4656b31b03817c8ed893.bindPopup(popup_cdee6ff519ab464d8bf801f7579200ff)
+marker_449fbf486e0a4656b31b03817c8ed893.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_VIA CASTELLANA').play();});
+        ;
+
+
+
+
+            var marker_639d5790b01c4a1ea62a4b3f9398b3f9 = L.marker(
+                [45.284372, 8.8599],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_b7f6cce17a284874a0ddcd255871432b = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/bird_1f426.png "});
+        marker_639d5790b01c4a1ea62a4b3f9398b3f9.setIcon(custom_icon_b7f6cce17a284874a0ddcd255871432b);
+
+
+        var popup_30f2f1edf7da46848f6a9b0f16ed4acc = L.popup({"maxWidth": "270"});
+
+
+            var html_dd0c8df82c594e3ea6fcdaabc5cedd4c = $(`<div id="html_dd0c8df82c594e3ea6fcdaabc5cedd4c" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>I ragazzi sono andati a casa</b></h1><img src="dati/GU_BATTAGLIA_SFORZESCA_5/IMG_20220213_164404_square.jpg" width="270" height="270"><br><br>Una piccola traslazione nello spazio.<br />Un'altra nel tempo.<br />Sono in grado di immaginare senza difficoltà uno scenario in cui il canale è in secca e i ragazzi divenuti adulti sono altrove.<br /><br />Sono rimasti gli uccellini come riferimento acustico del luogo.<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: I ragazzi sono andati a casa"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_BATTAGLIA_SFORZESCA_5" loop> <source src="dati/GU_BATTAGLIA_SFORZESCA_5/ZOOM0037.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_30f2f1edf7da46848f6a9b0f16ed4acc.setContent(html_dd0c8df82c594e3ea6fcdaabc5cedd4c);
+
+
+        marker_639d5790b01c4a1ea62a4b3f9398b3f9.bindPopup(popup_30f2f1edf7da46848f6a9b0f16ed4acc)
+marker_639d5790b01c4a1ea62a4b3f9398b3f9.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_BATTAGLIA_SFORZESCA_5').play();});
+        ;
+
+
+
+
+            var marker_52df41c27046434a8539e429ea477915 = L.marker(
+                [45.302898, 8.934893],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_78291585b35b493c9f7dcd2994761a50 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/153/swan_1f9a2.png "});
+        marker_52df41c27046434a8539e429ea477915.setIcon(custom_icon_78291585b35b493c9f7dcd2994761a50);
+
+
+        var popup_83315861ab4d46499cd693006b471c86 = L.popup({"maxWidth": "270"});
+
+
+            var html_245c232c34bc4cbe95663972667653c7 = $(`<div id="html_245c232c34bc4cbe95663972667653c7" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Lapide Boselli</b></h1><br>PLACEHOLDER<br /><br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Lapide Boselli"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_AL_LAPIDE BOSELLI" loop> <source src="dati/AL_LAPIDE BOSELLI/Copia di volo-cigni-lapide-boselli.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_83315861ab4d46499cd693006b471c86.setContent(html_245c232c34bc4cbe95663972667653c7);
+
+
+        marker_52df41c27046434a8539e429ea477915.bindPopup(popup_83315861ab4d46499cd693006b471c86)
+marker_52df41c27046434a8539e429ea477915.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_LAPIDE BOSELLI').play();});
+        ;
+
+
+
+
+            var marker_3c355e44ee3640d6a3af5254d2fbee38 = L.marker(
+                [45.286434, 8.859578],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_3f6c31d5287c49f9add3da662959fc0d = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/water-wave_1f30a.png "});
+        marker_3c355e44ee3640d6a3af5254d2fbee38.setIcon(custom_icon_3f6c31d5287c49f9add3da662959fc0d);
+
+
+        var popup_500a897ffb654b7ab3dc8984f30ecc02 = L.popup({"maxWidth": "270"});
+
+
+            var html_b795b375a50e40908a49215d8e9cf7d0 = $(`<div id="html_b795b375a50e40908a49215d8e9cf7d0" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Roggia</b></h1><img src="dati/GU_BATTAGLIA_SFORZESCA_6/IMG_20220213_175804_square.jpg" width="270" height="270"><br><br>Gorgoglio in stereo!<br /><br />S T E <br />		R E O <br /><br />Ma quando ti ricapita?<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Roggia"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_BATTAGLIA_SFORZESCA_6" loop> <source src="dati/GU_BATTAGLIA_SFORZESCA_6/ZOOM0038.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_500a897ffb654b7ab3dc8984f30ecc02.setContent(html_b795b375a50e40908a49215d8e9cf7d0);
+
+
+        marker_3c355e44ee3640d6a3af5254d2fbee38.bindPopup(popup_500a897ffb654b7ab3dc8984f30ecc02)
+marker_3c355e44ee3640d6a3af5254d2fbee38.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_BATTAGLIA_SFORZESCA_6').play();});
+        ;
+
+
+
+
+            var marker_276301696d0042978359ee95fffd33e2 = L.marker(
+                [45.325122, 8.850307],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_54af3216827b40e29b765dad4da5b6dd = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/bell_1f514.png "});
+        marker_276301696d0042978359ee95fffd33e2.setIcon(custom_icon_54af3216827b40e29b765dad4da5b6dd);
+
+
+        var popup_d16f7de8537544d4b99318162cee1c74 = L.popup({"maxWidth": "270"});
+
+
+            var html_836f37cd17c64dffa1120bd359a35545 = $(`<div id="html_836f37cd17c64dffa1120bd359a35545" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Maria Addolorata</b></h1><img src="dati/GU_ADDOLORATA/IMG_20220213_202820.jpg" width="270" height="270"><br><br>I) Profezia dell'anziano Simeone sul Bambino Gesù<br />II) La fuga in Egitto della Sacra famiglia<br />III) La perdita del Bambin Gesù nel Tempio<br />IV) L'incontro di Maria e Gesù lungo la Via Crucis<br />V) Maria ai piedi della croce dove Gesù è crocifisso<br />VI) Maria accoglie nelle sue braccia Gesù morto<br />VII) Maria vede seppellire Gesù<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Maria Addolorata"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_ADDOLORATA" loop> <source src="dati/GU_ADDOLORATA/ZOOM0041.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_d16f7de8537544d4b99318162cee1c74.setContent(html_836f37cd17c64dffa1120bd359a35545);
+
+
+        marker_276301696d0042978359ee95fffd33e2.bindPopup(popup_d16f7de8537544d4b99318162cee1c74)
+marker_276301696d0042978359ee95fffd33e2.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_ADDOLORATA').play();});
+        ;
+
+
+
+
+            var marker_e0c7306d834c43dc9e0160afedb6649c = L.marker(
+                [45.31646, 8.87454],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_2c455869a5e04c7fa8b4223e81875aa7 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/roller-coaster_1f3a2.png "});
+        marker_e0c7306d834c43dc9e0160afedb6649c.setIcon(custom_icon_2c455869a5e04c7fa8b4223e81875aa7);
+
+
+        var popup_0106e54022464055827ae5770995139e = L.popup({"maxWidth": "270"});
+
+
+            var html_521aee74b5d845a88638e165a4ad3f49 = $(`<div id="html_521aee74b5d845a88638e165a4ad3f49" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Luna Park</b></h1><br>PLACEHOLDER<br /><br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Luna Park"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_AL_LUNA PARK" loop> <source src="dati/AL_LUNA PARK/Copia di luna park.wav" type="audio/wav"> </audio></div>`)[0];
+            popup_0106e54022464055827ae5770995139e.setContent(html_521aee74b5d845a88638e165a4ad3f49);
+
+
+        marker_e0c7306d834c43dc9e0160afedb6649c.bindPopup(popup_0106e54022464055827ae5770995139e)
+marker_e0c7306d834c43dc9e0160afedb6649c.on('click', function (e) {this.openPopup(); document.getElementById('audio_AL_LUNA PARK').play();});
+        ;
+
+
+
+
+            var marker_45a0b6d65bab4a95ad689a406ff1f422 = L.marker(
+                [45.305648, 8.863469],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_338c3c30882a418eb4e4858e94d11fd7 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/microsoft/74/gear_2699.png "});
+        marker_45a0b6d65bab4a95ad689a406ff1f422.setIcon(custom_icon_338c3c30882a418eb4e4858e94d11fd7);
+
+
+        var popup_3494fcd9297746729f4fe1b909173165 = L.popup({"maxWidth": "270"});
+
+
+            var html_fcfdd14bb9ab44109a54d055e618418e = $(`<div id="html_fcfdd14bb9ab44109a54d055e618418e" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Fresa</b></h1><br>PLACEHOLDER<br /><br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Fresa"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_BERCLEDA_INDUSTRIA" loop> <source src="dati/GU_BERCLEDA_INDUSTRIA/ZOOM0024.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_3494fcd9297746729f4fe1b909173165.setContent(html_fcfdd14bb9ab44109a54d055e618418e);
+
+
+        marker_45a0b6d65bab4a95ad689a406ff1f422.bindPopup(popup_3494fcd9297746729f4fe1b909173165)
+marker_45a0b6d65bab4a95ad689a406ff1f422.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_BERCLEDA_INDUSTRIA').play();});
+        ;
+
+
+
+
+            var marker_b5565322286c4794aa1598e52830b98c = L.marker(
+                [45.305114, 8.863925],
+                {}
+            ).addTo(map_4679eff328334239940f6eb48a6d0359);
+
+
+        var custom_icon_43b889527cc5438caa6120f9ed37d551 = L.icon({"iconSize": [30, 30], "iconUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/74/video-camera_1f4f9.png "});
+        marker_b5565322286c4794aa1598e52830b98c.setIcon(custom_icon_43b889527cc5438caa6120f9ed37d551);
+
+
+        var popup_e7c36b5b14f34c9989259573703a2170 = L.popup({"maxWidth": "270"});
+
+
+            var html_4dc97befe4524b13be84d68e3f4f84ca = $(`<div id="html_4dc97befe4524b13be84d68e3f4f84ca" style="width: 100.0%; height: 100.0%;"><h1 style = "font-size: 30px;"><b>Distopia</b></h1><img src="dati/GU_BERCLEDA_TELECAMERA/WhatsApp Image 2022-02-17 at 21.54.39.jpeg" width="270" height="270"><br><br>Compiti a casa per te!<br /><br />Scrivici una storia con questi elementi:<br />ci sono una telecamera, un cane che abbaia, un uomo che tossisce<br /><br />Ma i compiti sono proprio necessari?<br><a href="mailto:info@ecologiaacustica.org?subject=PAESAGGIO SONORO --- [segnalazione] --- audio: Distopia"><i><br>Facci sapere cosa ne pensi di questo audio!</a><audio id="audio_GU_BERCLEDA_TELECAMERA" loop> <source src="dati/GU_BERCLEDA_TELECAMERA/ZOOM0023.mp3" type="audio/mpeg"> </audio></div>`)[0];
+            popup_e7c36b5b14f34c9989259573703a2170.setContent(html_4dc97befe4524b13be84d68e3f4f84ca);
+
+
+        marker_b5565322286c4794aa1598e52830b98c.bindPopup(popup_e7c36b5b14f34c9989259573703a2170)
+marker_b5565322286c4794aa1598e52830b98c.on('click', function (e) {this.openPopup(); document.getElementById('audio_GU_BERCLEDA_TELECAMERA').play();});
+        ;
+
+
+
+</script>
+
+<script>
+            // qui è tutto nuovo
+
+            var attivo = "NO"
+
+            var markerGroup = L.layerGroup().addTo(map_4679eff328334239940f6eb48a6d0359);
+            map_4679eff328334239940f6eb48a6d0359.on('click' , function(e) {
+                if (attivo === "YES"){
+                markerGroup.clearLayers();
+                var poplocation = e.latlng;
+                
+                var marker = L.marker([e.latlng.lat , e.latlng.lng]).addTo(markerGroup);
+                var coordinates = [marker.getLatLng().lat , marker.getLatLng().lng];
+                
+                //var mailcontent = "mailto:info@ecologiaacustica.org?subject=PAESAGGIO%20SONORO%20&body=[segnalazione]%20---%20X:%20"+coordinates[0]+"%20Y:%20"+coordinates[1];
+                var mailcontent = "mailto:info@ecologiaacustica.org?subject=PAESAGGIO%20SONORO%20---%20[segnalazione]%20---%20X:%20"+coordinates[0]+"%20Y:%20"+coordinates[1];
+
+                marker.bindPopup("<p>Lat: " + e.latlng.lat + "</p><p>Lon: " + e.latlng.lng + "</p><a href=" + mailcontent + "><i>Segnalaci questo posto!</a>").openOn(map_4679eff328334239940f6eb48a6d0359);
+
+                marker.addTo(markerGroup);
+
+            }});
+   const locButton = L.easyButton({
+		states: [{
+            stateName: 'inattivo',
+            icon:      '<img style="max-height:15px;" src="images/location-dot-solid.png">',
+            title:     'Attiva la funzione per inviare una segnalazione cliccando un punto sulla mappa', 
+            onClick: function(btn, map_4679eff328334239940f6eb48a6d0359) {
+                attivo = "YES";
+                btn.state('attivo');
+                
+                document.getElementById('map_4679eff328334239940f6eb48a6d0359').style.cursor = 'crosshair'
+            }
+		    }, {
+            stateName: 'attivo',
+            icon:      '<img style="max-height:15px;" src="images/location-dot-solid_red.png">',
+            title:     'Clicca per disattivare',
+            onClick: function(btn, map_4679eff328334239940f6eb48a6d0359) {
+                markerGroup.clearLayers();
+                attivo = "NO";
+                btn.state('inattivo');
+                
+                document.getElementById('map_4679eff328334239940f6eb48a6d0359').style.cursor = ''
+            }
+		}]
+	}).addTo(map_4679eff328334239940f6eb48a6d0359);
+   locButton.button.style.padding = '0px';
+</script>
