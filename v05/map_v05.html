@@ -1168,7 +1168,7 @@ marker_493239b40531498e9b961d36146883ea.on('click', function (e) {this.openPopup
                 marker.addTo(markerGroup);
 
             }});
-   L.easyButton({
+    const locButton = L.easyButton({
 		states: [{
             stateName: 'inattivo',
             icon:      '<img style="max-height:15px;" src="images/location-dot-solid.png">',
@@ -1194,4 +1194,5 @@ marker_493239b40531498e9b961d36146883ea.on('click', function (e) {this.openPopup
             }
 		}]
 	}).addTo(map_82823b01498c4b1bbb1dcf80eb564d6d);
+    locButton.button.style.padding = '0px';
 </script>
