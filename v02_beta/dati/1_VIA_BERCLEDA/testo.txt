@@ -1,9 +1,0 @@
-Sono uscito e ho registrato questo audio in qualità pessima. Mi serve solo per capire se è un tipo di formato supportato da leaflet, la libreria che sto utilizzando per questo "webgis".
-
-Mi sono reso conto di due cose (e solo dopo!):
- - mi serve un paravento per il microfono se no sembra una bufera;
- - mi hanno fatto notare che l'audio è basso...probabilmente mi conviene masterizzare tutti gli audio così da avere lo stesso livello.
- 
-A parte questo c'è un fastidioso clip (forse risolvibile oppure forse no tramite jquery).
-
-Ciao betatester.
