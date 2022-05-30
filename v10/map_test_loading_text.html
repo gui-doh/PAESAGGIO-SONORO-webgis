@@ -3585,6 +3585,38 @@ marker_44649c75a281456da1c22a2cb7e0680c.on('click', function (e) {this.openPopup
 
 
 </script>
+<style>
+    .loader {
+        -webkit-animation: load-out 1s;
+        animation: load-out 1s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+    
+    @-webkit-keyframes load-out {
+        from {
+            top: 0;
+            opacity: 1;
+        }
+    
+        to {
+            top: 100%;
+            opacity: 0;
+        }
+    }
+    
+    @keyframes load-out {
+        from {
+            top: 0;
+            opacity: 1;
+        }
+    
+        to {
+            top: 100%;
+            opacity: 0;
+        }
+    }
+    </style>
 <script>
 		var Acqua = L.layerGroup([marker_ad72f3805e104f26afc75f9da1bdd7f0, marker_6e02b8d46cf3414a9720b058b9a2a252, marker_973132662824488e9bcf3c41b95a96b2, marker_f069a0cf3ddb49a7a82ab763ac39f0c5, marker_e6c8c61cca074dd0ac3ce98ee0021b09, marker_110d63e419a34ca48511d90fb53d1077, marker_949640bf3a1a4c80a39a3e6df1e4e300, marker_3c14fcdb2e874ddc911c069f52e72f79, marker_a71810ef08474a7db58e1c1b0c4007b3, marker_9bb287c544ea4b8692bc5e2dd52f743b, marker_e71f718cf42e4f10ac3d4fff0daa8c95, marker_3b4775d100f042a3b276401d464a3539, marker_a0f078595c25496f884e9824bf3dd0a0, marker_6a329ef941734eacaf933a6f1aae2f32, marker_cfb57ee3a9c8464dac2aeaeb734e7b3e, marker_60adf68d9cbd4df5a02473f29d356d74, marker_891ab870907f46889b4ce0b6383d4c30, marker_5ea244a64f9846c98b26ad5a7820f4cc, marker_a9fe614f69a841f9b9cba10679e45874]);
 		var Attivita = L.layerGroup([marker_6b60e424a80244f29c07c19d6d9a7fba, marker_aee2d79422f344d49211b5e5c7e3a6cc, marker_640c1914846f43d2bb3a2d61ad266c9a, marker_04708cbfdfbf4bcb8e14d7259ff1ac9e, marker_522a5a4d6fda4c458cec8970bda586bf, marker_90953a1bd926489cb61dbac00abb6e84, marker_be0e0c47a5294104a2cd67b669cda0d8, marker_45f54e03b89b416c9a86bc08c7c66c7a, marker_7fb1e6e270b64725b79acf44d640b6f0, marker_f024c2e1204442f9946b66cd2e09a6a4, marker_a911e9d766dc40c9a773ff99d0596380, marker_f29d589c07eb49868db27fdf25dc7e7f, marker_3ca0d89bb6774e5cbb785fd409c532b1, marker_d37a736eca2d4c518d3f8471f72db4b3, marker_7e242859c65c4a389224525034dcc6f8, marker_dab7414f5b5b49e280dc06dd116206f0]);
@@ -3686,35 +3718,3 @@ layerControl = L.control.layers(baselayers, overlayGroups, {position: 'topleft'}
 <script>
 L.easyButton('<img style="max-height:15px;" src="images/info-solid.png">', function(){window.open('info.html' , '_blank')}).addTo(map_850ce82c6d4e42879aed46977aa72133).button.style.padding='0px';
 </script>
-<style>
-    .loader {
-        -webkit-animation: load-out 1s;
-        animation: load-out 1s;
-        -webkit-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-    }
-    
-    @-webkit-keyframes load-out {
-        from {
-            top: 0;
-            opacity: 1;
-        }
-    
-        to {
-            top: 100%;
-            opacity: 0;
-        }
-    }
-    
-    @keyframes load-out {
-        from {
-            top: 0;
-            opacity: 1;
-        }
-    
-        to {
-            top: 100%;
-            opacity: 0;
-        }
-    }
-    </style>
